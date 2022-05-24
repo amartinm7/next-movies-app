@@ -6,7 +6,7 @@ export interface EchCardDef {
   year: string;
 }
 
-export const EchCard = ({ imageSrc, title, year }: EchCardDef) => (
+const EchCard = ({ imageSrc, title, year }: EchCardDef) => (
   <Card cover css={{ w: "100%", h: "max-content" }}>
     <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
       <Col>
@@ -61,3 +61,5 @@ export const EchCard = ({ imageSrc, title, year }: EchCardDef) => (
     </Card.Footer>
   </Card>
 );
+
+export default EchCard;

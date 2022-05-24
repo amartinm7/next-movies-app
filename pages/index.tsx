@@ -3,9 +3,9 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import { Container, Spacer, Text } from "@nextui-org/react";
 import Theme from "@/components/themes/themes";
-import { EchCard } from "@/components/card";
+import EchCard from "@/components/card";
 import { getTrending } from "@/pages/api/trending/[...index]";
-import { EchGrid } from "@/components/grid";
+import EchGrid from "@/components/grid";
 
 // @ts-ignore
 const getMovieCard = ({ item, index }) => (
@@ -65,3 +65,5 @@ export const getServerSideProps: GetServerSideProps<Context<string>> = async (
     },
   };
 };
+
+export default Home;

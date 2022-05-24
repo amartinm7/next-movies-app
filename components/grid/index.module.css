@@ -1,0 +1,8 @@
+.ech-movies {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+    overflow: overlay;
+}

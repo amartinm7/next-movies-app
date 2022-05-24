@@ -1,0 +1,433 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "overview": "Peligrosamente enfermo de un extraño trastorno sanguíneo, y determinado a salvar a otras personas que padecen su mismo destino, el doctor Morbius intenta una apuesta desesperada. Lo que en un principio parece ser un éxito radical, pronto se revela como un remedio potencialmente peor que la enfermedad.",
+      "release_date": "2022-03-30",
+      "adult": false,
+      "backdrop_path": "/rl49Qr4KbfTSYjXYAN8fMDIt2xS.jpg",
+      "genre_ids": [
+        28,
+        878,
+        14
+      ],
+      "vote_count": 938,
+      "original_language": "en",
+      "original_title": "Morbius",
+      "id": 526896,
+      "title": "Morbius",
+      "video": false,
+      "vote_average": 6.3,
+      "poster_path": "/6WmTdYNoSinBAXs0AfTTCSaV5lw.jpg",
+      "popularity": 6323.965,
+      "media_type": "movie"
+    },
+    {
+      "original_language": "en",
+      "id": 639933,
+      "poster_path": "/rdx0bIkwxW3EHvWn5kxZBFUT1Am.jpg",
+      "video": false,
+      "vote_average": 7.5,
+      "overview": "El príncipe Amleth está a punto de convertirse en hombre pero, en ese momento, su tío asesina brutalmente a su padre y secuestra a la madre del niño. Dos décadas después, Amleth es un vikingo que tiene la misión de salvar a su madre.",
+      "release_date": "2022-04-07",
+      "vote_count": 974,
+      "original_title": "The Northman",
+      "adult": false,
+      "backdrop_path": "/cqnVuxXe6vA7wfNWubak3x36DKJ.jpg",
+      "title": "El Hombre del Norte",
+      "genre_ids": [
+        28,
+        12,
+        14,
+        53
+      ],
+      "popularity": 5772.331,
+      "media_type": "movie"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/AdyJH8kDm8xT8IKTlgpEC15ny4u.jpg",
+      "genre_ids": [
+        14,
+        28,
+        12
+      ],
+      "id": 453395,
+      "original_language": "en",
+      "original_title": "Doctor Strange in the Multiverse of Madness",
+      "overview": "Viaja a lo desconocido con el Doctor Strange, quien, con la ayuda de tanto antiguos como nuevos aliados místicos, recorre las complejas y peligrosas realidades alternativas del multiverso para enfrentarse a un nuevo y misterioso adversario.",
+      "poster_path": "/vThe85YlGE5r7fqEVFePETqnWzk.jpg",
+      "release_date": "2022-05-04",
+      "title": "Doctor Strange en el multiverso de la locura",
+      "video": false,
+      "vote_average": 7.5,
+      "vote_count": 1708,
+      "popularity": 2713.478,
+      "media_type": "movie"
+    },
+    {
+      "overview": "Cuando un asesino se dirige a la élite de Gotham con una serie de maquinaciones sádicas, un rastro de pistas crípticas envía Batman a una investigación en los bajos fondos. A medida que las pruebas comienzan a acercarse a su casa y se hace evidente la magnitud de los planes del autor, Batman debe forjar nuevas relaciones, desenmascarar al culpable y hacer justicia al abuso de poder y la corrupción que durante mucho tiempo han asolado Gotham City.",
+      "release_date": "2022-03-01",
+      "title": "The Batman",
+      "adult": false,
+      "backdrop_path": "/xHrp2pq73oi9D64xigPjWW1wcz1.jpg",
+      "genre_ids": [
+        80,
+        9648,
+        53
+      ],
+      "original_language": "en",
+      "original_title": "The Batman",
+      "poster_path": "/zFTLPipninMF4THDbdkQUZLWMEw.jpg",
+      "vote_count": 4672,
+      "video": false,
+      "vote_average": 7.8,
+      "id": 414906,
+      "popularity": 2950.956,
+      "media_type": "movie"
+    },
+    {
+      "id": 675353,
+      "adult": false,
+      "backdrop_path": "/egoyMDLqCxzjnSrWOz50uLlJWmD.jpg",
+      "genre_ids": [
+        28,
+        878,
+        35,
+        10751,
+        12
+      ],
+      "original_language": "en",
+      "original_title": "Sonic the Hedgehog 2",
+      "poster_path": "/sJiHVM0A3OXDVxl4Z6a7ihMPHfm.jpg",
+      "vote_count": 1487,
+      "video": false,
+      "vote_average": 7.8,
+      "title": "Sonic 2: La Película",
+      "overview": "Después de establecerse en Green Hills, Sonic se muere por demostrar que tiene madera de auténtico héroe, pero Robotnik regresa con nuevo compañero Knuckles, en busca de una esmeralda que tiene el poder de destruir civilizaciones, pero Sonic no esta solo lo ayudara Tails.",
+      "release_date": "2022-03-30",
+      "popularity": 6201.709,
+      "media_type": "movie"
+    },
+    {
+      "genre_ids": [
+        28,
+        12,
+        35,
+        10749
+      ],
+      "original_language": "en",
+      "overview": "Una solitaria novelista romántica de gira con el modelo de la portada de su último libro se ve envuelta en un intento de secuestro que llevará a ambos a una feroz aventura en la jungla.",
+      "poster_path": "/grEVYkBAVIzQ4JmZ7ydceN9DFQR.jpg",
+      "id": 752623,
+      "adult": false,
+      "vote_count": 648,
+      "vote_average": 6.8,
+      "video": false,
+      "title": "La Ciudad Perdida",
+      "release_date": "2022-03-24",
+      "backdrop_path": "/A3bsT0m1um6tvcmlIGxBwx9eAxn.jpg",
+      "original_title": "The Lost City",
+      "popularity": 8293.346,
+      "media_type": "movie"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/wp3vpSWAIjKSEeYb8F5NSZfONqw.jpg",
+      "genre_ids": [
+        28,
+        12,
+        878,
+        35
+      ],
+      "id": 545611,
+      "original_language": "en",
+      "original_title": "Everything Everywhere All at Once",
+      "overview": "Una anciana inmigrante china se ve envuelta en una loca aventura, donde solo ella puede salvar lo que es importante para ella al conectarse con las vidas que podría haber llevado en otros universos.",
+      "poster_path": "/w3LxiVYdWWRvEVdn5RYq6jIqkb1.jpg",
+      "release_date": "2022-03-24",
+      "title": "Todo En Todas Partes Al Mismo Tiempo",
+      "video": false,
+      "vote_average": 8.7,
+      "vote_count": 254,
+      "popularity": 325.871,
+      "media_type": "movie"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/aEGiJJP91HsKVTEPy1HhmN0wRLm.jpg",
+      "genre_ids": [
+        28,
+        12
+      ],
+      "id": 335787,
+      "original_language": "en",
+      "original_title": "Uncharted",
+      "poster_path": "/6hlI9Ea1O4IeJ2cj7OiNinqg8Qd.jpg",
+      "title": "Uncharted",
+      "video": false,
+      "vote_average": 7.2,
+      "overview": "Un descendiente del explorador Sir Francis Drake descubre la ubicación de la legendaria ciudad de El Dorado. Con la ayuda de su mentor Victor Sullivan y la ambiciosa periodista Elena Fischer, Nathan Drake trabajará para descubrir sus secretos, mientras sobreviven en una isla llena de piratas, mercenarios, y un misterioso enemigo, se embarcarán en una búsqueda sin precedentes por alcanzar el tesoro antes que sus perseguidores. Adaptación del aclamado videojuego homónimo.",
+      "release_date": "2022-02-10",
+      "vote_count": 2028,
+      "popularity": 3187.651,
+      "media_type": "movie"
+    },
+    {
+      "title": "Chip y Chop: Los guardianes rescatadores",
+      "vote_average": 7.3,
+      "overview": "Treinta años después, las estrellas de las series de animación de Disney de los años 1990, Chip y Chop, viven en Los Ángeles entre dibujos animados y humanos. Chip lleva una vida rutinaria y hogareña como vendedor de seguros, mientras que Chop se ha hecho la cirugía 3D y se dedica a explotar la nostalgia de convención en convención, desesperado por revivir sus días de gloria. Cuando un antiguo compañero de reparto desaparece misteriosamente, Chip y Chop se ven obligados a recuperar la amistad perdida y a hacer de detectives una vez más como Guardianes Rescatadores para salvar a su amigo.",
+      "id": 420821,
+      "vote_count": 36,
+      "adult": false,
+      "backdrop_path": "/qK7Ssnrfvrt65F66A1thvehfQg2.jpg",
+      "video": false,
+      "genre_ids": [
+        16,
+        10751,
+        35,
+        12,
+        14,
+        9648
+      ],
+      "release_date": "2022-05-20",
+      "original_language": "en",
+      "original_title": "Chip 'n Dale: Rescue Rangers",
+      "poster_path": "/cQN4XsynoPucEnEzWKNYf1uMdmB.jpg",
+      "popularity": 87.881,
+      "media_type": "movie"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/zGLHX92Gk96O1DJvLil7ObJTbaL.jpg",
+      "genre_ids": [
+        28,
+        12,
+        14
+      ],
+      "id": 338953,
+      "original_language": "en",
+      "original_title": "Fantastic Beasts: The Secrets of Dumbledore",
+      "overview": "El profesor Albus Dumbledore sabe que el poderoso mago oscuro Gellert Grindelwald está haciendo planes para apoderarse del mundo mágico. Incapaz de detenerlo él solo, confía en el Magizoólogo Newt Scamander para dirigir un intrépido equipo de magos, brujas y un valiente panadero Muggle en una misión peligrosa, donde se encuentran con antiguos y nuevos animales y se enfrentan a una legión cada vez más numerosa de seguidores de Grindelwald.",
+      "poster_path": "/yOeuJdwag4bAlnvgrdweRoiuXGC.jpg",
+      "release_date": "2022-04-06",
+      "title": "Animales Fantásticos: Los Secretos de Dumbledore",
+      "video": false,
+      "vote_average": 6.7,
+      "vote_count": 1062,
+      "popularity": 787.576,
+      "media_type": "movie"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/kiH3KPWi7BaRMvdAigcwrUFViHl.jpg",
+      "genre_ids": [
+        9648,
+        53,
+        28,
+        80
+      ],
+      "id": 818397,
+      "original_language": "en",
+      "original_title": "Memory",
+      "poster_path": "/gzHJ8Z9afJagPCCOaPETmsKY6WO.jpg",
+      "title": "Asesino Sin Memoria",
+      "video": false,
+      "vote_average": 7.4,
+      "overview": "Alex, un asesino a sueldo, descubre que se ha convertido en un objetivo después de que se niega a completar un trabajo para una peligrosa organización criminal. Con el sindicato del crimen y el FBI persiguiéndolo, Alex tiene las habilidades para mantenerse a la vanguardia, excepto por una cosa: está luchando con una pérdida de memoria severa que afecta todos sus movimientos. Alex debe cuestionar cada una de sus acciones y en quién puede confiar en última instancia.",
+      "release_date": "2022-04-28",
+      "vote_count": 31,
+      "popularity": 118.002,
+      "media_type": "movie"
+    },
+    {
+      "video": false,
+      "title": "Spider-Man: No Way Home",
+      "overview": "Peter Parker es desenmascarado y por tanto no es capaz de separar su vida normal de los enormes riesgos que conlleva ser un súper héroe. Cuando pide ayuda a Doctor Strange, los riesgos pasan a ser aún más peligrosos, obligándole a descubrir lo que realmente significa ser Spider-Man.",
+      "release_date": "2021-12-15",
+      "adult": false,
+      "backdrop_path": "/iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg",
+      "vote_count": 12901,
+      "genre_ids": [
+        28,
+        12,
+        878
+      ],
+      "vote_average": 8.1,
+      "original_language": "en",
+      "original_title": "Spider-Man: No Way Home",
+      "poster_path": "/osYbtvqjMUhEXgkuFJOsRYVpq6N.jpg",
+      "id": 634649,
+      "popularity": 2676.693,
+      "media_type": "movie"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/fEe5fe82qHzjO4yej0o79etqsWV.jpg",
+      "genre_ids": [
+        16,
+        35,
+        28,
+        10751,
+        80
+      ],
+      "original_language": "en",
+      "original_title": "The Bad Guys",
+      "poster_path": "/wFdwJh3fbhp5aiRbQelVz1mbbwP.jpg",
+      "video": false,
+      "vote_average": 7.8,
+      "vote_count": 450,
+      "overview": "Cinco villanos notorios: el Sr. Wolf, Mr. Snake, Mr. Piranha, Mr. Shark y Ms. Tarantula, que han pasado toda una vida juntos realizando grandes atracos.",
+      "release_date": "2022-03-17",
+      "title": "Los Tipos Malos",
+      "id": 629542,
+      "popularity": 2622.506,
+      "media_type": "movie"
+    },
+    {
+      "original_title": "Firestarter",
+      "poster_path": "/lWHe42Fc8TKzvirq19AsfLfbGaX.jpg",
+      "title": "Ojos de fuego",
+      "vote_average": 6.4,
+      "overview": "Andy y Vicky son unos padres que llevan más de una década huyendo en un desesperado intento de esconder a su hija Charlie de una oscura agencia estadounidense empeñada en aprovechar su increíble don para convertir el fuego en un arma de destrucción masiva. Andy enseñó a Charlie cómo dominar su extraño poder, desencadenado normalmente por la ira o el dolor. Pero cuando Charlie cumple 11 años, el fuego es cada vez más difícil de controlar. Después de que un incidente inesperado revele la ubicación de la familia, un misterioso operario sale en busca de Charlie para hacerse con ella de una vez por todas. Pero Charlie tiene otros planes.",
+      "release_date": "2022-05-12",
+      "vote_count": 142,
+      "adult": false,
+      "id": 532710,
+      "video": false,
+      "genre_ids": [
+        53,
+        14,
+        27
+      ],
+      "backdrop_path": "/bIFrsAcqkLUUxaaiqqpFexYPeCh.jpg",
+      "original_language": "en",
+      "popularity": 179.155,
+      "media_type": "movie"
+    },
+    {
+      "poster_path": "/k3J2GdYxhR6U2RfsHZOsmHVKW7m.jpg",
+      "video": false,
+      "vote_average": 5.5,
+      "overview": "Secuela de '365 días' (2020). Vuelven Laura y Massimo más apasionados que nunca. Pero la nueva vida de la pareja se complica por culpa de los lazos familiares de Massimo y de un hombre misterioso dispuesto a ganarse el corazón y la confianza de Laura, cueste lo que cueste.",
+      "release_date": "2022-04-27",
+      "title": "365 días: Aquel día",
+      "adult": false,
+      "backdrop_path": "/t9hNIUFcy0tYu55IPxjxRTTdZ6X.jpg",
+      "id": 829557,
+      "genre_ids": [
+        10749,
+        18
+      ],
+      "vote_count": 425,
+      "original_language": "en",
+      "original_title": "365 Days: This Day",
+      "popularity": 1086.888,
+      "media_type": "movie"
+    },
+    {
+      "genre_ids": [
+        10752,
+        36,
+        18
+      ],
+      "original_language": "en",
+      "original_title": "Operation Mincemeat",
+      "poster_path": "/dX7xsqU7P6YY8hbgsi4T3ISMqWz.jpg",
+      "video": false,
+      "title": "El arma del engaño",
+      "vote_count": 129,
+      "overview": "Año 1943, en plena II Guerra Mundial. Las fuerzas aliadas están decididas a lanzar un asalto definitivo en Europa. Pero se enfrentan un desafío importante: proteger durante la invasión a sus tropas de la potencia de fuego alemana, y así evitar una posible masacre. Dos brillantes oficiales de inteligencia, Ewen Montagu (Firth) y Charles Cholmondeley, son los encargados de establecer la estrategia de desinformación más inspirada e improbable de la guerra... Una historia inspirada en hechos reales basada en un 'bestseller' de Ben Macintyre.",
+      "id": 661231,
+      "vote_average": 6.8,
+      "release_date": "2022-04-01",
+      "adult": false,
+      "backdrop_path": "/oZtoyj3rhOST8FUtIXUqblIYmCv.jpg",
+      "popularity": 412.288,
+      "media_type": "movie"
+    },
+    {
+      "title": "Vuelta al insti",
+      "overview": "Una mujer de treinta y siete años se despierta de un coma de veinte años y regresa a la escuela secundaria donde una vez fue una popular animadora.",
+      "release_date": "2022-05-11",
+      "adult": false,
+      "backdrop_path": "/3FJ53wbpjSAGY98KYiHJ4DQccDr.jpg",
+      "vote_count": 193,
+      "genre_ids": [
+        35,
+        18
+      ],
+      "vote_average": 6,
+      "original_language": "en",
+      "original_title": "Senior Year",
+      "poster_path": "/hGlpctlRkYqcfFxbNqmz8flQfRy.jpg",
+      "id": 800937,
+      "video": false,
+      "popularity": 589.029,
+      "media_type": "movie"
+    },
+    {
+      "id": 763285,
+      "video": false,
+      "vote_average": 7,
+      "overview": "Dos hermanos roban una ambulancia tras un atraco que sale mal y deberán de trabajar juntos para escapar de la policía que los persigue.",
+      "release_date": "2022-03-16",
+      "adult": false,
+      "backdrop_path": "/dW3fQJrshh2wYDoW4HUA7ZabsN1.jpg",
+      "vote_count": 615,
+      "genre_ids": [
+        28,
+        53,
+        80
+      ],
+      "title": "Ambulance: Plan de Huida",
+      "original_language": "en",
+      "original_title": "Ambulance",
+      "poster_path": "/hUbgg3mMSbY9PlpTxBo4IFUVSd6.jpg",
+      "popularity": 1571.004,
+      "media_type": "movie"
+    },
+    {
+      "original_title": "The Valet",
+      "poster_path": "/d27yNLvnSESdJSqOnlYNJKMFXvL.jpg",
+      "title": "El aparcacoches",
+      "vote_average": 6.3,
+      "overview": "La mundialmente famosa estrella de cine Olivia enfrenta un desastre de relaciones públicas cuando un paparazzi le toma una foto con su amante casado, Vincent. El aparcacoches  Antonio aparece accidentalmente en la misma foto y se alista para hacerse pasar por el nuevo novio de Olivia como un encubrimiento. Esta artimaña con Olivia empuja a Antonio al centro de atención y al caos inesperado.",
+      "release_date": "2022-05-11",
+      "vote_count": 12,
+      "adult": false,
+      "id": 810171,
+      "video": false,
+      "genre_ids": [
+        35
+      ],
+      "backdrop_path": "/kB1Qrsg189eDz4Ej3ABXtLudClq.jpg",
+      "original_language": "en",
+      "popularity": 68.677,
+      "media_type": "movie"
+    },
+    {
+      "poster_path": "/9oF7M0gVeeOzR109cXkHWs2Ipgt.jpg",
+      "video": false,
+      "vote_average": 6.5,
+      "overview": "El mundo se enfrenta a la posibilidad de la extinción porque una fuerza desconocida empuja a la luna de su órbita rumbo a la Tierra. Un equipo de astronautas asume la misión de evitar el apocalipsis.",
+      "release_date": "2022-02-03",
+      "vote_count": 1054,
+      "adult": false,
+      "backdrop_path": "/9Ngw106BLlNJ4iVpRHlrDfaLpCV.jpg",
+      "id": 406759,
+      "genre_ids": [
+        878,
+        12,
+        28
+      ],
+      "title": "Moonfall",
+      "original_language": "en",
+      "original_title": "Moonfall",
+      "popularity": 2012.152,
+      "media_type": "movie"
+    }
+  ],
+  "total_pages": 1000,
+  "total_results": 20000
+}

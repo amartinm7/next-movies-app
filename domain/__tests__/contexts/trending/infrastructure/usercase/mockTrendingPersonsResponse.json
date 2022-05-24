@@ -1,0 +1,1446 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "adult": false,
+      "gender": 2,
+      "name": "Johnny Depp",
+      "id": 85,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/jOh79POQu4hyVIseUxdQxTW7vOf.jpg",
+          "genre_ids": [
+            12,
+            14,
+            28
+          ],
+          "id": 22,
+          "media_type": "movie",
+          "title": "Piratas del Caribe. La maldición de la Perla Negra",
+          "original_language": "en",
+          "original_title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+          "overview": "El aventurero capitán Jack Sparrow recorre las aguas caribeñas. Pero su andanzas terminan cuando su enemigo, el capitán Barbossa le roba su barco, la Perla Negra, y ataca la ciudad de Port Royal, secuestrando a Elizabeth Swann, hija del gobernador. Will Turner, el amigo de la infancia de Elizabeth, se une a Jack para rescatarla y recuperar la Perla Negra. Pero el prometido de Elizabeth, comodoro Norrington, les persigue a bordo del HMS Impávido. Además, Barbossa y su tripulación son víctimas de un conjuro por el que están condenados a vivir eternamente, y a transformarse cada noche en esqueletos vivientes, en fantasmas guerreros.",
+          "popularity": 375.426,
+          "poster_path": "/8zHnkTGyAImBcI49a1xFJHUjbaK.jpg",
+          "release_date": "2003-07-09",
+          "video": false,
+          "vote_average": 7.769,
+          "vote_count": 17420
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/8Qsr8pvDL3s1jNZQ4HK1d1Xlvnh.jpg",
+          "genre_ids": [
+            28,
+            12,
+            14
+          ],
+          "id": 259316,
+          "media_type": "movie",
+          "title": "Animales fantásticos y dónde encontrarlos",
+          "original_language": "en",
+          "original_title": "Fantastic Beasts and Where to Find Them",
+          "overview": "Año 1926. Newt Scamander acaba de completar un viaje por todo el mundo para encontrar y documentar una extraordinaria selección de criaturas mágicas. Llegando a Nueva York para hacer una breve parada en su camino, donde podría haber llegado y salido sin incidentes…pero no para un Muggle llamado Jacob, un caso perdido de magia, y la fuga de algunas criaturas fantásticas de Newt, que podrían causar problemas el mundo mágico y en el mundo Muggle.",
+          "popularity": 232.377,
+          "poster_path": "/pLgSLx9dn2YYbwVk8p0F28KIU8C.jpg",
+          "release_date": "2016-11-16",
+          "video": false,
+          "vote_average": 7.35,
+          "vote_count": 16614
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/8zfRLCgKrLAc5SSnACz8ZqmeKAP.jpg",
+          "genre_ids": [
+            12,
+            14,
+            28
+          ],
+          "id": 58,
+          "media_type": "movie",
+          "title": "Piratas del Caribe: El cofre del hombre muerto",
+          "original_language": "en",
+          "original_title": "Pirates of the Caribbean: Dead Man's Chest",
+          "overview": "Will Turner y Elizabeth Swann se van a casar, pero ambos son hechos prisioneros por Lord Cutler Beckett y acusados de haber liberado al capitán Jack Sparrow. Para salvar su vida, Will tendrá que encontrar a Jack y conseguir su misteriosa brújula. Esta esconde un gran poder, además de la clave de una deuda de sangre del pirata con un temible y siniestro Davy Jones, el legendario capitán del barco fantasma Holandés Errante.",
+          "popularity": 415.542,
+          "poster_path": "/33csnYX0xLObW0AsAqjMdhomCLe.jpg",
+          "release_date": "2006-07-06",
+          "video": false,
+          "vote_average": 7.317,
+          "vote_count": 13417
+        }
+      ],
+      "known_for_department": "Acting",
+      "profile_path": "/ilPBHd3r3ahlipNQtjr4E3G04jJ.jpg",
+      "popularity": 79.297,
+      "media_type": "person"
+    },
+    {
+      "name": "Tom Cruise",
+      "profile_path": "/8qBylBsQf4llkGrWR3qAsOtOU8O.jpg",
+      "id": 500,
+      "known_for_department": "Acting",
+      "known_for": [
+        {
+          "backdrop_path": "/b4ZjgjOvbIJ6oJoiCJpnYNT50s2.jpg",
+          "media_type": "movie",
+          "genre_ids": [
+            28,
+            878
+          ],
+          "original_language": "en",
+          "original_title": "Edge of Tomorrow",
+          "poster_path": "/seCPNFlZW1lezA2npWEr2ofqGQx.jpg",
+          "popularity": 72.472,
+          "video": false,
+          "vote_average": 7.6,
+          "title": "Al filo del mañana",
+          "vote_count": 11632,
+          "release_date": "2014-05-27",
+          "overview": "En un futuro no muy lejano, invade la Tierra una raza de extraterrestres invencibles. Al comandante William Cage, un oficial que nunca ha entrado en combate, le encargan una misión casi suicida y resulta muerto. Entra entonces en un bucle temporal, en el que se ve obligado a luchar y morir una y otra vez. Pero las múltiples batallas que libra lo hacen cada vez más hábil y eficaz en su lucha contra los alienígenas. Su compañera de combate es Rita Vrataski, una guerrera de las Fuerzas Especiales. Adaptación del manga de Hiroshi Sakurazaka.",
+          "id": 137113,
+          "adult": false
+        },
+        {
+          "backdrop_path": "/Pv6vu1lxgct3GWhUXVVOMZwNlZ.jpg",
+          "media_type": "movie",
+          "genre_ids": [
+            28,
+            878,
+            12,
+            9648
+          ],
+          "title": "Oblivion",
+          "original_title": "Oblivion",
+          "poster_path": "/bDiMlnzGaY3dxAcjJTB8yLWAUeB.jpg",
+          "popularity": 25.77,
+          "video": false,
+          "vote_average": 6.6,
+          "original_language": "en",
+          "id": 75612,
+          "release_date": "2013-04-10",
+          "vote_count": 9233,
+          "overview": "Jack Harper es uno de los últimos técnicos de reparación de drones que permanece en la Tierra. Parte de una operación masiva para extraer recursos vitales después de décadas de guerra contra una amenaza terrorífica conocida como los Scavs, la misión de Jack está casi completada. Su existencia empieza a desmoronarse cuando rescata a una hermosa desconocida de una nave espacial caída. Su llegada desencadena una serie de acontecimientos que le llevan a cuestionarse todo lo conoce y pone el destino de la humanidad en sus manos.",
+          "adult": false
+        },
+        {
+          "backdrop_path": "/hqyjzDRCs1N5gEsh2gklzPdsEFD.jpg",
+          "media_type": "movie",
+          "genre_ids": [
+            28,
+            53,
+            12
+          ],
+          "original_language": "en",
+          "original_title": "Mission: Impossible - Ghost Protocol",
+          "poster_path": "/nIhsxDPPuTiQX9wPFqlENeBZ7V1.jpg",
+          "popularity": 54.68,
+          "video": false,
+          "vote_average": 7,
+          "id": 56292,
+          "overview": "El agente Ethan Hunt, acusado de un atentado terrorista con bombas contra el Kremlin, es desautorizado junto con toda la organización, al poner en marcha el presidente el llamado 'Protocolo fantasma'. Abandonado a su suerte y sin recursos, el objetivo de Ethan es rehabilitar el buen nombre de su agencia e impedir un nuevo ataque. Pero emprende esta misión con un equipo formado por fugitivos, cuyos motivos personales no conoce bien.",
+          "release_date": "2011-12-07",
+          "vote_count": 8288,
+          "title": "Misión imposible: Protocolo fantasma",
+          "adult": false
+        }
+      ],
+      "gender": 2,
+      "adult": false,
+      "popularity": 47.824,
+      "media_type": "person"
+    },
+    {
+      "adult": false,
+      "gender": 2,
+      "name": "Bob Bergen",
+      "id": 78317,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/o3i6AfTcWAuNvzAUV3q5lOmi6Gx.jpg",
+          "genre_ids": [
+            16,
+            10751,
+            12,
+            18,
+            35
+          ],
+          "id": 150540,
+          "media_type": "movie",
+          "title": "Del revés",
+          "original_language": "en",
+          "original_title": "Inside Out",
+          "overview": "Riley es una chica que disfruta o padece toda clase de sentimientos. Aunque su vida ha estado marcada por la Alegría, también se ve afectada por otro tipo de emociones. Lo que Riley no entiende muy bien es por qué motivo tiene que existir la Tristeza en su vida. Una serie de acontecimientos hacen que Alegría y Tristeza se mezclen en una peligrosa aventura que dará un vuelco al mundo de Riley.",
+          "popularity": 90.316,
+          "poster_path": "/sG3bHZWCMOZwhUq71WbPG9Vrrwc.jpg",
+          "release_date": "2015-06-09",
+          "video": false,
+          "vote_average": 7.93,
+          "vote_count": 17834
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/h8C7KZwCJO5DN7jPifc7AoIjx7k.jpg",
+          "genre_ids": [
+            16,
+            35,
+            10751,
+            12
+          ],
+          "id": 14160,
+          "media_type": "movie",
+          "title": "Up",
+          "original_language": "en",
+          "original_title": "Up",
+          "overview": "Tras atar miles de globos a su casa, Carl Fredricksen, un vendedor de globos jubilado, se embarca en el mundo de los sueños de la infancia. Pero sin que Carl lo sepa, Russell, un explorador de 8 años, se encuentra en el lugar equivocado en el momento equivocado: el porche delantero de la casa. El dúo más improbable conoce a fantásticos amigos como Dug, un perro con un collar especial que le permite hablar, y Kevin, un pájaro de cuatro metros de altura que no vuela. Atrapados en la selva, Carl se da cuenta de que a veces las mayores aventuras de la vida son las que menos esperabas.",
+          "popularity": 103.209,
+          "poster_path": "/vSdpOU6rDK7IpmOD7iAvlZdMUCc.jpg",
+          "release_date": "2009-05-28",
+          "video": false,
+          "vote_average": 7.937,
+          "vote_count": 17164
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/sWWwq8MsfI3Zrn4Zz0HENnhp70J.jpg",
+          "genre_ids": [
+            16,
+            10751
+          ],
+          "id": 12,
+          "media_type": "movie",
+          "title": "Buscando a Nemo",
+          "original_language": "en",
+          "original_title": "Finding Nemo",
+          "overview": "Nemo, un pececillo, hijo único muy querido y protegido por su padre, ha sido capturado en un arrecife australiano y ahora vive en una pecera en la oficina de un dentista de Sidney. El tímido padre de Nemo se embarcará en una peligrosa aventura para rescatar a su hijo. Pero Nemo y sus nuevos amigos tienen también un astuto plan para escapar de la pecera y volver al mar.",
+          "popularity": 110.624,
+          "poster_path": "/jPhak722pNGxQIXSEfeWIUqBrO5.jpg",
+          "release_date": "2003-05-30",
+          "video": false,
+          "vote_average": 7.822,
+          "vote_count": 16367
+        }
+      ],
+      "known_for_department": "Acting",
+      "profile_path": "/soDD1xiV3zVQWOJzVdJwfgIqzfe.jpg",
+      "popularity": 4.655,
+      "media_type": "person"
+    },
+    {
+      "known_for": [
+        {
+          "title": "Spider-Man: Un nuevo universo",
+          "popularity": 94.786,
+          "overview": "En un universo paralelo donde Peter Parker ha muerto, un joven de secundaria llamado Miles Morales es el nuevo Spider-Man. Sin embargo, cuando el líder mafioso Wilson Fisk (a.k.a Kingpin) construye el \"Super Colisionador\" trae a una versión alternativa de Peter Parker que tratará de enseñarle a Miles como ser un mejor Spider-Man. Pero no será el único Spider Man en entrar a este universo:  4 versiones alternas de Spider-Man aparecerán y buscarán regresar a su universo antes de que toda la realidad se colapse.",
+          "release_date": "2018-12-06",
+          "id": 324857,
+          "adult": false,
+          "backdrop_path": "/x2IqsMlpbOhS8zIUJfyl1yO4gHF.jpg",
+          "media_type": "movie",
+          "genre_ids": [
+            28,
+            12,
+            16,
+            878
+          ],
+          "vote_count": 11289,
+          "original_language": "en",
+          "original_title": "Spider-Man: Into the Spider-Verse",
+          "poster_path": "/xRMZikjAHNFebD1FLRqgDZeGV4a.jpg",
+          "vote_average": 8.4,
+          "video": false
+        },
+        {
+          "vote_average": 7.1,
+          "popularity": 53.822,
+          "overview": "Dave Lizewski es un estudiante de instituto que pasa desapercibido por todos, aficionado a los cómics, de donde saca un día la idea de convertirse en un superhéroe, aunque no tenga superpoderes, no haya seguido un duro entrenamiento y ni siquiera tenga una razón significativa para ello. Pero la vida de Dave cambiará para siempre cuando se encuentre con un par de locos vigilantes -la terremoto de 11 años Hit Girl y su padre, Big Daddy- y forje amistad con otro joven luchador contra el crimen, Red Mist. Y cuando todos se tengan que enfrentar al jefe de la mafia local, Frank D'Amico, sus alianzas y sus verdaderas habilidades serán puestas a prueba.",
+          "release_date": "2010-03-22",
+          "genre_ids": [
+            28,
+            80
+          ],
+          "adult": false,
+          "backdrop_path": "/P4bGyJQF0shAcRku3I2perNUQR.jpg",
+          "media_type": "movie",
+          "id": 23483,
+          "vote_count": 10110,
+          "original_language": "en",
+          "original_title": "Kick-Ass",
+          "poster_path": "/8citjdBmjddZjlPsAHEyCKwGVvD.jpg",
+          "title": "Kick-Ass: Listo para machacar",
+          "video": false
+        },
+        {
+          "vote_average": 6.9,
+          "popularity": 73.293,
+          "overview": "La película está ambientada en la prehistoria, donde Crug lidera a su familia más allá de la comodidad de su hogar después de que este sea destruido por un gran terremoto. Mientras intentan viajar por el desconocido y aterrador mundo, se encuentran con un nómada que cautiva a su clan, en especial a su hermana mayor, con su mente moderna.",
+          "release_date": "2013-03-15",
+          "id": 49519,
+          "adult": false,
+          "backdrop_path": "/bNgqt819qpHcszjCzLCG5y16ldF.jpg",
+          "media_type": "movie",
+          "genre_ids": [
+            16,
+            12,
+            10751,
+            14,
+            35,
+            28
+          ],
+          "title": "Los Croods",
+          "original_language": "en",
+          "original_title": "The Croods",
+          "poster_path": "/3X3qtBTgKt5mCB30RJwbIjgjzdw.jpg",
+          "vote_count": 5982,
+          "video": false
+        }
+      ],
+      "id": 2963,
+      "profile_path": "/ar33qcWbEgREn07ZpXv5Pbj8hbM.jpg",
+      "gender": 2,
+      "known_for_department": "Acting",
+      "adult": false,
+      "name": "Nicolas Cage",
+      "popularity": 20.763,
+      "media_type": "person"
+    },
+    {
+      "gender": 2,
+      "known_for_department": "Acting",
+      "adult": false,
+      "id": 287,
+      "known_for": [
+        {
+          "original_title": "Fight Club",
+          "poster_path": "/1yWmCAIGSVNuTOGyz9F48W9g1Ux.jpg",
+          "video": false,
+          "vote_average": 8.4,
+          "title": "El club de la lucha",
+          "vote_count": 24086,
+          "release_date": "1999-10-15",
+          "popularity": 53.664,
+          "id": 550,
+          "adult": false,
+          "backdrop_path": "/rr7E0NoGKxvbkb89eR1GwfoYjpA.jpg",
+          "media_type": "movie",
+          "genre_ids": [
+            18
+          ],
+          "overview": "Un joven sin ilusiones lucha contra su insomnio, consecuencia quizás de su hastío por su gris y rutinaria vida. En un viaje en avión conoce a Tyler Durden, un carismático vendedor de jabón que sostiene una filosofía muy particular: el perfeccionismo es cosa de gentes débiles; en cambio, la autodestrucción es lo único que hace que realmente la vida merezca la pena. Ambos deciden entonces formar un club secreto de lucha donde descargar sus frustaciones y su ira que tendrá un éxito arrollador.",
+          "original_language": "en"
+        },
+        {
+          "original_title": "Inglourious Basterds",
+          "poster_path": "/dqu7nUtKTLdpM7DaJvD4zcSXhn1.jpg",
+          "video": false,
+          "vote_average": 8.2,
+          "vote_count": 18681,
+          "overview": "Segunda Guerra Mundial. Durante la ocupación de Francia por los alemanes, Shosanna Dreyfus presencia la ejecución de su familia por orden del coronel nazi Hans Landa. Ella consigue huir a París, donde adopta una nueva identidad como propietaria de un cine. En otro lugar de Europa, el teniente Aldo Raine adiestra a un grupo de soldados judíos \"Los bastardos\" para atacar objetivos concretos. Los hombres de Raine y una actriz alemana, que trabaja para los aliados, deben llevar a cabo una misión que hará caer a los jefes del Tercer Reich. El destino quiere que todos se encuentren bajo la marquesina de un cine donde Shosanna espera para vengarse.",
+          "release_date": "2009-08-19",
+          "popularity": 74.664,
+          "id": 16869,
+          "adult": false,
+          "backdrop_path": "/yVPcPk96E6Qffiyez2oJc7OKD2A.jpg",
+          "media_type": "movie",
+          "genre_ids": [
+            18,
+            28,
+            53,
+            10752
+          ],
+          "title": "Malditos bastardos",
+          "original_language": "en"
+        },
+        {
+          "original_title": "Se7en",
+          "poster_path": "/uVPcVz4b2hnSGrXYLdIGRXwcivs.jpg",
+          "title": "Seven (Se7en)",
+          "vote_average": 8.3,
+          "video": false,
+          "overview": "El teniente Somerset, del departamento de homicidios, está a punto de jubilarse y ser reemplazado por el ambicioso y brillante detective David Mills. Ambos tendrán que colaborar en la resolución de una serie de asesinatos cometidos por un psicópata que toma como base la relación de los siete pecados capitales: gula, pereza, soberbia, avaricia, envidia, lujuria e ira. Los cuerpos de las víctimas, sobre los que el asesino se ensaña de manera impúdica, se convertirán para los policías en un enigma que les obligará a viajar al horror y la barbarie más absoluta.",
+          "release_date": "1995-09-22",
+          "popularity": 34.159,
+          "vote_count": 17068,
+          "adult": false,
+          "id": 807,
+          "media_type": "movie",
+          "genre_ids": [
+            80,
+            9648,
+            53
+          ],
+          "backdrop_path": "/bd4RndWxzL2H7aiJKoGgk4clEdD.jpg",
+          "original_language": "en"
+        }
+      ],
+      "profile_path": "/oAvLuGuTaNcjY3R5huBQdfrZN6j.jpg",
+      "name": "Brad Pitt",
+      "popularity": 30.829,
+      "media_type": "person"
+    },
+    {
+      "adult": false,
+      "gender": 2,
+      "name": "Tom Hanks",
+      "id": 31,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/qdIMHd4sEfJSckfVJfKQvisL02a.jpg",
+          "genre_ids": [
+            35,
+            18,
+            10749
+          ],
+          "id": 13,
+          "media_type": "movie",
+          "title": "Forrest Gump",
+          "original_language": "en",
+          "original_title": "Forrest Gump",
+          "overview": "Forrest Gump es un chico con deficiencias mentales no muy profundas y con alguna incapacidad motora que, a pesar de todo, llegará a convertirse, entre otras cosas, en un héroe durante la Guerra del Vietnam. Su persistencia y bondad le llevarán a conseguir una gran fortuna, ser objeto del clamor popular y a codearse con las más altas esferas sociales y políticas del país. Siempre sin olvidar a Jenny, su gran amor desde que era niño.",
+          "popularity": 47.966,
+          "poster_path": "/oiqKEhEfxl9knzWXvWecJKN3aj6.jpg",
+          "release_date": "1994-06-23",
+          "video": false,
+          "vote_average": 8.476,
+          "vote_count": 22709
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/3Rfvhy1Nl6sSGJwyjb0QiZzZYlB.jpg",
+          "genre_ids": [
+            16,
+            12,
+            10751,
+            35
+          ],
+          "id": 862,
+          "media_type": "movie",
+          "title": "Toy Story",
+          "original_language": "en",
+          "original_title": "Toy Story",
+          "overview": "Los juguetes de Andy, un niño de seis años, temen que haya llegado su hora y que un nuevo regalo de cumpleaños les sustituya en el corazón de su dueño. Woody, un vaquero que ha sido hasta ahora el juguete favorito de Andy, trata de tranquilizarlos hasta que aparece Buzz Lightyear, un héroe espacial dotado de todo tipo de avances tecnológicos. Woody es relegado a un segundo plano., pero su constante rivalidad se transformará en una gran amistad cuando ambos se pierden en la ciudad sin saber cómo volver a casa.",
+          "popularity": 185.221,
+          "poster_path": "/GdMDcacJra4ZmDaBIRASIpzjmU.jpg",
+          "release_date": "1995-10-30",
+          "video": false,
+          "vote_average": 8,
+          "vote_count": 15384
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/l6hQWH9eDksNJNiXWYRkWqikOdu.jpg",
+          "genre_ids": [
+            14,
+            18,
+            80
+          ],
+          "id": 497,
+          "media_type": "movie",
+          "title": "La milla verde",
+          "original_language": "en",
+          "original_title": "The Green Mile",
+          "overview": "En el sur de los Estados Unidos, en plena Depresión, Paul Edgecomb es un vigilante penitenciario a cargo de la Milla Verde, un pasillo que separa las celdas de los reclusos condenados a la silla eléctrica. Esperando su ejecución está John Coffey, un gigantesco negro acusado de asesinar brutalmente a dos hermanas de nueve años. Tras una personalidad ingenua, Coffey esconde un don sobrenatural prodigioso. A medida que transcurre la historia, Paul Edgecomb aprende que los milagros ocurren... incluso en los lugares más insospechados.",
+          "popularity": 48.098,
+          "poster_path": "/9jfxlPX4nJvpBC3QxcqXvyBteaK.jpg",
+          "release_date": "1999-12-10",
+          "video": false,
+          "vote_average": 8.505,
+          "vote_count": 13924
+        }
+      ],
+      "known_for_department": "Acting",
+      "profile_path": "/xndWFsBlClOJFRdhSt4NBwiPq2o.jpg",
+      "popularity": 21.627,
+      "media_type": "person"
+    },
+    {
+      "known_for": [
+        {
+          "vote_average": 6.9,
+          "popularity": 99.758,
+          "vote_count": 11733,
+          "release_date": "2018-07-06",
+          "overview": "Arthur Curry, también conocido como Aquaman (Jason Momoa), es un habitante de un poderoso reino subacuático que recibe el nombre de la Atlántida. En esta película repleta de acción, aventura, e incluso partes de terror, conoceremos sus orígenes, desde que era un niño criado por un hombre humano y considerado un paria por los suyos, hasta que crece y debe hacer frente a los problemas que han aparecido en su mundo. Entonces, este hombre mitad humano y mitad atlante, emprenderá el viaje de su vida, en el que tendrá que descubrir quién es realmente y si es digno de ser un rey. Acompañado de Mera (Amber Heard), hará frente a este y otros retos, mientras le planta cara a Black Manta (Yahya Abdul-Mateen II) y a su propio hermanastro Orm (Patrick Wilson). ¿Será capaz de dirigir a su pueblo y convertirse en un héroe para el mundo?",
+          "adult": false,
+          "backdrop_path": "/9QusGjxcYvfPD1THg6oW3RLeNn7.jpg",
+          "media_type": "movie",
+          "genre_ids": [
+            28,
+            12,
+            14
+          ],
+          "title": "Aquaman",
+          "original_language": "en",
+          "original_title": "Aquaman",
+          "poster_path": "/yTzr6Nc4RcTXVw9SsWQNJdcjTz5.jpg",
+          "id": 297802,
+          "video": false
+        },
+        {
+          "title": "Liga de la Justicia",
+          "popularity": 62.376,
+          "overview": "Motivado por la fe que había recuperado en la humanidad e inspirado por la acción altruista de Superman, Bruce Wayne recluta la ayuda de su nueva aliada, Diana Prince, para enfrentarse a un enemigo aún mayor. Juntos, Batman y Wonder Woman se mueven rápidamente para intentar encontrar y reclutar un equipo de metahumanos que combata esta nueva amenaza. El problema es que a pesar de la formación de esta liga de héroes sin precedentes (Batman, Wonder Woman, Aquaman, Cyborg y Flash) puede que sea demasiado tarde para salvar el planeta de una amenaza de proporciones catastróficas.",
+          "release_date": "2017-11-15",
+          "vote_count": 11339,
+          "adult": false,
+          "backdrop_path": "/jorgjEk6a0bed6jdR5wu4S6ZvRm.jpg",
+          "media_type": "movie",
+          "genre_ids": [
+            28,
+            12,
+            14,
+            878
+          ],
+          "vote_average": 6.1,
+          "original_language": "en",
+          "original_title": "Justice League",
+          "poster_path": "/wUWqnavD8iGZ5F4xXhWlrtEzKjV.jpg",
+          "id": 141052,
+          "video": false
+        },
+        {
+          "title": "Bienvenidos a Zombieland",
+          "popularity": 70.654,
+          "overview": "En un mundo plagado de zombis, Columbus es un gallina, un joven que se encuentra aterrorizado por la situación, pero cuando te juegas el ser comido por los zombies, el miedo puede mantenerte vivo. De hecho su cobardía precisamente le ha permitido que sus sesos aún se mantengan en su cabeza. Entonces un día conoce a Tallahassse, un macarra caza zombies cuya única determinación en su vida es lograr el último Twinkie (dulce americano) en la tierra. Cuando ambos unen fuerzas con Wichita y Little Rock, que también han encontrado una manera original de sobrevivir en ese caos, tendrán que elegir qué es peor: si confiar los unos en los otros para sobrevivir o sucumbir ante los zombies.",
+          "release_date": "2009-10-07",
+          "id": 19908,
+          "adult": false,
+          "backdrop_path": "/oihWVx3imvRKujnGmSDYhfG1gI5.jpg",
+          "media_type": "movie",
+          "genre_ids": [
+            35,
+            27
+          ],
+          "vote_count": 10405,
+          "original_language": "en",
+          "original_title": "Zombieland",
+          "poster_path": "/fQAt6ltWR780GUoWXuuEUgxhbgU.jpg",
+          "vote_average": 7.3,
+          "video": false
+        }
+      ],
+      "id": 55085,
+      "profile_path": "/ik0cfqudGTYBBRKF0x4gl2rSUQx.jpg",
+      "gender": 1,
+      "known_for_department": "Acting",
+      "adult": false,
+      "name": "Amber Heard",
+      "popularity": 29.448,
+      "media_type": "person"
+    },
+    {
+      "id": 6193,
+      "adult": false,
+      "known_for": [
+        {
+          "video": false,
+          "vote_average": 8.4,
+          "overview": "Dom Cobb es un ladrón hábil, el mejor de todos, especializado en el peligroso arte de extracción: el robo de secretos valiosos desde las profundidades del subconsciente durante el estado de sueño cuando la mente está más vulnerable. Esta habilidad excepcional de Cobb le ha hecho un jugador codiciado en el traicionero nuevo mundo de espionaje corporativo, pero al mismo tiempo, le ha convertido en un fugitivo internacional y ha tenido que sacrificar todo que le importaba. Ahora a Cobb se le ofrece una oportunidad para redimirse. Con un último trabajo podría recuperar su vida anterior, pero solamente si logra lo imposible.",
+          "release_date": "2010-07-15",
+          "media_type": "movie",
+          "popularity": 104.658,
+          "adult": false,
+          "backdrop_path": "/ztZ4vw151mw04Bg6rqJLQGBAmvn.jpg",
+          "vote_count": 31546,
+          "title": "Origen",
+          "genre_ids": [
+            28,
+            878,
+            12
+          ],
+          "original_language": "en",
+          "original_title": "Inception",
+          "poster_path": "/tXQvtRWfkUUnWJAn2tN3jERIUG.jpg",
+          "id": 27205
+        },
+        {
+          "video": false,
+          "vote_average": 8.1,
+          "overview": "Dos años antes de estallar la Guerra Civil (1861-1865), Schultz, un cazarrecompensas alemán que le sigue la pista a unos asesinos, le promete al esclavo Django dejarlo en libertad si le ayuda a atraparlos. Terminado con éxito el trabajo, Django prefiere seguir al lado del alemán y ayudarle a capturar a los delincuentes más buscados del Sur. Se convierte así en un experto cazador de recompensas, pero su único objetivo es rescatar a su esposa Broomhilda, a la que perdió por culpa del tráfico de esclavos. La búsqueda llevará a Django y a Schultz hasta Calvin Candie, el malvado propietario de la plantación \"Candyland\". La presencia de ambos en los alrededores de la propiedad, despierta las sospechas de Stephen, el esclavo de confianza de Candie.",
+          "release_date": "2012-12-25",
+          "media_type": "movie",
+          "popularity": 64.625,
+          "adult": false,
+          "id": 68718,
+          "genre_ids": [
+            18,
+            37
+          ],
+          "title": "Django desencadenado",
+          "vote_count": 22501,
+          "original_language": "en",
+          "original_title": "Django Unchained",
+          "poster_path": "/naaYX64yMGzEFsATOFQDaxxQWbJ.jpg",
+          "backdrop_path": "/6MCVqErhPC0p6RkzZsLuIb6LZ1L.jpg"
+        },
+        {
+          "video": false,
+          "vote_average": 7.9,
+          "vote_count": 20995,
+          "release_date": "1997-11-18",
+          "media_type": "movie",
+          "popularity": 191.95,
+          "adult": false,
+          "id": 597,
+          "backdrop_path": "/yDI6D5ZQh67YU4r2ms8qcSbAviZ.jpg",
+          "title": "Titanic",
+          "genre_ids": [
+            18,
+            10749
+          ],
+          "original_language": "en",
+          "original_title": "Titanic",
+          "poster_path": "/rVBIfNJZcTITcVbvgmtyPOF8CzD.jpg",
+          "overview": "Durante las labores de recuperación de los restos del famoso Titanic, una anciana norteamericana se pone en contacto con la expedición para acudir a una plataforma flotante instalada en el Mar del Norte y asistir 'in situ' a la recuperación de sus recuerdos. A través de su memoria reviviremos los acontecimientos que marcaron el siniestro más famoso del siglo XX: el hundimiento del trasatlántico más lujoso del mundo, la máquina más sofisticada de su tiempo, considerada «insumergible», que sucumbió a las heladas aguas del Atlántico en abril de 1912, llevándose consigo la vida de mil quinientas personas, más de la mitad del pasaje. En los recueros de la anciana hay cabida para algo más que la tragedia, la historia de amor que vivió con un joven pasajero de tercera clase, un pintor aficionado que había ganado su pasaje en una partida las cartas en una taberna de Southampton."
+        }
+      ],
+      "gender": 2,
+      "known_for_department": "Acting",
+      "profile_path": "/wo2hJpn04vbtmh0B9utCFdsQhxM.jpg",
+      "name": "Leonardo DiCaprio",
+      "popularity": 30.66,
+      "media_type": "person"
+    },
+    {
+      "adult": false,
+      "gender": 1,
+      "name": "Margot Robbie",
+      "id": 234352,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/blbA7NEHARQOWy5i9VF5K2kHrPc.jpg",
+          "genre_ids": [
+            80,
+            18,
+            35
+          ],
+          "id": 106646,
+          "media_type": "movie",
+          "title": "El lobo de Wall Street",
+          "original_language": "en",
+          "original_title": "The Wolf of Wall Street",
+          "overview": "Película basada en hechos reales del corredor de bolsa neoyorquino Jordan Belfort. A mediados de los años 80, Belfort era un joven honrado que perseguía el sueño americano, pero pronto en la agencia de valores aprendió que lo más importante no era hacer ganar a sus clientes, sino ser ambicioso y ganar una buena comisión. Su enorme éxito y fortuna le valió el mote de \"El lobo de Wall Street\". Dinero. Poder. Mujeres. Drogas. Las tentaciones abundaban y el temor a la ley era irrelevante. Jordan y su manada de lobos consideraban que la discreción era una cualidad anticuada; nunca se conformaban con lo que tenían.",
+          "popularity": 166.117,
+          "poster_path": "/jTlIYjvS16XOpsfvYCTmtEHV10K.jpg",
+          "release_date": "2013-12-25",
+          "video": false,
+          "vote_average": 8.026,
+          "vote_count": 19727
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/sMRwI5trKI6qhxYcjPgGghmPBef.jpg",
+          "genre_ids": [
+            28,
+            12,
+            14
+          ],
+          "id": 297761,
+          "media_type": "movie",
+          "title": "Escuadrón suicida",
+          "original_language": "en",
+          "original_title": "Suicide Squad",
+          "overview": "Mientras el gobierno de EE.UU no tiene claro cómo responder a una visita alienígena a la Tierra con intenciones malignas, Amanda 'El Muro' Waller, la líder de la agencia secreta A.R.G.U.S., ofrece una curiosa solución: reclutar a los villanos más crueles, con habilidades letales e incluso mágicas, para que trabajen para ellos. Sin demasiadas opciones a dar una negativa, los ocho supervillanos más peligrosos del mundo acceden a colaborar con el Ejecutivo en peligrosas misiones secretas, casi suicidas, para así lograr limpiar su expediente.",
+          "popularity": 64.626,
+          "poster_path": "/9ymhU7NclJr29MpZnBQbJurYbuc.jpg",
+          "release_date": "2016-08-03",
+          "video": false,
+          "vote_average": 5.916,
+          "vote_count": 18783
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/vm8C7lAob4hSn8MvHGa9RBLy7rR.jpg",
+          "genre_ids": [
+            35,
+            18,
+            53
+          ],
+          "id": 466272,
+          "media_type": "movie",
+          "title": "Érase una vez en… Hollywood",
+          "original_language": "en",
+          "original_title": "Once Upon a Time… in Hollywood",
+          "overview": "Los Angeles, 1969. La estrella de televisión Rick Dalton, un actor en horas bajas especializado en westerns, y el doble de acción Cliff Booth, su mejor amigo, tratan de sobrevivir a una industria cinematográfica en constante cambio. Dalton es vecino de la joven y prometedora actriz y modelo Sharon Tate, que acaba de casarse con el prestigioso director polaco Roman Polanski…",
+          "popularity": 28.081,
+          "poster_path": "/vKSyaptSA7zZ9H8mSfaDnvyQl9k.jpg",
+          "release_date": "2019-07-24",
+          "video": false,
+          "vote_average": 7.439,
+          "vote_count": 10448
+        }
+      ],
+      "known_for_department": "Acting",
+      "profile_path": "/euDPyqLnuwaWMHajcU3oZ9uZezR.jpg",
+      "popularity": 25.438,
+      "media_type": "person"
+    },
+    {
+      "adult": false,
+      "gender": 0,
+      "name": "雷火剑",
+      "id": 3453397,
+      "known_for": [],
+      "known_for_department": "Directing",
+      "profile_path": null,
+      "popularity": 2.038,
+      "media_type": "person"
+    },
+    {
+      "adult": false,
+      "gender": 2,
+      "name": "Jason Statham",
+      "id": 976,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/mRfI3y2oAd7ejur2di09xC9niqp.jpg",
+          "genre_ids": [
+            28,
+            53,
+            80
+          ],
+          "id": 82992,
+          "media_type": "movie",
+          "title": "Fast & Furious 6",
+          "original_language": "en",
+          "original_title": "Fast & Furious 6",
+          "overview": "Desde que Dom y Brian destruyeron el imperio de un mafioso y se hicieron con cien millones de dólares, se encuentran en paradero desconocido; no pueden regresar a casa porque la ley los persigue. Entretanto, Hobbs ha seguido la pista por una docena de países a una banda de letales conductores mercenarios, cuyo cerebro cuenta con la inestimable ayuda de la sexy Letty, un viejo amor de Dom que éste daba por muerta. La única forma de detenerlos es enfrentarse a ellos en las calles, así que Hobbs le pide a Dom que reúna a su equipo en Londres. ¿Qué obtendrán a cambio? Un indulto para que todos puedan volver a casa con sus familias.",
+          "popularity": 11.801,
+          "poster_path": "/6zUkjB5OtiFhN2DiqdT1IllNJTa.jpg",
+          "release_date": "2013-05-21",
+          "video": false,
+          "vote_average": 6.812,
+          "vote_count": 9271
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/cHkhb5A4gQRK6zs6Pv7zorHs8Nk.jpg",
+          "genre_ids": [
+            28,
+            53,
+            80,
+            12
+          ],
+          "id": 168259,
+          "media_type": "movie",
+          "title": "Fast & Furious 7",
+          "original_language": "en",
+          "original_title": "Furious 7",
+          "overview": "De nuevo los problemas les persiguen. Sin conseguir librarse de la mancha de criminales de su ficha. Su pasado de larga trayectoria en las carreras ilegales les perseguirá y deberán hacer frente a las circunstancias de la única forma que saben. Cuando les pongan entre la espada y la pared idearán un plan para escapar del peligro en una trepidante carrera por salvar la vida y limpiar su reputación. Acción, persecuciones y un ritmo frenético en esta nueva entrega.",
+          "popularity": 110.56,
+          "poster_path": "/yWG5W4tKCQweHEdnKV4YEvqOBGx.jpg",
+          "release_date": "2015-04-01",
+          "video": false,
+          "vote_average": 7.247,
+          "vote_count": 9097
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/jzdnhRhG0dsuYorwvSqPqqnM1cV.jpg",
+          "genre_ids": [
+            28,
+            80,
+            53
+          ],
+          "id": 337339,
+          "media_type": "movie",
+          "title": "Fast & Furious 8",
+          "original_language": "en",
+          "original_title": "The Fate of the Furious",
+          "overview": "La carrera ha comenzado. Dom Toretto y su equipo volverán en esta ocasión con más ganas de guerra que nunca. No faltarán los excesos de velocidad y la adrenalina a raudales para un filme del que se espera que sea la entrega con más acción de esta saga callejera por excelencia.",
+          "popularity": 133.219,
+          "poster_path": "/5b1zDwWxoDG8p8aHoRYfzOd7Lvy.jpg",
+          "release_date": "2017-04-12",
+          "video": false,
+          "vote_average": 6.907,
+          "vote_count": 8898
+        }
+      ],
+      "known_for_department": "Acting",
+      "profile_path": "/lldeQ91GwIVff43JBrpdbAAeYWj.jpg",
+      "popularity": 47.972,
+      "media_type": "person"
+    },
+    {
+      "adult": false,
+      "gender": 2,
+      "name": "Jackie Chan",
+      "id": 18897,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/vndouqEyQqpvvk0FwIlkfceblrh.jpg",
+          "genre_ids": [
+            28,
+            12,
+            16,
+            10751,
+            35
+          ],
+          "id": 9502,
+          "media_type": "movie",
+          "title": "Kung Fu Panda",
+          "original_language": "en",
+          "original_title": "Kung Fu Panda",
+          "overview": "El protagonista es un oso panda llamado Po, el más vago de todas las criaturas del Valle de la Paz. Con poderosos enemigos acercándose, la esperanza es depositada en una antigua profecía que dice que un héroe se alzará para salvarles. Voces originales de Jack Black, Angelina Jolie, Dustin Hoffman, Lucy Liu & Jackie Chan.",
+          "popularity": 84.142,
+          "poster_path": "/wzOERnvuM3c2mbAvCu5pw1QIaZX.jpg",
+          "release_date": "2008-06-04",
+          "video": false,
+          "vote_average": 7.195,
+          "vote_count": 9336
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/7BdxZXbSkUiVeCRXKD3hi9KYeWm.jpg",
+          "genre_ids": [
+            16,
+            10751
+          ],
+          "id": 49444,
+          "media_type": "movie",
+          "title": "Kung Fu Panda 2",
+          "original_language": "en",
+          "original_title": "Kung Fu Panda 2",
+          "overview": "Po está ahora viviendo su sueño como el Guerrero del Dragón, protegiendo el Valle de la Paz junto a sus amigos y sus compañeros maestros del kung fu. Los Cinco Furiosos. Pero su nueva e impresionante vida se encuentra amenazada por la aparición de un villano formidable, que planea usar un arma secreta imparable para conquistar China y destruir el kung fu. Po debe volver la vista a su pasado para descubrir los secretos de su misterioso origen; solo entonces podrá adquirir la fuerza que necesita para vencer.",
+          "popularity": 64.874,
+          "poster_path": "/5JsMPU79GmY9dKBahXxq6OefPmN.jpg",
+          "release_date": "2011-05-25",
+          "video": false,
+          "vote_average": 6.908,
+          "vote_count": 5588
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/wwkpQnhi1TXnB3YTZdHeeBpuHs4.jpg",
+          "genre_ids": [
+            28,
+            12,
+            18,
+            10751
+          ],
+          "id": 38575,
+          "media_type": "movie",
+          "title": "The Karate Kid",
+          "original_language": "en",
+          "original_title": "The Karate Kid",
+          "overview": "Dre Parker podría haber sido el más popular en Detroit, pero la carrera profesional de su madre los lleva a ambos a China. Allí logra hacer conexión con su compañera de clase Mei Ying y el sentimiento es mutuo, hasta que las diferencias culturales hacen que su amistad sea imposible. Para que la situación empeore, Dre se consigue un enemigo, el peleonero de la clase, Cheng. Dre no tiene amigos a quién acudir, excepto el encargado de mantenimiento, el Sr. Han.",
+          "popularity": 110.074,
+          "poster_path": "/tHoASPhXRGJM6XFvDooJHIFcP3r.jpg",
+          "release_date": "2010-06-10",
+          "video": false,
+          "vote_average": 6.487,
+          "vote_count": 4949
+        }
+      ],
+      "known_for_department": "Acting",
+      "profile_path": "/nraZoTzwJQPHspAVsKfgl3RXKKa.jpg",
+      "popularity": 26.833,
+      "media_type": "person"
+    },
+    {
+      "adult": false,
+      "gender": 2,
+      "name": "Quentin Tarantino",
+      "id": 138,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
+          "genre_ids": [
+            53,
+            80
+          ],
+          "id": 680,
+          "media_type": "movie",
+          "title": "Pulp Fiction",
+          "original_language": "en",
+          "original_title": "Pulp Fiction",
+          "overview": "Jules y Vincent, dos asesinos a sueldo con muy pocas luces, trabajan para Marsellus Wallace. Vincent le confiesa a Jules que Marsellus le ha pedido que cuide de Mia, su mujer. Jules le recomienda prudencia porque es muy peligroso sobrepasarse con la novia del jefe. Cuando llega la hora de trabajar, ambos deben ponerse manos a la obra. Su misión: recuperar un misterioso maletín.",
+          "popularity": 50.689,
+          "poster_path": "/hNcQAuquJxTxl2fJFs1R42DrWcf.jpg",
+          "release_date": "1994-09-10",
+          "video": false,
+          "vote_average": 8.489,
+          "vote_count": 23150
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/6MCVqErhPC0p6RkzZsLuIb6LZ1L.jpg",
+          "genre_ids": [
+            18,
+            37
+          ],
+          "id": 68718,
+          "media_type": "movie",
+          "title": "Django desencadenado",
+          "original_language": "en",
+          "original_title": "Django Unchained",
+          "overview": "Dos años antes de estallar la Guerra Civil (1861-1865), Schultz, un cazarrecompensas alemán que le sigue la pista a unos asesinos, le promete al esclavo Django dejarlo en libertad si le ayuda a atraparlos. Terminado con éxito el trabajo, Django prefiere seguir al lado del alemán y ayudarle a capturar a los delincuentes más buscados del Sur. Se convierte así en un experto cazador de recompensas, pero su único objetivo es rescatar a su esposa Broomhilda, a la que perdió por culpa del tráfico de esclavos. La búsqueda llevará a Django y a Schultz hasta Calvin Candie, el malvado propietario de la plantación \"Candyland\". La presencia de ambos en los alrededores de la propiedad, despierta las sospechas de Stephen, el esclavo de confianza de Candie.",
+          "popularity": 59.579,
+          "poster_path": "/naaYX64yMGzEFsATOFQDaxxQWbJ.jpg",
+          "release_date": "2012-12-25",
+          "video": false,
+          "vote_average": 8.146,
+          "vote_count": 22510
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/yVPcPk96E6Qffiyez2oJc7OKD2A.jpg",
+          "genre_ids": [
+            18,
+            28,
+            53,
+            10752
+          ],
+          "id": 16869,
+          "media_type": "movie",
+          "title": "Malditos bastardos",
+          "original_language": "en",
+          "original_title": "Inglourious Basterds",
+          "overview": "Segunda Guerra Mundial. Durante la ocupación de Francia por los alemanes, Shosanna Dreyfus presencia la ejecución de su familia por orden del coronel nazi Hans Landa. Ella consigue huir a París, donde adopta una nueva identidad como propietaria de un cine. En otro lugar de Europa, el teniente Aldo Raine adiestra a un grupo de soldados judíos \"Los bastardos\" para atacar objetivos concretos. Los hombres de Raine y una actriz alemana, que trabaja para los aliados, deben llevar a cabo una misión que hará caer a los jefes del Tercer Reich. El destino quiere que todos se encuentren bajo la marquesina de un cine donde Shosanna espera para vengarse.",
+          "popularity": 74.664,
+          "poster_path": "/dqu7nUtKTLdpM7DaJvD4zcSXhn1.jpg",
+          "release_date": "2009-08-19",
+          "video": false,
+          "vote_average": 8.21,
+          "vote_count": 18685
+        }
+      ],
+      "known_for_department": "Directing",
+      "profile_path": "/1gjcpAa99FAOWGnrUvHEXXsRs7o.jpg",
+      "popularity": 15.749,
+      "media_type": "person"
+    },
+    {
+      "adult": false,
+      "gender": 2,
+      "name": "Adam Sandler",
+      "id": 19292,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/9N3KKOKpqEFe9GhHaIVHwk9N1Y.jpg",
+          "genre_ids": [
+            16,
+            35,
+            10751,
+            14
+          ],
+          "id": 76492,
+          "media_type": "movie",
+          "title": "Hotel Transilvania",
+          "original_language": "en",
+          "original_title": "Hotel Transylvania",
+          "overview": "Drácula regenta un hotel en el que se alojan personajes como Frankenstein, la Momia, el Hombre Invisible, hombres-lobo... El problema del conde es que tiene una hija de espíritu aventurero a la que le resulta difícil controlar. El conflicto surge cuando se aloja en el hotel un ser humano que se siente atraído por la hija del dueño.",
+          "popularity": 69.589,
+          "poster_path": "/zvWlwBGQWuJ0wog65q1uS37BApC.jpg",
+          "release_date": "2012-09-20",
+          "video": false,
+          "vote_average": 6.956,
+          "vote_count": 7356
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/dsxpP9qbF1PHk4j4aPjimkLTwxq.jpg",
+          "genre_ids": [
+            28,
+            35,
+            878
+          ],
+          "id": 257344,
+          "media_type": "movie",
+          "title": "Pixels",
+          "original_language": "en",
+          "original_title": "Pixels",
+          "overview": "Pixels cuenta como unos extraterrestres malinterpretan las imágenes de las máquinas recreativas como una declaración de guerra y deciden atacar la tierra, empleando dichos juegos como modelos para el asalto. El presidente de EEUU, Will Cooper (Kevin James), recurre entonces a su gran amigo de la infancia y campeón de las maquinitas de los años 80, Sam Brenner (Adam Sandler), quien actualmente trabaja como instalador de sistemas de home cinema, para encabezar un equipo de expertos jugadores de su época (Dinklage y Gad) cuya misión será derrotar a los extraterrestres y salvar al planeta. Monaghan interpreta al experto en armas del equipo.",
+          "popularity": 57.012,
+          "poster_path": "/d45faoiDeZsrdIdYpLy34vtYf3S.jpg",
+          "release_date": "2015-07-16",
+          "video": false,
+          "vote_average": 5.711,
+          "vote_count": 6458
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/z6eMgnSt6VA0Gf9dirjpkBPu0uS.jpg",
+          "genre_ids": [
+            35,
+            10749
+          ],
+          "id": 1824,
+          "media_type": "movie",
+          "title": "50 primeras citas",
+          "original_language": "en",
+          "original_title": "50 First Dates",
+          "overview": "Henry Roth es un biólogo marino de Hawaii que se pasa la vida inventando excusas para no comprometerse con las numerosas chicas con las que sale. Sin embargo, cuando conoce a la chica de sus sueños, la encantadora Lucy Whitmore, surge un extraño problema en la relación: cuando Lucy se levanta por las mañanas no recuerda absolutamente nada de lo ocurrido el día anterior, de modo que Henry no tendrá más remedio que reconquistarla cada día.",
+          "popularity": 37.058,
+          "poster_path": "/iuBSUp33aTqXXRokt4v2wZrsqcj.jpg",
+          "release_date": "2004-02-13",
+          "video": false,
+          "vote_average": 6.817,
+          "vote_count": 6050
+        }
+      ],
+      "known_for_department": "Acting",
+      "profile_path": "/gLkLCsQdwDDPabRhKPB25nGtKwS.jpg",
+      "popularity": 19.318,
+      "media_type": "person"
+    },
+    {
+      "adult": false,
+      "profile_path": "/caX3KtMU42EP3VLRFFBwqIIrch5.jpg",
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/suaEOtk1N1sgg2MTM7oZd2cfVp3.jpg",
+          "media_type": "movie",
+          "genre_ids": [
+            53,
+            80
+          ],
+          "title": "Pulp Fiction",
+          "original_language": "en",
+          "original_title": "Pulp Fiction",
+          "poster_path": "/hNcQAuquJxTxl2fJFs1R42DrWcf.jpg",
+          "id": 680,
+          "video": false,
+          "vote_average": 8.5,
+          "popularity": 50.689,
+          "overview": "Jules y Vincent, dos asesinos a sueldo con muy pocas luces, trabajan para Marsellus Wallace. Vincent le confiesa a Jules que Marsellus le ha pedido que cuide de Mia, su mujer. Jules le recomienda prudencia porque es muy peligroso sobrepasarse con la novia del jefe. Cuando llega la hora de trabajar, ambos deben ponerse manos a la obra. Su misión: recuperar un misterioso maletín.",
+          "release_date": "1994-09-10",
+          "vote_count": 23145
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/9pkZesKMnblFfKxEhQx45YQ2kIe.jpg",
+          "media_type": "movie",
+          "genre_ids": [
+            27,
+            53
+          ],
+          "title": "Múltiple",
+          "original_language": "en",
+          "original_title": "Split",
+          "poster_path": "/Ag51YF1ZTNTefjhVMVGBCFv8h5s.jpg",
+          "id": 381288,
+          "video": false,
+          "vote_average": 7.3,
+          "popularity": 63.274,
+          "vote_count": 14953,
+          "release_date": "2016-11-15",
+          "overview": "A pesar de que Kevin le ha demostrado a su psiquiatra de confianza, la Dra. Fletcher, que posee 23 personalidades diferentes, aún queda una por emerger, decidida a dominar a todas las demás. Obligado a raptar a tres chicas adolescentes encabezadas por la decidida y observadora Casey, Kevin lucha por sobrevivir contra todas sus personalidades y la gente que le rodea, a medida que las paredes de sus compartimentos mentales se derrumban."
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/paUKxrbN2ww0JeT2JtvgAuaGlPf.jpg",
+          "media_type": "movie",
+          "genre_ids": [
+            9648,
+            53,
+            18
+          ],
+          "title": "El sexto sentido",
+          "original_language": "en",
+          "original_title": "The Sixth Sense",
+          "poster_path": "/wcnLlfQ2USwvyYbd6XgtNEOQfMT.jpg",
+          "id": 745,
+          "video": false,
+          "vote_average": 7.9,
+          "popularity": 25.281,
+          "vote_count": 9535,
+          "release_date": "1999-08-06",
+          "overview": "El Dr. Malcom Crowe es un conocido psicólogo infantil obsesionado con el doloroso recuerdo de un joven paciente desequilibrado al que fue incapaz de ayudar. Cole Sear es un aterrorizado y confuso niño de ocho años que necesita tratamiento, y Crowe ve la oportunidad de redimirse haciendo todo lo posible por ayudarle. Sin embargo, el psicólogo infantil no está preparado para conocer la terrible verdad acerca del don sobrenatural de su paciente: recibe visitas no deseadas de espíritus atormentados."
+        }
+      ],
+      "gender": 2,
+      "known_for_department": "Acting",
+      "name": "Bruce Willis",
+      "id": 62,
+      "popularity": 35.543,
+      "media_type": "person"
+    },
+    {
+      "adult": false,
+      "gender": 2,
+      "name": "Vijay",
+      "id": 91547,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/ehVpXII9VhdKuJ9ySNxEc4njYZJ.jpg",
+          "genre_ids": [
+            53,
+            28
+          ],
+          "id": 456287,
+          "media_type": "movie",
+          "title": "மெர்சல்",
+          "original_language": "ta",
+          "original_title": "மெர்சல்",
+          "overview": "",
+          "popularity": 7.285,
+          "poster_path": "/65Q1wpRPZ5E3UVUv2V5JBbJQCcj.jpg",
+          "release_date": "2017-10-18",
+          "video": false,
+          "vote_average": 7.219,
+          "vote_count": 80
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/itm6HknrBWGTAicBITeqEThIrQw.jpg",
+          "genre_ids": [
+            28,
+            53
+          ],
+          "id": 143010,
+          "media_type": "movie",
+          "title": "துப்பாக்கி",
+          "original_language": "ta",
+          "original_title": "துப்பாக்கி",
+          "overview": "",
+          "popularity": 7.532,
+          "poster_path": "/sTNlPGZZyIAQeRVrtYYnBG5agxs.jpg",
+          "release_date": "2012-11-13",
+          "video": false,
+          "vote_average": 7.2,
+          "vote_count": 67
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/eLInBavBIK0ssluoZYLvaNm9fXl.jpg",
+          "genre_ids": [
+            28,
+            35,
+            80
+          ],
+          "id": 102632,
+          "media_type": "movie",
+          "title": "राउडी राठौर",
+          "original_language": "hi",
+          "original_title": "राउडी राठौर",
+          "overview": "",
+          "popularity": 5.988,
+          "poster_path": "/ytdp64MDSpONpm932nQcMTD95IF.jpg",
+          "release_date": "2012-06-01",
+          "video": false,
+          "vote_average": 6.038,
+          "vote_count": 65
+        }
+      ],
+      "known_for_department": "Acting",
+      "profile_path": "/fcps4jZkaYWwdhl2VG5N0z6EfM1.jpg",
+      "popularity": 3.53,
+      "media_type": "person"
+    },
+    {
+      "id": 1136406,
+      "profile_path": "/bBRlrpJm9XkNSg0YT5LCaxqoFMX.jpg",
+      "known_for_department": "Acting",
+      "adult": false,
+      "gender": 2,
+      "name": "Tom Holland",
+      "known_for": [
+        {
+          "media_type": "movie",
+          "genre_ids": [
+            12,
+            28,
+            878
+          ],
+          "original_language": "en",
+          "original_title": "Avengers: Infinity War",
+          "poster_path": "/ksBQ4oHQDdJwND8H90ay8CbMihU.jpg",
+          "popularity": 372.201,
+          "video": false,
+          "vote_average": 8.3,
+          "id": 299536,
+          "overview": "El todopoderoso Thanos ha despertado con la promesa de arrasar con todo a su paso, portando el Guantelete del Infinito, que le confiere un poder incalculable. Los únicos capaces de pararle los pies son los Vengadores y el resto de superhéroes de la galaxia, que deberán estar dispuestos a sacrificarlo todo por un bien mayor. Capitán América e Ironman deberán limar sus diferencias, Black Panther apoyará con sus tropas desde Wakanda, Thor y los Guardianes de la Galaxia e incluso Spider-Man se unirán antes de que los planes de devastación y ruina pongan fin al universo. ¿Serán capaces de frenar el avance del titán del caos?",
+          "release_date": "2018-04-25",
+          "vote_count": 24585,
+          "title": "Vengadores: Infinity War",
+          "adult": false,
+          "backdrop_path": "/lmZFxXgJE3vgrciwuDib0N8CfQo.jpg"
+        },
+        {
+          "media_type": "movie",
+          "genre_ids": [
+            12,
+            878,
+            28
+          ],
+          "original_language": "en",
+          "original_title": "Avengers: Endgame",
+          "poster_path": "/br6krBFpaYmCSglLBWRuhui7tPc.jpg",
+          "popularity": 253.64,
+          "video": false,
+          "vote_average": 8.3,
+          "id": 299534,
+          "overview": "Después de los eventos devastadores de 'Vengadores: Infinity War', el universo está en ruinas debido a las acciones de Thanos. Con la ayuda de los aliados que quedaron, los Vengadores deberán reunirse una vez más para intentar deshacer sus acciones y restaurar el orden en el universo de una vez por todas, sin importar cuáles sean las consecuencias... Cuarta y última entrega de la saga \"Vengadores\".",
+          "release_date": "2019-04-24",
+          "vote_count": 21027,
+          "title": "Vengadores: Endgame",
+          "adult": false,
+          "backdrop_path": "/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg"
+        },
+        {
+          "media_type": "movie",
+          "genre_ids": [
+            12,
+            28,
+            878
+          ],
+          "original_language": "en",
+          "original_title": "Captain America: Civil War",
+          "poster_path": "/jPPy7tCfglppQo6J9nGwU6UmJ8X.jpg",
+          "popularity": 162.374,
+          "video": false,
+          "vote_average": 7.4,
+          "id": 271110,
+          "vote_count": 19795,
+          "release_date": "2016-04-27",
+          "title": "Capitán América: Civil War",
+          "overview": "\"Captain America: Civil War” continúa la historia de “Avengers: Age of Ultron”, con Steve Rogers liderando un nuevo equipo de Vengadores en su esfuerzo por proteger a la humanidad. Tras otro incidente internacional relacionado con los Vengadores que ocasiona daños colaterales, la presión política fuerza a crear un sistema de registro y un cuerpo gubernamental para determinar cuándo se requiere los servicios del equipo. El nuevo status quo divide a los Vengadores mientras intentan salvar al mundo de un nuevo y perverso villano.",
+          "adult": false,
+          "backdrop_path": "/7FWlcZq3r6525LWOcvO9kNWurN1.jpg"
+        }
+      ],
+      "popularity": 95.1,
+      "media_type": "person"
+    },
+    {
+      "adult": false,
+      "id": 1336,
+      "profile_path": "/5a6u17dAf11kLvdRUG6QdoRRURj.jpg",
+      "known_for": [
+        {
+          "video": false,
+          "vote_average": 6.2,
+          "popularity": 84.646,
+          "overview": "Un grupo de mercenarios es contratado para infiltrarse en un país sudamericano y derrocar a su despiadado y corrupto dictador. Una vez allí, se verán atrapados en una telaraña de engaño y traición. Una vez fracasada la misión, tendrán que enfrentarse a un reto aún más difícil; salvar la unidad del grupo y la amistad que los ha unido durante largos años.",
+          "release_date": "2010-08-03",
+          "vote_count": 6503,
+          "title": "Los mercenarios",
+          "adult": false,
+          "backdrop_path": "/tMpeVt7T2S2NaeEaNCUunCm7laX.jpg",
+          "media_type": "movie",
+          "genre_ids": [
+            53,
+            12,
+            28
+          ],
+          "id": 27578,
+          "original_language": "en",
+          "original_title": "The Expendables",
+          "poster_path": "/gmbMhNLsa0cEJIbsGUmTTtmLSPT.jpg"
+        },
+        {
+          "id": 76163,
+          "vote_average": 6.3,
+          "popularity": 51.391,
+          "vote_count": 5707,
+          "release_date": "2012-08-08",
+          "video": false,
+          "title": "Los mercenarios 2",
+          "adult": false,
+          "backdrop_path": "/41QdmNKbwmVD7R6A7hMqMe9FYMy.jpg",
+          "media_type": "movie",
+          "genre_ids": [
+            28,
+            12,
+            53
+          ],
+          "overview": "Barney Ross, Lee Christmas, Yin Yang, Gunner Jensen, Toll Road, Hale Caesar y Billy, un nuevo colega, se vuelven a reunir cuando el señor Church les encarga un trabajo aparentemente sencillo y muy lucrativo. Sin embargo, el plan se tuerce cuando un peligroso terrorista llamado Villain les tiende una emboscada. Entonces su único deseo será vengarse. Así es como van sembrando a su paso la destrucción y el caos entre sus enemigos hasta que se encuentran con una amenaza inesperada: cinco toneladas de plutonio apto para uso militar, una cantidad más que suficiente para cambiar el equilibrio de poder en el mundo.",
+          "original_language": "en",
+          "original_title": "The Expendables 2",
+          "poster_path": "/2d7d61wOgYtStCjdV2BWFHGiFAc.jpg"
+        },
+        {
+          "video": false,
+          "vote_average": 7,
+          "popularity": 127.764,
+          "overview": "El emperador de China emite un decreto para reclutar a un varón por cada familia que deberá servir en el ejército imperial para defender al país de los invasores del norte. Hua Mulán, se presenta para evitar que su anciano padre sea llamado a filas. Se hace pasar por un hombre. Mulan deberá apelar a su fuerza interior y sacar a la luz todo su potencial.",
+          "release_date": "2020-09-04",
+          "genre_ids": [
+            12,
+            14,
+            18
+          ],
+          "vote_count": 5638,
+          "adult": false,
+          "backdrop_path": "/zMrk2G3XsnfYKiIp1NEfdtvDyBH.jpg",
+          "media_type": "movie",
+          "title": "Mulán",
+          "id": 337401,
+          "original_language": "en",
+          "original_title": "Mulan",
+          "poster_path": "/72XYwdIugXnjHxS6upI6U0yeTBU.jpg"
+        }
+      ],
+      "known_for_department": "Acting",
+      "gender": 2,
+      "name": "Jet Li",
+      "popularity": 17.087,
+      "media_type": "person"
+    },
+    {
+      "adult": false,
+      "gender": 2,
+      "name": "Liam Neeson",
+      "id": 3896,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/2PKMeD171nYXR3J77fD3GKl1zfl.jpg",
+          "genre_ids": [
+            28,
+            80,
+            18,
+            53
+          ],
+          "id": 49026,
+          "media_type": "movie",
+          "title": "El caballero oscuro: La leyenda renace",
+          "original_language": "en",
+          "original_title": "The Dark Knight Rises",
+          "overview": "Hace ocho años que Batman desapareció, dejando de ser un héroe para convertirse en un fugitivo. Al asumir la culpa por la muerte del fiscal del distrito Harvey Dent, el Caballero Oscuro decidió sacrificarlo todo por lo que consideraba, al igual que el Comisario Gordon, un bien mayor. La mentira funciona durante un tiempo, ya que la actividad criminal de la ciudad de Gotham se ve aplacada gracias a la dura Ley Dent. Pero todo cambia con la llegada de una astuta gata ladrona que pretende llevar a cabo un misterioso plan. Sin embargo, mucho más peligrosa es la aparición en escena de Bane, un terrorista enmascarado cuyos despiadados planes obligan a Bruce a regresar de su voluntario exilio.",
+          "popularity": 82.666,
+          "poster_path": "/rrS7K8tXVFUBliIKWaRuSq65nWr.jpg",
+          "release_date": "2012-07-16",
+          "video": false,
+          "vote_average": 7.765,
+          "vote_count": 19455
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/hQrHN6WXERVw6XUMpfCgLfvrh5V.jpg",
+          "genre_ids": [
+            28,
+            80,
+            18
+          ],
+          "id": 272,
+          "media_type": "movie",
+          "title": "Batman Begins",
+          "original_language": "en",
+          "original_title": "Batman Begins",
+          "overview": "¿Cómo cambia un hombre el mundo? Es una pregunta que obsesiona a Bruce Wayne al igual que el fantasma de sus padres, muertos a tiros ante sus ojos en las calles de Gotham una noche que cambió su vida para siempre. Atormentado por la culpa y la ira, el desilusionado heredero industrial desaparece de Gotham y viaja en secreto por el mundo, buscando los medios de luchar contra la injusticia y utilizar el miedo contra los que se aprovechan de los que tienen miedo. Con la ayuda de su leal mayordomo Alfred, el detective Jim Gordon - uno de los pocos buenos policías de las fuerzas del orden público de Gotham - y Lucius Fox, su aliado en la división de Ciencias Aplicadas de Wayne Enterprises, Bruce Wayne libera a su imponente alter ego: Batman, un justiciero enmascarado que utiliza la fuerza, la inteligencia y un despliegue de artefactos de alta tecnología para combatir las fuerzas siniestras que amenazan con destruir la ciudad.",
+          "popularity": 69.2,
+          "poster_path": "/6yMWU1vWkOBbNRIwOxhetd2aHhO.jpg",
+          "release_date": "2005-06-10",
+          "video": false,
+          "vote_average": 7.691,
+          "vote_count": 17660
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/loRmRzQXZeqG78TqZuyvSlEQfZb.jpg",
+          "genre_ids": [
+            18,
+            36,
+            10752
+          ],
+          "id": 424,
+          "media_type": "movie",
+          "title": "La lista de Schindler",
+          "original_language": "en",
+          "original_title": "Schindler's List",
+          "overview": "Oskar Schindler, un hombre de enorme astucia y talento para las relaciones públicas, organiza un ambicioso plan para ganarse la simpatía de los nazis. Después de la invasión de Polonia por los alemanes, consigue, gracias a sus relaciones con los nazis, la propiedad de una fábrica de Cracovia. Allí emplea a cientos de operarios judíos, cuya explotación le hace prosperar rápidamente. Su gerente, también judío, es el verdadero director en la sombra, pues Schindler no tiene el menor conocimiento industrial.",
+          "popularity": 34.623,
+          "poster_path": "/3Ho0pXsnMxpGJWqdOi0KDNdaTkT.jpg",
+          "release_date": "1993-11-30",
+          "video": false,
+          "vote_average": 8.615,
+          "vote_count": 12735
+        }
+      ],
+      "known_for_department": "Acting",
+      "profile_path": "/bboldwqSC6tdw2iL6631c98l2Mn.jpg",
+      "popularity": 36.985,
+      "media_type": "person"
+    },
+    {
+      "adult": false,
+      "gender": 2,
+      "name": "Will Smith",
+      "id": 2888,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/sMRwI5trKI6qhxYcjPgGghmPBef.jpg",
+          "genre_ids": [
+            28,
+            12,
+            14
+          ],
+          "id": 297761,
+          "media_type": "movie",
+          "title": "Escuadrón suicida",
+          "original_language": "en",
+          "original_title": "Suicide Squad",
+          "overview": "Mientras el gobierno de EE.UU no tiene claro cómo responder a una visita alienígena a la Tierra con intenciones malignas, Amanda 'El Muro' Waller, la líder de la agencia secreta A.R.G.U.S., ofrece una curiosa solución: reclutar a los villanos más crueles, con habilidades letales e incluso mágicas, para que trabajen para ellos. Sin demasiadas opciones a dar una negativa, los ocho supervillanos más peligrosos del mundo acceden a colaborar con el Ejecutivo en peligrosas misiones secretas, casi suicidas, para así lograr limpiar su expediente.",
+          "popularity": 64.626,
+          "poster_path": "/9ymhU7NclJr29MpZnBQbJurYbuc.jpg",
+          "release_date": "2016-08-03",
+          "video": false,
+          "vote_average": 5.916,
+          "vote_count": 18783
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/usw8PMcbWqAtmABo2jO7KRRSrqi.jpg",
+          "genre_ids": [
+            18,
+            878,
+            53
+          ],
+          "id": 6479,
+          "media_type": "movie",
+          "title": "Soy leyenda",
+          "original_language": "en",
+          "original_title": "I Am Legend",
+          "overview": "Año 2012. Robert Neville es el último hombre vivo que hay sobre la Tierra, pero no está solo. Los demás seres humanos se han convertido en unos mutantes nocturnos llamados \"Darkseekers\" y todos ansían beber su sangre. Durante el día vive en estado de alerta, como un cazador, y busca a los muertos vivientes mientras duermen; pero durante la noche debe esconderse de ellos y esperar el amanecer. Esta pesadilla empezó hace tres años: Neville era un brillante científico, pero no pudo impedir la expansión de un terrible virus creado por el hombre. Él ha sobrevivido porque es inmune al virus; todos los días envía mensajes por radio con la esperanza de que haya otros supervivientes, pero es inútil. Lo único que puede hacer es buscar una fórmula que le permita utilizar su sangre inmune para devolverles a los hombres su naturaleza. Pero está en inferioridad de condiciones y el tiempo se acaba.",
+          "popularity": 56.088,
+          "poster_path": "/pO1SrJgf5BumqcIRkYviSGIFdmX.jpg",
+          "release_date": "2007-12-12",
+          "video": false,
+          "vote_average": 7.188,
+          "vote_count": 13282
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/iEVZScwA2vy8BlVOFBBCfbU6XxB.jpg",
+          "genre_ids": [
+            28,
+            12,
+            35,
+            878
+          ],
+          "id": 607,
+          "media_type": "movie",
+          "title": "Men in Black (Hombres de negro)",
+          "original_language": "en",
+          "original_title": "Men in Black",
+          "overview": "Durante muchos años los extraterrestres han vivido en la Tierra, mezclados con los humanos, sin que nadie lo supiese. Los Hombres de Negro son unos agentes, pertenecientes a una asociación altamente secreta del gobierno, encargados de controlar a los alienígenas. Ahora dos de estos agentes, uno veterano y otro recién incorporado, y que tienen como misión vigilar a los alienígenas que habitan en la ciudad de Nueva York, descubren a un terrorista galáctico que pretende acabar con la humanidad.",
+          "popularity": 39.041,
+          "poster_path": "/gkcT1QmvspJ34rKgFUvv0ho0VrD.jpg",
+          "release_date": "1997-07-02",
+          "video": false,
+          "vote_average": 7.164,
+          "vote_count": 11631
+        }
+      ],
+      "known_for_department": "Acting",
+      "profile_path": "/6a6cl4ZNufJzrx5HZKWPU1BjjRF.jpg",
+      "popularity": 23.023,
+      "media_type": "person"
+    }
+  ],
+  "total_pages": 1000,
+  "total_results": 20000
+}

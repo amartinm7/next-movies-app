@@ -51,6 +51,7 @@ const Home: NextPage = ({ data }) => {
 
 // @ts-ignore
 export const getServerSideProps: GetServerSideProps<Context<string>> = async (
+  // @ts-ignore
   context
 ) => {
   const trendingMovies = await getTrending({
@@ -64,54 +65,3 @@ export const getServerSideProps: GetServerSideProps<Context<string>> = async (
     },
   };
 };
-
-export default Home;
-
-{
-  /*<NextLink href="/docs/components/button">*/
-}
-{
-  /*  <Link block color="secondary">*/
-}
-{
-  /*    Go to Button*/
-}
-{
-  /*  </Link>*/
-}
-{
-  /*</NextLink>*/
-}
-{
-  /*<NextLink href="/docs/components/button">*/
-}
-{
-  /*  <Link block color="secondary">*/
-}
-{
-  /*    Go to Button*/
-}
-{
-  /*  </Link>*/
-}
-{
-  /*</NextLink>*/
-}
-{
-  /*&nbsp;&&nbsp;*/
-}
-{
-  /*<NextLink href="/docs/components/button">*/
-}
-{
-  /*  <Link block color="secondary">*/
-}
-{
-  /*    Go to Button*/
-}
-{
-  /*  </Link>*/
-}
-{
-  /*</NextLink>*/
-}

@@ -17,9 +17,10 @@ const getMovieCard = ({ item, index }) => (
   />
 );
 
-// @ts-ignore
 const getMovies = (
-  data // @ts-ignore
+  // @ts-ignore
+  data
+  // @ts-ignore
 ) => data?.results?.map((item, index) => getMovieCard({ item, index }));
 
 // @ts-ignore

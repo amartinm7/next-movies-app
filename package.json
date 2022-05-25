@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "NODE_OPTIONS='--inspect' next dev",
+    "devSSRDebug": "NODE_OPTIONS='--inspect=5009' node server.js",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

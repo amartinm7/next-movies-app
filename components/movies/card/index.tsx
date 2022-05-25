@@ -1,21 +1,19 @@
 import { Button, Card, Col, Row, Text } from "@nextui-org/react";
 
 export interface EchCardDef {
+  id: string;
   imageSrc: string;
   title: string;
   year: string;
 }
 
-const EchCard = ({ imageSrc, title, year }: EchCardDef) => (
+const EchCard = ({ id, imageSrc, title, year }: EchCardDef) => (
   <Card cover css={{ w: "100%", h: "max-content" }}>
     <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
       <Col>
-        <Text
-          size={12}
-          weight="bold"
-          transform="uppercase"
-          color="#ffffffAA"
-        ></Text>
+        <Text size={12} weight="bold" transform="uppercase" color="#ffffffAA">
+          {id}
+        </Text>
         <Text h3 color="black"></Text>
       </Col>
     </Card.Header>
@@ -40,7 +38,7 @@ const EchCard = ({ imageSrc, title, year }: EchCardDef) => (
             {year}
           </Text>
           <Text color="#000" size={12}>
-            {title.length > 25 ? `${title?.substring(0, 25)}...` : title}
+            {title?.length > 20 ? `${title?.substring(0, 20)}...` : title}
           </Text>
         </Col>
         <Col>

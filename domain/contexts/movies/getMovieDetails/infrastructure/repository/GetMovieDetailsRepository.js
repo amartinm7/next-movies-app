@@ -12,6 +12,7 @@ class GetMovieDetailsRepository {
   async execute({ id, language }) {
     const urlPath = `/movie/${id}?language=${language}&append_to_response=images,credits,keywords,reviews,videos`;
     const response = await this._axios(this._axiosRequest.getRequest(urlPath));
+    // console.log(response.data);
     return response;
   }
 }

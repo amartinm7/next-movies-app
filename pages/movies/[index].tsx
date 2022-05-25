@@ -1,6 +1,6 @@
 import type { NextPage, PreviewData } from "next";
 import Head from "next/head";
-import styles from "./[index].module.css";
+import styles from "./[index].module.scss";
 import { Container, Spacer, Text } from "@nextui-org/react";
 import Theme from "@/components/themes/themes";
 import { EchCardMovie } from "@/components/movies";

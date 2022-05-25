@@ -10,6 +10,7 @@ interface MovieDef {
 
 const EchCardMovie = ({ poster_path, title, release_date, id }: MovieDef) => (
   <EchCard
+    key={id}
     id={id}
     imageSrc={`https://image.tmdb.org/t/p/w500${poster_path}`}
     title={title}

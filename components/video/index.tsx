@@ -5,10 +5,10 @@ const key = "x7Krla_UxRg";
 const getUrlBy = (key: string) =>
   `https://www.youtube.com/embed/${key}?autoplay=1&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=1`;
 
-type VideoPlayerProps = {
+type EchVideoPlayerProps = {
   url: string;
 };
-const Videoplayer = ({ url }: VideoPlayerProps) => {
+const EchVideoplayer = ({ url }: EchVideoPlayerProps) => {
   return (
     <div
       style={{
@@ -58,26 +58,26 @@ const EchVideo = ({ movieKey = "x7Krla_UxRg", title, children }: Props) => {
         css={{ "max-width": "550px" }}
         autoMargin
       >
-        <Modal.Header autoMargin>
-          <Text id="modal-title" size={18}>
-            <Text b size={18}>
-              {title}
-            </Text>
-          </Text>
-        </Modal.Header>
+        {/*<Modal.Header autoMargin>*/}
+        {/*  <Text id="modal-title" size={18}>*/}
+        {/*    <Text b size={18}>*/}
+        {/*      {title}*/}
+        {/*    </Text>*/}
+        {/*  </Text>*/}
+        {/*</Modal.Header>*/}
         <Modal.Body autoMargin>
           <Row justify="space-between">
-            <Videoplayer url={getUrlBy(movieKey)}></Videoplayer>
+            <EchVideoplayer url={getUrlBy(movieKey)}></EchVideoplayer>
           </Row>
         </Modal.Body>
-        <Modal.Footer autoMargin>
-          <Button auto flat color="error" onClick={closeHandler}>
-            Close
-          </Button>
-          <Button auto onClick={closeHandler}>
-            Sign in
-          </Button>
-        </Modal.Footer>
+        {/*<Modal.Footer autoMargin>*/}
+        {/*  <Button auto flat color="error" onClick={closeHandler}>*/}
+        {/*    Close*/}
+        {/*  </Button>*/}
+        {/*  <Button auto onClick={closeHandler}>*/}
+        {/*    Sign in*/}
+        {/*  </Button>*/}
+        {/*</Modal.Footer>*/}
       </Modal>
     </>
   );

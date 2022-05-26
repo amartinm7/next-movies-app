@@ -1,17 +1,26 @@
 import { Button, Card, Col, Link, Row, Text } from "@nextui-org/react";
 import NextLink from "next/link";
+import EchVideo from "@/components/video";
+import { MovieVideos } from "@/components/movies/index.d";
 
-export interface EchCardDef {
+const defaultKey = "x7Krla_UxRg";
+
+export type EchCardProps = {
   id: string;
   imageSrc: string;
   title: string;
   year: string;
-}
+  videos: MovieVideos;
+};
 
-const EchCard = ({ id, imageSrc, title, year }: EchCardDef) => (
+const getVideoKey = (videos: MovieVideos) => {
+  return videos?.results[0]?.key ?? defaultKey;
+};
+
+const EchCard = ({ id, imageSrc, title, year, videos }: EchCardProps) => (
   <NextLink href={`/movies/${id}`}>
     <Link color="secondary">
-      <Card cover css={{ w: "100%", h: "max-content" }}>
+      <Card cover hoverable css={{ w: "100%", h: "max-content" }}>
         <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
           <Col>
             <Text
@@ -51,7 +60,7 @@ const EchCard = ({ id, imageSrc, title, year }: EchCardDef) => (
             </Col>
             <Col>
               <Row justify="flex-end">
-                <Button flat auto rounded color="secondary">
+                <EchVideo key={getVideoKey(videos)}>
                   <Text
                     css={{ color: "inherit" }}
                     size={12}
@@ -60,7 +69,7 @@ const EchCard = ({ id, imageSrc, title, year }: EchCardDef) => (
                   >
                     watch video
                   </Text>
-                </Button>
+                </EchVideo>
               </Row>
             </Col>
           </Row>

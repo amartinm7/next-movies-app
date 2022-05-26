@@ -35,8 +35,8 @@ const MovieDetails: NextPage = ({ data }) => {
       <Container
         as="section"
         display="flex"
-        wrap={"nowrap"}
-        justify={"space-around"}
+        wrap={"wrap"}
+        justify={"space-between"}
         direction={"row"}
       >
         <EchGrid>

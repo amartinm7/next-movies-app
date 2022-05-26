@@ -1,8 +1,7 @@
 import React from "react";
 import { Button, Modal, Row, Text } from "@nextui-org/react";
 
-const key = "x7Krla_UxRg";
-const getUrlBy = (key: string) =>
+const getUrlBy = (key: string = "x7Krla_UxRg") =>
   `https://www.youtube.com/embed/${key}?autoplay=1&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=1;allow="fullscreen;`;
 
 type EchVideoPlayerProps = {
@@ -47,7 +46,7 @@ const EchVideo = ({ movieKey = "x7Krla_UxRg", title, children }: Props) => {
 
   return (
     <>
-      <Button flat auto rounded color="secondary" onClick={handler}>
+      <Button flat auto rounded color="secondary" onClick={handler} animated>
         {children}
       </Button>
       <Modal
@@ -58,14 +57,15 @@ const EchVideo = ({ movieKey = "x7Krla_UxRg", title, children }: Props) => {
         width="auto"
         css={{ "max-width": "550px" }}
         autoMargin
+        animated
       >
-        {/*<Modal.Header autoMargin>*/}
-        {/*  <Text id="modal-title" size={18}>*/}
-        {/*    <Text b size={18}>*/}
-        {/*      {title}*/}
-        {/*    </Text>*/}
-        {/*  </Text>*/}
-        {/*</Modal.Header>*/}
+        <Modal.Header autoMargin>
+          <Text id="modal-title" size={18}>
+            <Text b size={18}>
+              {title}
+            </Text>
+          </Text>
+        </Modal.Header>
         <Modal.Body autoMargin>
           <Row justify="space-between">
             <EchVideoplayer url={getUrlBy(movieKey)}></EchVideoplayer>

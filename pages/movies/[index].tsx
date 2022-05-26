@@ -1,11 +1,13 @@
-import type { NextPage, PreviewData } from "next";
+import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "./[index].module.scss";
-import { Container, Spacer, Text } from "@nextui-org/react";
+import { Container, Link, Spacer, Text } from "@nextui-org/react";
+import NextLink from "next/link";
 import Theme from "@/components/themes/themes";
 import { EchCardMovie } from "@/components/movies";
 import { getMovieDetails } from "@/pages/api/movies/[id]";
 import EchGrid from "@/components/grid";
+import EchCardCredits from "@/components/credits/index";
 
 // @ts-ignore
 const MovieDetails: NextPage = ({ data }) => {
@@ -27,9 +29,23 @@ const MovieDetails: NextPage = ({ data }) => {
         </Text>
         <Spacer />
       </Container>
-      <EchGrid>
-        <EchCardMovie {...data}></EchCardMovie>
-      </EchGrid>
+      <NextLink href={`/`}>
+        <Link color="secondary">home</Link>
+      </NextLink>
+      <Container
+        as="section"
+        display="flex"
+        wrap={"nowrap"}
+        justify={"space-around"}
+        direction={"row"}
+      >
+        <EchGrid>
+          <EchCardMovie {...data}></EchCardMovie>
+        </EchGrid>
+        <section>
+          <EchCardCredits cast={data.credits.cast} />
+        </section>
+      </Container>
     </div>
   );
 };

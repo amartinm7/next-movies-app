@@ -10,7 +10,14 @@ type VideoPlayerProps = {
 };
 const Videoplayer = ({ url }: VideoPlayerProps) => {
   return (
-    <div style={{ width: "100%", height: "100%" }}>
+    <div
+      style={{
+        width: "100%",
+        height: "100%",
+        display: "flex",
+        justifyContent: "center",
+      }}
+    >
       <iframe
         src={url}
         frameBorder="0"
@@ -23,11 +30,12 @@ const Videoplayer = ({ url }: VideoPlayerProps) => {
 };
 
 type Props = {
-  key: string;
+  title: string;
+  movieKey: string;
   children: JSX.Element;
 };
 
-const EchVideo = ({ key = "x7Krla_UxRg", children }: Props) => {
+const EchVideo = ({ movieKey = "x7Krla_UxRg", title, children }: Props) => {
   const [visible, setVisible] = React.useState(false);
   const handler = () => setVisible(true);
 
@@ -50,20 +58,19 @@ const EchVideo = ({ key = "x7Krla_UxRg", children }: Props) => {
         css={{ "max-width": "550px" }}
         autoMargin
       >
-        <Modal.Header>
+        <Modal.Header autoMargin>
           <Text id="modal-title" size={18}>
-            Welcome to
             <Text b size={18}>
-              NextUI
+              {title}
             </Text>
           </Text>
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body autoMargin>
           <Row justify="space-between">
-            <Videoplayer url={getUrlBy(key)}></Videoplayer>
+            <Videoplayer url={getUrlBy(movieKey)}></Videoplayer>
           </Row>
         </Modal.Body>
-        <Modal.Footer>
+        <Modal.Footer autoMargin>
           <Button auto flat color="error" onClick={closeHandler}>
             Close
           </Button>

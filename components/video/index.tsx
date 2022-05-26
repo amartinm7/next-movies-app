@@ -3,7 +3,7 @@ import { Button, Modal, Row, Text } from "@nextui-org/react";
 
 const key = "x7Krla_UxRg";
 const getUrlBy = (key: string) =>
-  `https://www.youtube.com/embed/${key}?autoplay=1&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=1`;
+  `https://www.youtube.com/embed/${key}?autoplay=1&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=1;allow="fullscreen;`;
 
 type EchVideoPlayerProps = {
   url: string;
@@ -24,6 +24,7 @@ const EchVideoplayer = ({ url }: EchVideoPlayerProps) => {
         style={{ width: "480px", height: "370px" }}
         width="480px"
         height="370px"
+        allowFullScreen
       />
     </div>
   );

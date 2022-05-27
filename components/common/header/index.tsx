@@ -16,7 +16,7 @@ const EchHeader = () => {
         <div className={styles["ech-nav"]}>
           <NextLink href={`/`}>
             <Link color="secondary">
-              <Text h3>Estrenos Cine Hoy</Text>
+              <Text h2>Estrenos Cine Hoy</Text>
             </Link>
           </NextLink>
           <div className={styles["ech-nav-items"]}>

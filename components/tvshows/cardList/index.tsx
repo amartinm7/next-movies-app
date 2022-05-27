@@ -4,30 +4,30 @@ import NextLink from "next/link";
 import EchCard from "@/components/common/card/index";
 import { MovieVideos } from "@/components/common/card/index.d";
 
-interface EchCardMovieProps {
+interface EchCardTvShowProps {
   id: string;
   poster_path: string;
-  title: string;
-  release_date: string;
+  name: string;
+  first_air_date: string;
   videos: MovieVideos;
 }
 
-const EchCardMovie = ({
+const EchCardTvShow = ({
   poster_path,
-  title,
-  release_date,
+  name,
+  first_air_date,
   id,
   videos,
-}: EchCardMovieProps) => {
+}: EchCardTvShowProps) => {
   return (
-    <NextLink href={`/movies/${id}`}>
+    <NextLink href={`/tvshows/${id}`}>
       <Link color="secondary">
         <EchCard
           key={id}
           id={id}
           imageSrc={`https://image.tmdb.org/t/p/w500${poster_path}`}
-          title={title}
-          year={release_date}
+          title={name}
+          year={first_air_date}
           videos={videos}
         />
       </Link>
@@ -36,9 +36,9 @@ const EchCardMovie = ({
 };
 
 // @ts-ignore
-const EchCardMovies = ({ data }) =>
+const EchCardTvShows = ({ data }) =>
   // @ts-ignore
-  data?.results?.map((item, index) => <EchCardMovie key={index} {...item} />);
+  data?.results?.map((item, index) => <EchCardTvShow key={index} {...item} />);
 
-export { EchCardMovie };
-export default EchCardMovies;
+export { EchCardTvShow };
+export default EchCardTvShows;

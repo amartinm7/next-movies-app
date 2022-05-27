@@ -1,0 +1,328 @@
+{
+  "adult": false,
+  "backdrop_path": "/4g5gK5eGWZg8swIZl6eX2AoJp8S.jpg",
+  "created_by": [
+    {
+      "id": 1238142,
+      "credit_id": "5d29d20ebe4b36756aa15541",
+      "name": "Julio Jiménez",
+      "gender": 2,
+      "profile_path": null
+    }
+  ],
+  "episode_run_time": [
+    42
+  ],
+  "first_air_date": "2003-10-21",
+  "genres": [
+    {
+      "id": 18,
+      "name": "Drama"
+    }
+  ],
+  "homepage": "https://www.telemundo.com/shows/pasion-de-gavilanes",
+  "id": 11250,
+  "in_production": true,
+  "languages": [
+    "es"
+  ],
+  "last_air_date": "2022-05-26",
+  "last_episode_to_air": {
+    "air_date": "2022-05-26",
+    "episode_number": 68,
+    "id": 3719721,
+    "name": "",
+    "overview": "",
+    "production_code": "",
+    "runtime": null,
+    "season_number": 2,
+    "still_path": null,
+    "vote_average": 0,
+    "vote_count": 0
+  },
+  "name": "Pasión de gavilanes",
+  "next_episode_to_air": {
+    "air_date": "2022-05-27",
+    "episode_number": 69,
+    "id": 3719723,
+    "name": "",
+    "overview": "",
+    "production_code": "",
+    "runtime": null,
+    "season_number": 2,
+    "still_path": null,
+    "vote_average": 0,
+    "vote_count": 0
+  },
+  "networks": [
+    {
+      "name": "Telemundo",
+      "id": 193,
+      "logo_path": "/mieMBXx82qgY8nmnyaH0rY2D943.png",
+      "origin_country": "US"
+    }
+  ],
+  "number_of_episodes": 259,
+  "number_of_seasons": 2,
+  "origin_country": [
+    "CO"
+  ],
+  "original_language": "es",
+  "original_name": "Pasión de gavilanes",
+  "overview": "Los hermanos Reyes buscan vengar la muerte de su hermana, lo que les lleva a instalarse como trabajadores en la mansión de la familia Elizondo. El profundo odio comienza a cambiar cuando los hermanos Reyes se integran en la vida de la familia. Con lo que no cuenta Juan es con que su vida y las de sus dos hermanos se cruzará con la de las tres hermanas Elizondo, corriendo el riesgo de caer presos de su propia venganza...",
+  "popularity": 3130.723,
+  "poster_path": "/91UV7pNcDPhIzJl7EuK36sK5vRG.jpg",
+  "production_companies": [],
+  "production_countries": [],
+  "seasons": [
+    {
+      "air_date": "2003-10-21",
+      "episode_count": 188,
+      "id": 72643,
+      "name": "Temporada 1",
+      "overview": "Los hermanos Reyes (Juan, Óscar y Franco) juran vengar la muerte de su hermana, lo que les lleva a instalarse como trabajadores en la mansión de la familia Elizondo. El profundo odio comienza a cambiar cuando los hermanos Reyes se integran en la vida de la familia. Con lo que no cuenta Juan es con que su vida y las de sus dos hermanos se cruzará con la de las tres hermanas Elizondo, corriendo el riesgo de caer presos de su propia venganza...",
+      "poster_path": "/elrDXqvMIX3EcExwCenQMVVmnvd.jpg",
+      "season_number": 1
+    },
+    {
+      "air_date": "2022-02-14",
+      "episode_count": 71,
+      "id": 217607,
+      "name": "Temporada 2",
+      "overview": "Ahora 20 años después, los gavilanes se verán obligados a enfrentar nuevos desafíos que atentan contra su familia. Un trágico crimen que involucra la muerte de un profesor sacude a la familia, ya que la evidencia apunta a los hijos de una de las parejas como posibles culpables, desencadenando una serie de sucesos desgarradores que, nuevamente, pondrá a prueba su amor y lealtad...",
+      "poster_path": "/lWlsZIsrGVWHtBeoOeLxIKDd9uy.jpg",
+      "season_number": 2,
+      "networks": [
+        {
+          "id": 193,
+          "logo": {
+            "path": "/mieMBXx82qgY8nmnyaH0rY2D943.png",
+            "aspect_ratio": 5.494505494505495
+          },
+          "name": "Telemundo",
+          "origin_country": "US"
+        }
+      ]
+    }
+  ],
+  "spoken_languages": [
+    {
+      "english_name": "Spanish",
+      "iso_639_1": "es",
+      "name": "Español"
+    }
+  ],
+  "status": "Returning Series",
+  "tagline": "",
+  "type": "Scripted",
+  "vote_average": 7.6,
+  "vote_count": 1806,
+  "videos": {
+    "results": []
+  },
+  "images": {
+    "backdrops": [],
+    "logos": [],
+    "posters": []
+  },
+  "credits": {
+    "cast": [
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 86039,
+        "known_for_department": "Acting",
+        "name": "Mario Cimarro",
+        "original_name": "Mario Cimarro",
+        "popularity": 15.035,
+        "profile_path": "/ATRS6h9uF35XvBUZ2NJifXDfYI.jpg",
+        "character": "Juan Reyes",
+        "credit_id": "566c1094c3a3683f560077bb",
+        "order": 0
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 950564,
+        "known_for_department": "Acting",
+        "name": "Danna García",
+        "original_name": "Danna García",
+        "popularity": 6.317,
+        "profile_path": "/9fxIwr5v3Uy6iv4brRgVx85ciT.jpg",
+        "character": "Norma Elizondo",
+        "credit_id": "566c10b5c3a368535a00811c",
+        "order": 1
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 1241666,
+        "known_for_department": "Acting",
+        "name": "Juan A. Baptista",
+        "original_name": "Juan A. Baptista",
+        "popularity": 1.182,
+        "profile_path": "/nXlaqQWT7nzLYhoE08VAJBX5XJ6.jpg",
+        "character": "Oscar Reyes",
+        "credit_id": "5d24c51a69d2802add023e5e",
+        "order": 2
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1233727,
+        "known_for_department": "Acting",
+        "name": "Paola Rey",
+        "original_name": "Paola Rey",
+        "popularity": 2.256,
+        "profile_path": "/qMsKx95vJsOE0RtzzP0jIdkZpxX.jpg",
+        "character": "Jimena Elizondo",
+        "credit_id": "566c10cec3a3682e9800789d",
+        "order": 3
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 85560,
+        "known_for_department": "Acting",
+        "name": "Michel Brown",
+        "original_name": "Michel Brown",
+        "popularity": 7.13,
+        "profile_path": "/4a4KLHBaDbB8MHDCqOsKMfBqxDR.jpg",
+        "character": "Franco Reyes",
+        "credit_id": "620a1f831cac8c0067787c4e",
+        "order": 4
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1233726,
+        "known_for_department": "Acting",
+        "name": "Natasha Klauss",
+        "original_name": "Natasha Klauss",
+        "popularity": 4.28,
+        "profile_path": "/gdhHVVDdOUK9RgmWrckbUGK9SOg.jpg",
+        "character": "Sarita Elizondo",
+        "credit_id": "566c1103c3a368535a008131",
+        "order": 5
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 1238062,
+        "known_for_department": "Acting",
+        "name": "Kristina Lilley",
+        "original_name": "Kristina Lilley",
+        "popularity": 6.354,
+        "profile_path": "/nYzCZ6JJPgwGIWgjbDOhe7DDloq.jpg",
+        "character": "Gabriela de Elizondo",
+        "credit_id": "566c112c92514150010028a7",
+        "order": 6
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2216981,
+        "known_for_department": "Acting",
+        "name": "Zharick León",
+        "original_name": "Zharick León",
+        "popularity": 2.823,
+        "profile_path": "/uGqNm3Gwq0rSYIgZOYU3dSPaAPk.jpg",
+        "character": "Rosario Montes",
+        "credit_id": "620ce70a5cea18006aa4a420",
+        "order": 8
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3429184,
+        "known_for_department": "Acting",
+        "name": "Sebastián Osorio",
+        "original_name": "Sebastián Osorio",
+        "popularity": 0.6,
+        "profile_path": "/ih8oznWyTJy3rYfu0pJkyq4bs07.jpg",
+        "character": "Erick Reyes Elizondo",
+        "credit_id": "620cea610dea6e00442f1ae6",
+        "order": 19
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 3429185,
+        "known_for_department": "Acting",
+        "name": "Juan Manuel Restrepo",
+        "original_name": "Juan Manuel Restrepo",
+        "popularity": 0.6,
+        "profile_path": "/6NmtU4AC0KJjHr0YPUZvwI9Cjqm.jpg",
+        "character": "León Reyes Elizondo",
+        "credit_id": "620cea8b77b1fb001bbaf0a5",
+        "order": 20
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 3429187,
+        "known_for_department": "Acting",
+        "name": "Camila Rojas",
+        "original_name": "Camila Rojas",
+        "popularity": 1.38,
+        "profile_path": "/bbhYMn0472fn1qUXdBPulqbNqZv.jpg",
+        "character": "Muriel Caballero",
+        "credit_id": "620ceacd0dea6e001c8110e0",
+        "order": 22
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 2131609,
+        "known_for_department": "Acting",
+        "name": "Bernardo Flores",
+        "original_name": "Bernardo Flores",
+        "popularity": 1.094,
+        "profile_path": "/nwI2kr8RHCIfVreKJdF6eRTpzhW.jpg",
+        "character": "Juan David Reyes Elizondo",
+        "credit_id": "620cea28fd4f8000437902b1",
+        "order": 500
+      },
+      {
+        "adult": false,
+        "gender": 2,
+        "id": 942038,
+        "known_for_department": "Acting",
+        "name": "Sergio Goyri",
+        "original_name": "Sergio Goyri",
+        "popularity": 3.351,
+        "profile_path": "/f1w7DytvwaCbKRaoOysdTgUFNDM.jpg",
+        "character": "Samuel Caballero",
+        "credit_id": "620ceab55cea180043ddde36",
+        "order": 500
+      },
+      {
+        "adult": false,
+        "gender": 1,
+        "id": 2492975,
+        "known_for_department": "Acting",
+        "name": "Yare Santana",
+        "original_name": "Yare Santana",
+        "popularity": 10.223,
+        "profile_path": "/9E6uEr23wEU3Ww2GbKk9Mu5Rnhf.jpg",
+        "character": "Gaby Reyes Elizondo",
+        "credit_id": "620ceaf8d94035004243b05f",
+        "order": 500
+      },
+      {
+        "adult": false,
+        "gender": 0,
+        "id": 1255926,
+        "known_for_department": "Acting",
+        "name": "Germán Quintero",
+        "original_name": "Germán Quintero",
+        "popularity": 1.695,
+        "profile_path": "/qcul62js0fj4LsB3wgNAzM68pVn.jpg",
+        "character": "Martín Acevedo",
+        "credit_id": "620ceb17d94035001b78cbbf",
+        "order": 500
+      }
+    ],
+    "crew": []
+  }
+}

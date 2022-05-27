@@ -1,0 +1,29 @@
+import { {{useCase}}Repository } from './infrastructure/repository/{{useCase}}Repository'
+import { {{useCase}}Service } from './application/{{useCase}}Service'
+import { {{useCase}}UseCase } from './infrastructure/usecase/{{useCase}}UseCase'
+/* eslint-disable camelcase, no-console */
+class {{useCase}}Provider {
+  constructor(container) {
+    container.service(
+      '{{instanceUseCase}}Repository',
+      (container) =>
+        new {{useCase}}Repository(container.configuration.toJSON())
+    )
+    container.service(
+      '{{instanceUseCase}}Service',
+      (container) =>
+        new {{useCase}}Service({
+          {{instanceUseCase}}Repository: container.{{instanceUseCase}}Repository
+        })
+    )
+    container.service(
+      '{{instanceUseCase}}UseCase',
+      (container) =>
+        new {{useCase}}UseCase({
+          {{instanceUseCase}}Service: container.{{instanceUseCase}}Service
+        })
+    )
+  }
+}
+
+export default {{useCase}}Provider

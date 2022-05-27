@@ -1,0 +1,20 @@
+/* eslint-disable camelcase, no-console */
+class {{useCase}}Repository {
+  constructor({ axios, axiosRequest }) {
+    this._axios = axios;
+    this._axiosRequest = axiosRequest;
+  }
+
+  /**
+   * Get {{instanceUseCase}}
+   * @param {{instanceUseCase}}RepositoryRequest
+   * @returns {*}
+   */
+  async execute({language = 'es-ES', movie_id = '0'}) {
+    const urlPath = `/tv/${movie_id}?language=${language}&append_to_response=videos,images,credits`
+    const response = await this._axios(this._axiosRequest.getRequest(urlPath));
+    return response;
+  }
+}
+
+export { {{useCase}}Repository }

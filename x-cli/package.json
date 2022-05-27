@@ -1,0 +1,31 @@
+{
+  "name": "xxcli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "say-me-cms": "bin/x-cli.js"
+  },
+  "scripts": {
+    "cli": "node index.js",
+    "test": "jest"
+  },
+  "author": "amartinm7@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "shelljs": "^0.8.3",
+    "stream-replace": "^1.0.0",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/preset-env": "^7.12.7",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3",
+    "lodash.camelcase": "^4.3.0",
+    "lodash.intersection": "^4.4.0",
+    "lodash.isempty": "^4.4.0"
+  }
+}

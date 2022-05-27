@@ -1,0 +1,12 @@
+/* eslint-disable camelcase, no-console */
+class {{useCase}}UseCase {
+  constructor({ {{instanceUseCase}}Service }) {
+    this._{{instanceUseCase}}Service = {{instanceUseCase}}Service
+  }
+
+  async execute() {
+    return await this._{{instanceUseCase}}Service.execute()
+  }
+}
+
+export { {{useCase}}UseCase }

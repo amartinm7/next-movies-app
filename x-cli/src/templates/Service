@@ -1,0 +1,12 @@
+/* eslint-disable camelcase, no-console */
+class {{useCase}}Service {
+  constructor({ {{instanceUseCase}}Repository }) {
+    this._{{instanceUseCase}}Repository = {{instanceUseCase}}Repository
+  }
+
+  async execute({{instanceUseCase}}ServiceRequest) {
+    return await this._{{instanceUseCase}}Repository.execute()
+  }
+}
+
+export { {{useCase}}Service }

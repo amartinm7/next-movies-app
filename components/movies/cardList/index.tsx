@@ -1,6 +1,6 @@
 // @ts-ignore
 import EchCard from "./card";
-import { MovieVideos } from "@/components/movies/index.d";
+import { MovieVideos } from "./index.d";
 
 interface EchCardMovieProps {
   id: string;

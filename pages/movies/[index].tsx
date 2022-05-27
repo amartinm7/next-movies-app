@@ -3,9 +3,9 @@ import Head from "next/head";
 import styles from "./[index].module.scss";
 import { Container, Link, Spacer, Text } from "@nextui-org/react";
 import NextLink from "next/link";
-import { EchCardMovie } from "@/components/movies";
+import { EchCardMovie } from "@/components/movies/cardList/index";
 import { getMovieDetails } from "@/pages/api/movies/[id]";
-import EchCardCredits from "@/components/credits/index";
+import EchCardCredits from "@/components/movies/credits";
 import EchTheme from "@/components/themes/index";
 
 // @ts-ignore

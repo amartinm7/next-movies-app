@@ -1,11 +1,11 @@
 // @ts-ignore
-import { MovieCredit, MovieCredits } from "@/components/credits/index.d";
-import { Col, Row, Table, Text, User } from "@nextui-org/react";
+import { MovieCredit, MovieCredits } from "./index.d";
+import { Table, User } from "@nextui-org/react";
 
 const getURL = (key: string) => `https://image.tmdb.org/t/p/w500/${key}`;
 
 const EchCardCredits = (credits: MovieCredits) => {
-  const columns = [{ name: "NAME", uid: "name" }];
+  const columns = [{ name: "ACTORS", uid: "name" }];
 
   const filteredCredits = credits.cast.filter((user) => user.profile_path);
 

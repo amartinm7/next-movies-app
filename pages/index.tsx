@@ -2,7 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "./index.module.scss";
 import { Container, Link, Spacer, Text } from "@nextui-org/react";
-import EchCardMovies from "@/components/movies";
+import EchCardMovies from "@/components/movies/cardList/index";
 import { getTrending } from "@/pages/api/trending/[...index]";
 import EchGrid from "@/components/grid";
 import NextLink from "next/link";

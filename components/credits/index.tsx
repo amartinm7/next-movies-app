@@ -17,6 +17,7 @@ const EchCardCredits = (credits: MovieCredits) => {
         minWidth: "100%",
       }}
       selectionMode="none"
+      bordered
     >
       <Table.Header columns={columns}>
         {(column) => (

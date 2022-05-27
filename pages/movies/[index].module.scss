@@ -7,4 +7,10 @@
   align-content: space-evenly;
   flex-direction: row;
   flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.section-overview {
+  max-width: 20rem;
+  width: 100%;
 }

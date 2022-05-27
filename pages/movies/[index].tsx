@@ -6,7 +6,6 @@ import NextLink from "next/link";
 import Theme from "@/components/themes/themes";
 import { EchCardMovie } from "@/components/movies";
 import { getMovieDetails } from "@/pages/api/movies/[id]";
-import EchGrid from "@/components/grid";
 import EchCardCredits from "@/components/credits/index";
 
 // @ts-ignore
@@ -24,11 +23,11 @@ const MovieDetails: NextPage = ({ data }) => {
       <Container as="main" display="inline">
         <Spacer />
         <Theme />
-        <Text h1 className={styles.title}>
-          Estrenos Cine Hoy
-        </Text>
+        <Text h1>Estrenos Cine Hoy</Text>
         <Spacer />
       </Container>
+      <Text h3>{data.title}</Text>
+      <Text h4>{`"${data.tagline}"`}</Text>
       <NextLink href={`/`}>
         <Link color="secondary">home</Link>
       </NextLink>
@@ -36,10 +35,15 @@ const MovieDetails: NextPage = ({ data }) => {
         <section>
           <EchCardMovie {...data}></EchCardMovie>
         </section>
+        <section className={styles["section-overview"]}>
+          <Text h5>{`"Overview"`}</Text>
+          <Text h6>{data.overview}</Text>
+        </section>
         <section>
           <EchCardCredits cast={data.credits.cast} />
         </section>
       </section>
+      <Spacer />
     </div>
   );
 };

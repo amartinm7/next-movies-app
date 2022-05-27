@@ -1,4 +1,4 @@
-import styles from "./index.module.css";
+import styles from "./index.module.scss";
 
 // @ts-ignore
 const EchGrid = ({ children }) => {

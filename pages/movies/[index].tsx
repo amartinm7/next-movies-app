@@ -1,12 +1,11 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "./[index].module.scss";
-import { Container, Link, Spacer, Text } from "@nextui-org/react";
-import NextLink from "next/link";
+import { Container, Spacer, Text } from "@nextui-org/react";
 import { EchCardMovie } from "@/components/movies/cardList/index";
 import { getMovieDetails } from "@/pages/api/movies/[id]";
 import EchCardCredits from "@/components/movies/credits";
-import EchTheme from "@/components/common/themes/index";
+import EchHeader from "@/components/common/header";
 
 // @ts-ignore
 const MovieDetails: NextPage = ({ data }) => {
@@ -21,19 +20,7 @@ const MovieDetails: NextPage = ({ data }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Spacer />
-      <Container
-        as="main"
-        display={"flex"}
-        alignContent={"space-between"}
-        justify={"space-between"}
-      >
-        <NextLink href={`/`}>
-          <Link color="secondary">
-            <Text h2>Estrenos Cine Hoy</Text>
-          </Link>
-        </NextLink>
-        <EchTheme />
-      </Container>
+      <EchHeader />
       <Spacer />
       <Container as="section">
         <Text h1>{data.title}</Text>

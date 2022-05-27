@@ -1,11 +1,10 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "./[index].module.scss";
-import { Container, Link, Spacer, Text } from "@nextui-org/react";
-import NextLink from "next/link";
-import EchTheme from "@/components/common/themes/index";
+import { Container, Spacer, Text } from "@nextui-org/react";
 import { EchCardTvShow } from "@/components/tvshows/cardList";
 import { getTvShowDetails } from "@/pages/api/tvshows/[id]";
+import EchHeader from "@/components/common/header";
 
 // @ts-ignore
 const TvShowDetails: NextPage = ({ data }) => {
@@ -20,19 +19,7 @@ const TvShowDetails: NextPage = ({ data }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Spacer />
-      <Container
-        as="main"
-        display={"flex"}
-        alignContent={"space-between"}
-        justify={"space-between"}
-      >
-        <NextLink href={`/`}>
-          <Link color="secondary">
-            <Text h2>Estrenos Cine Hoy</Text>
-          </Link>
-        </NextLink>
-        <EchTheme />
-      </Container>
+      <EchHeader />
       <Spacer />
       <Container as="section">
         <Text h1>{data.name}</Text>

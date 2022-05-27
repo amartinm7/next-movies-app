@@ -1,12 +1,11 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "./index.module.scss";
-import { Container, Link, Spacer, Text } from "@nextui-org/react";
+import { Container, Spacer, Text } from "@nextui-org/react";
 import EchCardMovies from "@/components/movies/cardList/index";
-import { getTrending } from "@/pages/api/trending/[...index]";
 import EchGrid from "@/components/common/grid";
-import NextLink from "next/link";
-import EchTheme from "@/components/common/themes/index";
+import { getTrending } from "@/pages/api/trending/[...index]";
+import EchHeader from "@/components/common/header";
 
 // @ts-ignore
 const EchHome: NextPage = ({ data }) => {
@@ -21,19 +20,7 @@ const EchHome: NextPage = ({ data }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Spacer />
-      <Container
-        as="main"
-        display={"flex"}
-        alignContent={"space-between"}
-        justify={"space-between"}
-      >
-        <NextLink href={`/`}>
-          <Link color="secondary">
-            <Text h2>Estrenos Cine Hoy</Text>
-          </Link>
-        </NextLink>
-        <EchTheme />
-      </Container>
+      <EchHeader />
       <Spacer />
       <Container as="section">
         <Text h1>Trending Movies</Text>
@@ -49,10 +36,12 @@ const EchHome: NextPage = ({ data }) => {
 };
 
 // @ts-ignore
-export const getServerSideProps: GetServerSideProps<Context<string>> = async (
+export const getServerSideProps: GetServerSideProps = async ({
   // @ts-ignore
-  context
-) => {
+  params,
+  // @ts-ignore
+  query,
+}) => {
   const trendingMovies = await getTrending({
     resource: "movies",
     period: "week",

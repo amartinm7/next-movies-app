@@ -1,0 +1,14 @@
+.ech-nav{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  flex-wrap: wrap;
+  &-items{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    gap: 1rem;
+  }
+}

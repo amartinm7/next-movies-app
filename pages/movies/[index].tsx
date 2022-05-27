@@ -3,10 +3,10 @@ import Head from "next/head";
 import styles from "./[index].module.scss";
 import { Container, Link, Spacer, Text } from "@nextui-org/react";
 import NextLink from "next/link";
-import Theme from "@/components/themes/themes";
 import { EchCardMovie } from "@/components/movies";
 import { getMovieDetails } from "@/pages/api/movies/[id]";
 import EchCardCredits from "@/components/credits/index";
+import Theme from "@/components/themes/themes";
 
 // @ts-ignore
 const MovieDetails: NextPage = ({ data }) => {
@@ -20,31 +20,41 @@ const MovieDetails: NextPage = ({ data }) => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Container as="main" display="inline">
+      <Container as="main">
         <Spacer />
         <Theme />
         <NextLink href={`/`}>
           <Link color="secondary">
-            <Text h1>Estrenos Cine Hoy</Text>
+            <Text h1>Estrenos Cine</Text>
           </Link>
         </NextLink>
         <Spacer />
       </Container>
-      <Text h3>{data.title}</Text>
-      <Text h4>{`"${data.tagline}"`}</Text>
-      <Spacer />
-      <section className={styles["section-flex"]}>
-        <section>
+      <Container as="section">
+        <Text h4>{data.title}</Text>
+        <Text h5>{`"${data.tagline}"`}</Text>
+        <Spacer />
+      </Container>
+      <Container
+        as="section"
+        display={"flex"}
+        alignContent={"space-between"}
+        justify={"space-evenly"}
+        responsive={true}
+      >
+        <section className={styles["section-overview"]}>
           <EchCardMovie {...data}></EchCardMovie>
         </section>
+        <Spacer />
         <section className={styles["section-overview"]}>
           <Text h5>{`"Overview"`}</Text>
           <Text h6>{data.overview}</Text>
         </section>
+        <Spacer />
         <section className={styles["section-credits"]}>
           <EchCardCredits cast={data.credits.cast} />
         </section>
-      </section>
+      </Container>
       <Spacer />
     </div>
   );

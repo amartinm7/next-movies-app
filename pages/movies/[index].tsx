@@ -6,7 +6,7 @@ import NextLink from "next/link";
 import { EchCardMovie } from "@/components/movies";
 import { getMovieDetails } from "@/pages/api/movies/[id]";
 import EchCardCredits from "@/components/credits/index";
-import Theme from "@/components/themes/themes";
+import EchTheme from "@/components/themes/index";
 
 // @ts-ignore
 const MovieDetails: NextPage = ({ data }) => {
@@ -20,19 +20,24 @@ const MovieDetails: NextPage = ({ data }) => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Container as="main">
-        <Spacer />
-        <Theme />
+      <Spacer />
+      <Container
+        as="main"
+        display={"flex"}
+        alignContent={"space-between"}
+        justify={"space-between"}
+      >
         <NextLink href={`/`}>
           <Link color="secondary">
-            <Text h1>Estrenos Cine</Text>
+            <Text h2>Estrenos Cine Hoy</Text>
           </Link>
         </NextLink>
-        <Spacer />
+        <EchTheme />
       </Container>
+      <Spacer />
       <Container as="section">
-        <Text h4>{data.title}</Text>
-        <Text h5>{`"${data.tagline}"`}</Text>
+        <Text h1>{data.title}</Text>
+        <Text h5>{data.tagline && `"${data.tagline}"`}</Text>
         <Spacer />
       </Container>
       <Container

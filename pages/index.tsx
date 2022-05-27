@@ -1,11 +1,12 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "./index.module.scss";
-import { Container, Spacer, Text } from "@nextui-org/react";
-import Theme from "@/components/themes/themes";
+import { Container, Link, Spacer, Text } from "@nextui-org/react";
 import EchCardMovies from "@/components/movies";
 import { getTrending } from "@/pages/api/trending/[...index]";
 import EchGrid from "@/components/grid";
+import NextLink from "next/link";
+import EchTheme from "@/components/themes/index";
 
 // @ts-ignore
 const EchHome: NextPage = ({ data }) => {
@@ -19,17 +20,30 @@ const EchHome: NextPage = ({ data }) => {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Container as="main" display="inline">
-        <Spacer />
-        <Theme />
-        <Text h1 className={styles.title}>
-          Estrenos Cine Hoy
-        </Text>
+      <Spacer />
+      <Container
+        as="main"
+        display={"flex"}
+        alignContent={"space-between"}
+        justify={"space-between"}
+      >
+        <NextLink href={`/`}>
+          <Link color="secondary">
+            <Text h2>Estrenos Cine Hoy</Text>
+          </Link>
+        </NextLink>
+        <EchTheme />
+      </Container>
+      <Spacer />
+      <Container as="section">
+        <Text h1>Trending Movies</Text>
         <Spacer />
       </Container>
-      <EchGrid>
-        <EchCardMovies data={data}></EchCardMovies>
-      </EchGrid>
+      <Container as="section">
+        <EchGrid>
+          <EchCardMovies data={data}></EchCardMovies>
+        </EchGrid>
+      </Container>
     </div>
   );
 };

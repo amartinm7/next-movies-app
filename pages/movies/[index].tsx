@@ -41,7 +41,7 @@ const MovieDetails: NextPage = ({ data }) => {
           <Text h5>{`"Overview"`}</Text>
           <Text h6>{data.overview}</Text>
         </section>
-        <section>
+        <section className={styles["section-credits"]}>
           <EchCardCredits cast={data.credits.cast} />
         </section>
       </section>

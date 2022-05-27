@@ -37,7 +37,11 @@ const EchCardCredits = (credits: MovieCredits) => {
                 css={{ p: 0 }}
                 size="xl"
               >
-                {`as ${user.character}`}
+                {`as ${
+                  user.character.length > 30
+                    ? user.character.substring(0, 30)
+                    : user.character
+                }`}
               </User>
             </Table.Cell>
           </Table.Row>

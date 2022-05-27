@@ -1,21 +1,41 @@
 import EchHeader from "@/components/common/header";
 import EchFooter from "@/components/common/footer";
 import styles from "./index.module.scss";
-import { Spacer } from "@nextui-org/react";
+import { createTheme, NextUIProvider, Spacer } from "@nextui-org/react";
+import { ThemeProvider as NextThemesProvider } from "next-themes";
 
-interface EchMainLayout {
+const lightTheme = createTheme({
+  type: "light",
+});
+
+const darkTheme = createTheme({
+  type: "dark",
+});
+
+interface EchMainLayoutProps {
   children?: React.ReactNode;
 }
 
-const EchMainLayout = ({ children }: EchMainLayout) => {
+const EchMainLayout = ({ children }: EchMainLayoutProps) => {
   return (
     <>
-      <div className={styles["container"]}>
-        <EchHeader />
-        <Spacer />
-        <main>{children}</main>
-        <EchFooter />
-      </div>
+      <NextThemesProvider
+        defaultTheme="system"
+        attribute="class"
+        value={{
+          light: lightTheme.className,
+          dark: darkTheme.className,
+        }}
+      >
+        <NextUIProvider>
+          <div className={styles["container"]}>
+            <EchHeader />
+            <Spacer />
+            <main>{children}</main>
+            <EchFooter />
+          </div>
+        </NextUIProvider>
+      </NextThemesProvider>
     </>
   );
 };

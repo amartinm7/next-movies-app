@@ -30,6 +30,11 @@ const EchHeader = () => {
                 <Text h6>TvShows On the Air</Text>
               </Link>
             </NextLink>
+            <NextLink href={`/people/popular`}>
+              <Link color="secondary">
+                <Text h6>Popular People</Text>
+              </Link>
+            </NextLink>
           </div>
         </div>
         <EchTheme />

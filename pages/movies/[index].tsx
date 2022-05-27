@@ -6,7 +6,7 @@ import NextLink from "next/link";
 import { EchCardMovie } from "@/components/movies/cardList/index";
 import { getMovieDetails } from "@/pages/api/movies/[id]";
 import EchCardCredits from "@/components/movies/credits";
-import EchTheme from "@/components/themes/index";
+import EchTheme from "@/components/common/themes/index";
 
 // @ts-ignore
 const MovieDetails: NextPage = ({ data }) => {

@@ -1,6 +1,6 @@
 import { Button, Card, Col, Link, Row, Text } from "@nextui-org/react";
 import NextLink from "next/link";
-import EchVideo from "@/components/video";
+import EchVideo from "@/components/common/video";
 import { MovieVideos } from "../index.d";
 
 const defaultKey = "x7Krla_UxRg";

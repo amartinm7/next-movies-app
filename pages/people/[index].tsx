@@ -1,12 +1,13 @@
 import type { NextPage } from "next";
 import styles from "./[index].module.scss";
-import { Container, Spacer } from "@nextui-org/react";
+import { Container, Spacer, Text } from "@nextui-org/react";
 import EchHead from "@/components/common/metaInfo/head";
 import { ReactElement } from "react";
 import EchMainLayout from "@/components/layouts";
 import TitleText from "@/components/common/titleText";
 import { getPeopleDetails } from "@/pages/api/people/[id]";
 import { EchCardPerson } from "@/components/people/cardList";
+import EchCardCredits from "@/components/common/credits";
 
 // @ts-ignore
 const EchPeopleDetails: NextPage = ({ data }) => {
@@ -29,15 +30,15 @@ const EchPeopleDetails: NextPage = ({ data }) => {
           <section className={styles["section-overview"]}>
             <EchCardPerson {...data}></EchCardPerson>
           </section>
-          {/*<Spacer />*/}
-          {/*<section className={styles["section-overview"]}>*/}
-          {/*  <Text h5>{`"Overview"`}</Text>*/}
-          {/*  <Text h6>{data.overview}</Text>*/}
-          {/*</section>*/}
-          {/*<Spacer />*/}
-          {/*<section className={styles["section-credits"]}>*/}
-          {/*  <EchCardCredits cast={data.credits.cast} />*/}
-          {/*</section>*/}
+          <Spacer />
+          <section className={styles["section-overview"]}>
+            <Text h5>{`"Biography"`}</Text>
+            <Text h6>{data.biography}</Text>
+          </section>
+          <Spacer />
+          <section className={styles["section-credits"]}>
+            {/*<EchCardCredits cast={data.credits.cast} />*/}
+          </section>
         </Container>
         <Spacer />
       </div>

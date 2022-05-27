@@ -1,5 +1,5 @@
 import styles from "./index.module.scss";
-import { Container, Link, Spacer, Text } from "@nextui-org/react";
+import { Container, Link, Text } from "@nextui-org/react";
 import NextLink from "next/link";
 import EchTheme from "@/components/common/themes";
 

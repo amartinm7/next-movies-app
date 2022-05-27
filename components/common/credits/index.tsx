@@ -1,6 +1,7 @@
 // @ts-ignore
 import { PeopleCredit, PeopleCredits } from "./index.d";
-import { Table, User } from "@nextui-org/react";
+import { Link, Table, User } from "@nextui-org/react";
+import NextLink from "next/link";
 
 const getURL = (key: string) => `https://image.tmdb.org/t/p/w500/${key}`;
 
@@ -30,19 +31,23 @@ const EchCardCredits = (credits: PeopleCredits) => {
         {(user: PeopleCredit) => (
           <Table.Row>
             <Table.Cell>
-              <User
-                squared
-                src={getURL(user.profile_path)}
-                name={user.name}
-                css={{ p: 0 }}
-                size="xl"
-              >
-                {`as ${
-                  user.character.length > 30
-                    ? user.character.substring(0, 30)
-                    : user.character
-                }`}
-              </User>
+              <NextLink href={`/people/${user.id}`}>
+                <Link color="secondary">
+                  <User
+                    squared
+                    src={getURL(user.profile_path)}
+                    name={user.name}
+                    css={{ p: 0 }}
+                    size="xl"
+                  >
+                    {`as ${
+                      user.character.length > 30
+                        ? user.character.substring(0, 30)
+                        : user.character
+                    }`}
+                  </User>
+                </Link>
+              </NextLink>
             </Table.Cell>
           </Table.Row>
         )}

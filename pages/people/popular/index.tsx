@@ -1,9 +1,7 @@
 import type { NextPage } from "next";
 import styles from "./index.module.scss";
-import { Container, Spacer, Text } from "@nextui-org/react";
-import { getTvShowsOnTheAir } from "@/pages/api/tvshows/ontheair";
+import { Container, Spacer } from "@nextui-org/react";
 import EchGrid from "@/components/common/grid";
-import EchCardTvShows from "@/components/tvshows/cardList/index";
 import EchHead from "@/components/common/metaInfo/head";
 import { ReactElement } from "react";
 import EchMainLayout from "@/components/layouts";

@@ -6,6 +6,7 @@ import { getTvShowDetails } from "@/pages/api/tvshows/[id]";
 import EchHead from "@/components/common/metaInfo/head";
 import { ReactElement } from "react";
 import EchMainLayout from "@/components/layouts";
+import TitleText from "@/components/common/titleText";
 
 // @ts-ignore
 const EchTvShowDetails: NextPage = ({ data }) => {
@@ -14,7 +15,7 @@ const EchTvShowDetails: NextPage = ({ data }) => {
       <EchHead title={data.name} description={data.name} />
       <div className={styles.container}>
         <Container as="section">
-          <Text h1>{data.name}</Text>
+          <TitleText title={data.name} />
           <Text h5>{data.tagline && `"${data.tagline}"`}</Text>
           <Spacer />
         </Container>

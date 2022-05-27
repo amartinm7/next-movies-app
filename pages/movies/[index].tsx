@@ -7,6 +7,7 @@ import EchCardCredits from "@/components/movies/credits";
 import EchHead from "@/components/common/metaInfo/head";
 import { ReactElement } from "react";
 import EchMainLayout from "@/components/layouts";
+import TitleText from "@/components/common/titleText";
 
 // @ts-ignore
 const EchMovieDetails: NextPage = ({ data }) => {
@@ -15,7 +16,7 @@ const EchMovieDetails: NextPage = ({ data }) => {
       <EchHead title={data.title} description={data.title} />
       <div className={styles.container}>
         <Container as="section">
-          <Text h1>{data.title}</Text>
+          <TitleText title={data.title} />
           <Text h5>{data.tagline && `"${data.tagline}"`}</Text>
           <Spacer />
         </Container>

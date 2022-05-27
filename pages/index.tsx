@@ -6,6 +6,7 @@ import { getTrending } from "@/pages/api/trending/[...index]";
 import EchHead from "@/components/common/metaInfo/head";
 import EchMainLayout from "@/components/layouts";
 import { ReactElement } from "react";
+import TitleText from "@/components/common/titleText";
 
 // @ts-ignore
 const EchHome: NextPage = ({ data }) => {
@@ -14,7 +15,7 @@ const EchHome: NextPage = ({ data }) => {
       <EchHead title={"Trending Movies"} description={"Trending Movies"} />
       <div>
         <Container as="section">
-          <Text h1>Trending Movies</Text>
+          <TitleText title={"Trending Movies"} />
           <Spacer />
         </Container>
         <Container as="section">

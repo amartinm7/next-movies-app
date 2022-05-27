@@ -7,6 +7,7 @@ import EchCardTvShows from "@/components/tvshows/cardList/index";
 import EchHead from "@/components/common/metaInfo/head";
 import { ReactElement } from "react";
 import EchMainLayout from "@/components/layouts";
+import TitleText from "@/components/common/titleText";
 
 // @ts-ignore
 const EchTvShowsOnTheAir: NextPage = ({ data }) => {
@@ -15,7 +16,7 @@ const EchTvShowsOnTheAir: NextPage = ({ data }) => {
       <EchHead title={"TvShow On the Air"} description={"TvShow On the Air"} />
       <div className={styles.container}>
         <Container as="section">
-          <Text h1>On the Air TvShows</Text>
+          <TitleText title={"TvShow On the Air"} />
           <Spacer />
         </Container>
         <Container as="section">

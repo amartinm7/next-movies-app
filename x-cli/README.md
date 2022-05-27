@@ -17,6 +17,7 @@ say-me-cms create GetLastest
  node index.js create GetLastest
  node index.js create GetAiringToday
  node index.js create GetTvShowDetails
+ node index.js create GetPeopleDetails
 ```
 ```$bash
  npm run cli create -- GetLastest

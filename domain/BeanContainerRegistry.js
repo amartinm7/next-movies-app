@@ -6,6 +6,7 @@ import { GetTrendingProvider } from "@/domain/contexts/trending/getTrending/GetT
 import { GetMovieDetailsProvider } from "@/domain/contexts/movies/getMovieDetails/GetMovieDetailsProvider";
 import GetAiringTodayProvider from "@/domain/contexts/tvshows/getAiringToday/GetAiringTodayProvider";
 import GetTvShowDetailsProvider from "@/domain/contexts/tvshows/getTvShowDetails/GetTvShowDetailsProvider";
+import GetPeopleDetailsProvider from "@/domain/contexts/people/getPeopleDetails/GetPeopleDetailsProvider";
 
 class BeanContainerRegistry {
   constructor() {
@@ -17,6 +18,7 @@ class BeanContainerRegistry {
     new GetMovieDetailsProvider(this._beanContainer);
     new GetAiringTodayProvider(this._beanContainer);
     new GetTvShowDetailsProvider(this._beanContainer);
+    new GetPeopleDetailsProvider(this._beanContainer);
   }
 
   getBeanContainer() {

@@ -23,14 +23,16 @@ const MovieDetails: NextPage = ({ data }) => {
       <Container as="main" display="inline">
         <Spacer />
         <Theme />
-        <Text h1>Estrenos Cine Hoy</Text>
+        <NextLink href={`/`}>
+          <Link color="secondary">
+            <Text h1>Estrenos Cine Hoy</Text>
+          </Link>
+        </NextLink>
         <Spacer />
       </Container>
       <Text h3>{data.title}</Text>
       <Text h4>{`"${data.tagline}"`}</Text>
-      <NextLink href={`/`}>
-        <Link color="secondary">home</Link>
-      </NextLink>
+      <Spacer />
       <section className={styles["section-flex"]}>
         <section>
           <EchCardMovie {...data}></EchCardMovie>

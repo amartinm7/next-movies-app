@@ -16,23 +16,23 @@ const EchHeader = () => {
         <div className={styles["ech-nav"]}>
           <NextLink href={`/`}>
             <Link color="secondary">
-              <Text h2>Estrenos Cine Hoy</Text>
+              <Text h3>Estrenos Cine Hoy</Text>
             </Link>
           </NextLink>
           <div className={styles["ech-nav-items"]}>
             <NextLink href={`/`}>
               <Link color="secondary">
-                <Text h6>Trending</Text>
+                <Text h6>Movies</Text>
               </Link>
             </NextLink>
             <NextLink href={`/tvshows/onTheAir`}>
               <Link color="secondary">
-                <Text h6>TvShows On the Air</Text>
+                <Text h6>TvShows</Text>
               </Link>
             </NextLink>
             <NextLink href={`/people/popular`}>
               <Link color="secondary">
-                <Text h6>Popular People</Text>
+                <Text h6>People</Text>
               </Link>
             </NextLink>
           </div>

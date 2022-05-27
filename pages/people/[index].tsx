@@ -30,11 +30,15 @@ const EchPeopleDetails: NextPage = ({ data }) => {
             <EchCardPerson {...data}></EchCardPerson>
           </section>
           <Spacer />
-          <section className={styles["section-overview"]}>
-            <Text h5>{`"Biography"`}</Text>
-            <Text h6>{data.biography}</Text>
-          </section>
-          <Spacer />
+          {data.biography && (
+            <>
+              <section className={styles["section-overview"]}>
+                <Text h5>{`"Biography"`}</Text>
+                <Text h6>{data.biography}</Text>
+              </section>
+              <Spacer />
+            </>
+          )}
           <section className={styles["section-credits"]}>
             {/*<EchCardCredits cast={data.credits.cast} />*/}
           </section>

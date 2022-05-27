@@ -7,6 +7,7 @@ import EchHead from "@/components/common/metaInfo/head";
 import { ReactElement } from "react";
 import EchMainLayout from "@/components/layouts";
 import TitleText from "@/components/common/titleText";
+import EchCardCredits from "@/components/common/credits/index";
 
 // @ts-ignore
 const EchTvShowDetails: NextPage = ({ data }) => {
@@ -35,9 +36,9 @@ const EchTvShowDetails: NextPage = ({ data }) => {
             <Text h6>{data.overview}</Text>
           </section>
           <Spacer />
-          {/*<section className={styles["section-credits"]}>*/}
-          {/*  <EchCardCredits cast={data.credits.cast} />*/}
-          {/*</section>*/}
+          <section className={styles["section-credits"]}>
+            <EchCardCredits cast={data.credits.cast} />
+          </section>
         </Container>
         <Spacer />
       </div>

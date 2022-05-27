@@ -3,7 +3,7 @@ import styles from "./[index].module.scss";
 import { Container, Spacer, Text } from "@nextui-org/react";
 import { EchCardMovie } from "@/components/movies/cardList/index";
 import { getMovieDetails } from "@/pages/api/movies/[id]";
-import EchCardCredits from "@/components/movies/credits";
+import EchCardCredits from "@/components/common/credits/index";
 import EchHead from "@/components/common/metaInfo/head";
 import { ReactElement } from "react";
 import EchMainLayout from "@/components/layouts";

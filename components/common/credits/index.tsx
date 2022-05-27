@@ -1,17 +1,17 @@
 // @ts-ignore
-import { MovieCredit, MovieCredits } from "./index.d";
+import { PeopleCredit, PeopleCredits } from "./index.d";
 import { Table, User } from "@nextui-org/react";
 
 const getURL = (key: string) => `https://image.tmdb.org/t/p/w500/${key}`;
 
-const EchCardCredits = (credits: MovieCredits) => {
+const EchCardCredits = (credits: PeopleCredits) => {
   const columns = [{ name: "ACTORS", uid: "name" }];
 
   const filteredCredits = credits.cast.filter((user) => user.profile_path);
 
   return (
     <Table
-      aria-label="Example table with custom cells"
+      aria-label="Main Characters"
       css={{
         height: "auto",
         minWidth: "100%",
@@ -27,7 +27,7 @@ const EchCardCredits = (credits: MovieCredits) => {
         )}
       </Table.Header>
       <Table.Body items={filteredCredits}>
-        {(user: MovieCredit) => (
+        {(user: PeopleCredit) => (
           <Table.Row>
             <Table.Cell>
               <User

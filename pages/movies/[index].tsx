@@ -32,20 +32,14 @@ const MovieDetails: NextPage = ({ data }) => {
       <NextLink href={`/`}>
         <Link color="secondary">home</Link>
       </NextLink>
-      <Container
-        as="section"
-        display="flex"
-        wrap={"wrap"}
-        justify={"space-between"}
-        direction={"row"}
-      >
-        <EchGrid>
+      <section className={styles["section-flex"]}>
+        <section>
           <EchCardMovie {...data}></EchCardMovie>
-        </EchGrid>
+        </section>
         <section>
           <EchCardCredits cast={data.credits.cast} />
         </section>
-      </Container>
+      </section>
     </div>
   );
 };

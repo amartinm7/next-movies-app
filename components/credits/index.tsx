@@ -42,6 +42,13 @@ const EchCardCredits = (credits: MovieCredits) => {
           </Table.Row>
         )}
       </Table.Body>
+      <Table.Pagination
+        shadow
+        noMargin
+        align="center"
+        rowsPerPage={5}
+        onPageChange={(page) => console.log({ page })}
+      />
     </Table>
   );
 };

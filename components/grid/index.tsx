@@ -1,4 +1,3 @@
-import { NextPage } from "next";
 import styles from "./index.module.css";
 
 // @ts-ignore

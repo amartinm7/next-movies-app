@@ -9,7 +9,6 @@ import EchGrid from "@/components/grid";
 
 // @ts-ignore
 const EchHome: NextPage = ({ data }) => {
-  debugger;
   return (
     <div className={styles.container}>
       <Head>

@@ -2,6 +2,7 @@ import EchHeader from "@/components/common/header";
 import EchFooter from "@/components/common/footer";
 import { createTheme, NextUIProvider, Spacer } from "@nextui-org/react";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
+import React from "react";
 
 const lightTheme = createTheme({
   type: "light",

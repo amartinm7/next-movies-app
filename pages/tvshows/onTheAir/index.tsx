@@ -1,36 +1,28 @@
 import type { NextPage } from "next";
-import { Container, Spacer } from "@nextui-org/react";
+import { Spacer } from "@nextui-org/react";
 import { getTvShowsOnTheAir } from "@/pages/api/tvshows/ontheair";
 import EchGrid from "@/components/common/grid";
 import EchCardTvShows from "@/components/tvshows/cardList/index";
 import EchHead from "@/components/common/metaInfo/head";
 import { ReactElement } from "react";
 import EchMainLayout from "@/components/layouts";
-import TitleText from "@/components/common/titleText";
+import EchMainContainer from "@/components/common/container/main/index";
+import EchTitleContainer from "@/components/common/container/title";
 
 // @ts-ignore
 const EchTvShowsOnTheAir: NextPage = ({ data }) => {
+  const title = "TvShow On the Air";
   return (
     <>
-      <EchHead title={"TvShow On the Air"} description={"TvShow On the Air"} />
+      <EchHead title={title} description={title} />
       <div className="container">
-        <Container as="section">
-          <TitleText title={"TvShow On the Air"} />
-          <Spacer />
-        </Container>
-        <Container
-          as="section"
-          display={"flex"}
-          alignContent={"space-between"}
-          justify={"space-between"}
-          responsive={true}
-          css={{ gap: "1.5rem" }}
-        >
+        <EchTitleContainer title={title}></EchTitleContainer>
+        <EchMainContainer>
           <EchGrid>
             <EchCardTvShows data={data}></EchCardTvShows>
             <Spacer />
           </EchGrid>
-        </Container>
+        </EchMainContainer>
       </div>
     </>
   );

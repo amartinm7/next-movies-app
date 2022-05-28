@@ -1,13 +1,13 @@
 import type { NextPage } from "next";
-import { Container, Spacer, Text } from "@nextui-org/react";
+import { Spacer, Text } from "@nextui-org/react";
 import { EchCardMovie } from "@/components/movies/cardList/index";
 import { getMovieDetails } from "@/pages/api/movies/[id]";
 import EchCardCredits from "@/components/common/credits/index";
 import EchHead from "@/components/common/metaInfo/head";
 import { ReactElement } from "react";
 import EchMainLayout from "@/components/layouts";
-import TitleText from "@/components/common/titleText";
-import EchGrid from "@/components/common/grid";
+import EchMainContainer from "@/components/common/container/main/index";
+import EchTitleContainer from "@/components/common/container/title";
 
 // @ts-ignore
 const EchMovieDetails: NextPage = ({ data }) => {
@@ -15,19 +15,11 @@ const EchMovieDetails: NextPage = ({ data }) => {
     <>
       <EchHead title={data.title} description={data.title} />
       <div className="container">
-        <Container as="section">
-          <TitleText title={data.title} />
-          <Text h5>{data.tagline && `"${data.tagline}"`}</Text>
-          <Spacer />
-        </Container>
-        <Container
-          as="section"
-          display={"flex"}
-          alignContent={"space-between"}
-          justify={"space-between"}
-          responsive={true}
-          css={{ gap: "1.5rem" }}
-        >
+        <EchTitleContainer
+          title={data.title}
+          tagline={data.tagline}
+        ></EchTitleContainer>
+        <EchMainContainer>
           <section className="section-flex-item">
             <EchCardMovie {...data}></EchCardMovie>
           </section>
@@ -48,7 +40,7 @@ const EchMovieDetails: NextPage = ({ data }) => {
               />
             </section>
           )}
-        </Container>
+        </EchMainContainer>
         <Spacer />
       </div>
     </>

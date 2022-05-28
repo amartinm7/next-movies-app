@@ -29,13 +29,17 @@ const EchVideoplayer = ({ url }: EchVideoPlayerProps) => {
   );
 };
 
-type Props = {
+type EchVideoProps = {
   title: string;
   movieKey: string;
-  children: JSX.Element;
+  children?: React.ReactNode;
 };
 
-const EchVideo = ({ movieKey = "x7Krla_UxRg", title, children }: Props) => {
+const EchVideo = ({
+  movieKey = "x7Krla_UxRg",
+  title,
+  children,
+}: EchVideoProps) => {
   const [visible, setVisible] = React.useState(false);
   const handler = () => setVisible(true);
 

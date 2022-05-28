@@ -1,36 +1,28 @@
 import type { NextPage } from "next";
-import { Container, Spacer } from "@nextui-org/react";
+import { Spacer } from "@nextui-org/react";
 import EchHead from "@/components/common/metaInfo/head";
 import { ReactElement } from "react";
 import EchMainLayout from "@/components/layouts";
-import TitleText from "@/components/common/titleText";
 import { getPopularPeople } from "@/pages/api/people/popular";
 import EchCardPeople from "@/components/people/cardList";
 import EchGrid from "@/components/common/grid";
+import EchMainContainer from "@/components/common/container/main/index";
+import EchTitleContainer from "@/components/common/container/title";
 
 // @ts-ignore
 const EchPopularPeople: NextPage = ({ data }) => {
+  const title = "Popular People";
   return (
     <>
-      <EchHead title={"Popular People"} description={"Popular People"} />
+      <EchHead title={title} description={title} />
       <div className="container">
-        <Container as="section">
-          <TitleText title={"Popular People"} />
-          <Spacer />
-        </Container>
-        <Container
-          as="section"
-          display={"flex"}
-          alignContent={"space-between"}
-          justify={"space-between"}
-          responsive={true}
-          css={{ gap: "1.5rem" }}
-        >
+        <EchTitleContainer title={title}></EchTitleContainer>
+        <EchMainContainer>
           <EchGrid>
             <EchCardPeople data={data}></EchCardPeople>
             <Spacer />
           </EchGrid>
-        </Container>
+        </EchMainContainer>
       </div>
     </>
   );

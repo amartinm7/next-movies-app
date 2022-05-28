@@ -1,12 +1,13 @@
 import type { NextPage } from "next";
-import { Container, Spacer, Text } from "@nextui-org/react";
+import { Spacer, Text } from "@nextui-org/react";
 import { EchCardTvShow } from "@/components/tvshows/cardList";
 import { getTvShowDetails } from "@/pages/api/tvshows/[id]";
 import EchHead from "@/components/common/metaInfo/head";
 import { ReactElement } from "react";
 import EchMainLayout from "@/components/layouts";
-import TitleText from "@/components/common/titleText";
 import EchCardCredits from "@/components/common/credits/index";
+import EchMainContainer from "@/components/common/container/main/index";
+import EchTitleContainer from "@/components/common/container/title";
 
 // @ts-ignore
 const EchTvShowDetails: NextPage = ({ data }) => {
@@ -14,19 +15,11 @@ const EchTvShowDetails: NextPage = ({ data }) => {
     <>
       <EchHead title={data.name} description={data.name} />
       <div className="container">
-        <Container as="section">
-          <TitleText title={data.name} />
-          <Text h5>{data.tagline && `"${data.tagline}"`}</Text>
-          <Spacer />
-        </Container>
-        <Container
-          as="section"
-          display={"flex"}
-          alignContent={"space-between"}
-          justify={"space-between"}
-          responsive={true}
-          css={{ gap: "1.5rem" }}
-        >
+        <EchTitleContainer
+          title={data.name}
+          tagline={data.tagline}
+        ></EchTitleContainer>
+        <EchMainContainer>
           <section className="section-flex-item">
             <EchCardTvShow {...data}></EchCardTvShow>
           </section>
@@ -49,7 +42,7 @@ const EchTvShowDetails: NextPage = ({ data }) => {
               />
             </section>
           )}
-        </Container>
+        </EchMainContainer>
         <Spacer />
       </div>
     </>

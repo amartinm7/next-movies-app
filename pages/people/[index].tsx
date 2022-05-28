@@ -27,7 +27,7 @@ const EchPeopleDetails: NextPage = ({ data }) => {
               </section>
             </>
           )}
-          {data.movie_credits && (
+          {data.movie_credits?.cast?.length > 0 && (
             <>
               <section className="section-flex-item">
                 <EchCardCredits
@@ -38,7 +38,7 @@ const EchPeopleDetails: NextPage = ({ data }) => {
               </section>
             </>
           )}
-          {data.tv_credits && (
+          {data.tv_credits?.cast?.length > 0 && (
             <>
               <section className="section-flex-item">
                 <EchCardCredits

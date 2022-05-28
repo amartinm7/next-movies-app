@@ -50,11 +50,12 @@ const EchCardCredits = ({
                     css={{ p: 0 }}
                     size="xl"
                   >
-                    {`as ${
-                      user.character.length > 30
-                        ? user.character.substring(0, 30)
-                        : user.character
-                    }`}
+                    {user.character &&
+                      `as ${
+                        user.character?.length > 30
+                          ? user.character.substring(0, 30)
+                          : user.character
+                      }`}
                   </User>
                 </Link>
               </NextLink>

@@ -15,7 +15,7 @@ const EchHome: NextPage = ({ data }) => {
   return (
     <>
       <EchHead title={title} description={title} />
-      <div>
+      <div className="container">
         <EchTitleContainer title={title}></EchTitleContainer>
         <EchMainContainer>
           <EchGrid>

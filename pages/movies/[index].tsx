@@ -31,7 +31,7 @@ const EchMovieDetails: NextPage = ({ data }) => {
               </section>
             </>
           )}
-          {data.credits && (
+          {data.credits?.cast?.length > 0 && (
             <section className="section-flex-item">
               <EchCardCredits
                 credits={data.credits}

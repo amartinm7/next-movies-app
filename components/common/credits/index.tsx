@@ -5,14 +5,24 @@ import NextLink from "next/link";
 
 const getURL = (key: string) => `https://image.tmdb.org/t/p/w500/${key}`;
 
-const EchCardCredits = (credits: PeopleCredits) => {
-  const columns = [{ name: "ACTORS", uid: "name" }];
+interface EchCardCreditsProps {
+  credits: PeopleCredits;
+  contextPath: string;
+  labelColumn: string;
+}
 
-  const filteredCredits = credits.cast.filter((user) => user.profile_path);
-
+const EchCardCredits = ({
+  credits,
+  contextPath,
+  labelColumn,
+}: EchCardCreditsProps) => {
+  const columns = [{ name: labelColumn, uid: "name" }];
+  const filteredCredits = credits.cast.filter(
+    (user) => user.profile_path || user.poster_path
+  );
   return (
     <Table
-      aria-label="Main Characters"
+      aria-label={labelColumn}
       css={{
         height: "auto",
         minWidth: "100%",
@@ -31,12 +41,12 @@ const EchCardCredits = (credits: PeopleCredits) => {
         {(user: PeopleCredit) => (
           <Table.Row>
             <Table.Cell>
-              <NextLink href={`/people/${user.id}`}>
+              <NextLink href={`/${contextPath}/${user.id}`}>
                 <Link color="secondary">
                   <User
                     squared
-                    src={getURL(user.profile_path)}
-                    name={user.name}
+                    src={getURL(user.profile_path || user.poster_path)}
+                    name={user.name || user.title}
                     css={{ p: 0 }}
                     size="xl"
                   >

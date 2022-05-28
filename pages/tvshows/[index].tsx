@@ -40,9 +40,15 @@ const EchTvShowDetails: NextPage = ({ data }) => {
               <Spacer />
             </>
           )}
-          <section className={styles["section-credits"]}>
-            <EchCardCredits cast={data.credits.cast} />
-          </section>
+          {data.credits && (
+            <section className={styles["section-credits"]}>
+              <EchCardCredits
+                credits={data.credits}
+                contextPath="people"
+                labelColumn="ACTORS"
+              />
+            </section>
+          )}
         </Container>
         <Spacer />
       </div>

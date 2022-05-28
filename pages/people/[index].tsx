@@ -7,6 +7,7 @@ import EchMainLayout from "@/components/layouts";
 import TitleText from "@/components/common/titleText";
 import { getPeopleDetails } from "@/pages/api/people/[id]";
 import { EchCardPerson } from "@/components/people/cardList";
+import EchCardCredits from "@/components/common/credits";
 
 // @ts-ignore
 const EchPeopleDetails: NextPage = ({ data }) => {
@@ -39,9 +40,30 @@ const EchPeopleDetails: NextPage = ({ data }) => {
               <Spacer />
             </>
           )}
-          <section className={styles["section-credits"]}>
-            {/*<EchCardCredits cast={data.credits.cast} />*/}
-          </section>
+          {data.movie_credits && (
+            <>
+              <section className={styles["section-credits"]}>
+                <EchCardCredits
+                  credits={data.movie_credits}
+                  contextPath="movies"
+                  labelColumn="MOVIES"
+                />
+              </section>
+              <Spacer />
+            </>
+          )}
+          {data.tv_credits && (
+            <>
+              <section className={styles["section-credits"]}>
+                <EchCardCredits
+                  credits={data.tv_credits}
+                  contextPath="tvshows"
+                  labelColumn="TVSHOWS"
+                />
+              </section>
+              <Spacer />
+            </>
+          )}
         </Container>
         <Spacer />
       </div>

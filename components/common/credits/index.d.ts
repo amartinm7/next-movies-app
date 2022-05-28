@@ -3,6 +3,8 @@ interface PeopleCredit {
   name: string;
   profile_path: string;
   character: string;
+  title: string;
+  poster_path: string;
 }
 
 interface PeopleCredits {

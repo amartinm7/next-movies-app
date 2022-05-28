@@ -1,6 +1,5 @@
 import EchHeader from "@/components/common/header";
 import EchFooter from "@/components/common/footer";
-import styles from "./index.module.scss";
 import { createTheme, NextUIProvider, Spacer } from "@nextui-org/react";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
 
@@ -28,7 +27,7 @@ const EchMainLayout = ({ children }: EchMainLayoutProps) => {
         }}
       >
         <NextUIProvider>
-          <div className={styles["container"]}>
+          <div className="container">
             <EchHeader />
             <Spacer />
             <main>{children}</main>

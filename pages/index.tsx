@@ -1,5 +1,5 @@
 import type { NextPage } from "next";
-import { Container, Spacer, Text } from "@nextui-org/react";
+import { Container, Spacer } from "@nextui-org/react";
 import EchCardMovies from "@/components/movies/cardList/index";
 import EchGrid from "@/components/common/grid";
 import { getTrending } from "@/pages/api/trending/[...index]";
@@ -18,10 +18,18 @@ const EchHome: NextPage = ({ data }) => {
           <TitleText title={"Trending Movies"} />
           <Spacer />
         </Container>
-        <Container as="section">
+        <Container
+          as="section"
+          display={"flex"}
+          alignContent={"space-between"}
+          justify={"space-between"}
+          responsive={true}
+          css={{ gap: "1.5rem" }}
+        >
           <EchGrid>
             <EchCardMovies data={data}></EchCardMovies>
           </EchGrid>
+          <Spacer />
         </Container>
       </div>
     </>

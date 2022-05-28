@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
-import styles from "./index.module.scss";
-import { Container, Spacer, Text } from "@nextui-org/react";
+import { Container, Spacer } from "@nextui-org/react";
 import { getTvShowsOnTheAir } from "@/pages/api/tvshows/ontheair";
 import EchGrid from "@/components/common/grid";
 import EchCardTvShows from "@/components/tvshows/cardList/index";
@@ -14,14 +13,22 @@ const EchTvShowsOnTheAir: NextPage = ({ data }) => {
   return (
     <>
       <EchHead title={"TvShow On the Air"} description={"TvShow On the Air"} />
-      <div className={styles.container}>
+      <div className="container">
         <Container as="section">
           <TitleText title={"TvShow On the Air"} />
           <Spacer />
         </Container>
-        <Container as="section">
+        <Container
+          as="section"
+          display={"flex"}
+          alignContent={"space-between"}
+          justify={"space-between"}
+          responsive={true}
+          css={{ gap: "1.5rem" }}
+        >
           <EchGrid>
             <EchCardTvShows data={data}></EchCardTvShows>
+            <Spacer />
           </EchGrid>
         </Container>
       </div>

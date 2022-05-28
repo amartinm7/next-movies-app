@@ -3,3 +3,21 @@
 .title {
   font-size: 1.5rem;
 }
+
+.container {
+  padding: 1.25rem 0;
+}
+
+.section-flex {
+  display: flex;
+  align-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.section-flex-item {
+  width: 100%;
+  max-width: 22rem;
+  text-align: justify;
+}

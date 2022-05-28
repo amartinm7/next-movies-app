@@ -1,5 +1,4 @@
 import type { NextPage } from "next";
-import styles from "./[index].module.scss";
 import { Container, Spacer, Text } from "@nextui-org/react";
 import { EchCardMovie } from "@/components/movies/cardList/index";
 import { getMovieDetails } from "@/pages/api/movies/[id]";
@@ -8,13 +7,14 @@ import EchHead from "@/components/common/metaInfo/head";
 import { ReactElement } from "react";
 import EchMainLayout from "@/components/layouts";
 import TitleText from "@/components/common/titleText";
+import EchGrid from "@/components/common/grid";
 
 // @ts-ignore
 const EchMovieDetails: NextPage = ({ data }) => {
   return (
     <>
       <EchHead title={data.title} description={data.title} />
-      <div className={styles.container}>
+      <div className="container">
         <Container as="section">
           <TitleText title={data.title} />
           <Text h5>{data.tagline && `"${data.tagline}"`}</Text>
@@ -24,24 +24,23 @@ const EchMovieDetails: NextPage = ({ data }) => {
           as="section"
           display={"flex"}
           alignContent={"space-between"}
-          justify={"space-evenly"}
+          justify={"space-between"}
           responsive={true}
+          css={{ gap: "1.5rem" }}
         >
-          <section className={styles["section-overview"]}>
+          <section className="section-flex-item">
             <EchCardMovie {...data}></EchCardMovie>
           </section>
-          <Spacer />
           {data.overview && (
             <>
-              <section className={styles["section-overview"]}>
+              <section className="section-flex-item">
                 <Text h5>{`"Overview"`}</Text>
                 <Text h6>{data.overview}</Text>
               </section>
-              <Spacer />
             </>
           )}
           {data.credits && (
-            <section className={styles["section-credits"]}>
+            <section className="section-flex-item">
               <EchCardCredits
                 credits={data.credits}
                 contextPath="people"

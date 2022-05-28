@@ -1,5 +1,4 @@
 import type { NextPage } from "next";
-import styles from "./[index].module.scss";
 import { Container, Spacer, Text } from "@nextui-org/react";
 import { EchCardTvShow } from "@/components/tvshows/cardList";
 import { getTvShowDetails } from "@/pages/api/tvshows/[id]";
@@ -14,7 +13,7 @@ const EchTvShowDetails: NextPage = ({ data }) => {
   return (
     <>
       <EchHead title={data.name} description={data.name} />
-      <div className={styles.container}>
+      <div className="container">
         <Container as="section">
           <TitleText title={data.name} />
           <Text h5>{data.tagline && `"${data.tagline}"`}</Text>
@@ -24,16 +23,17 @@ const EchTvShowDetails: NextPage = ({ data }) => {
           as="section"
           display={"flex"}
           alignContent={"space-between"}
-          justify={"space-evenly"}
+          justify={"space-between"}
           responsive={true}
+          css={{ gap: "1.5rem" }}
         >
-          <section className={styles["section-overview"]}>
+          <section className="section-flex-item">
             <EchCardTvShow {...data}></EchCardTvShow>
           </section>
           <Spacer />
           {data.overview && (
             <>
-              <section className={styles["section-overview"]}>
+              <section className="section-flex-item">
                 <Text h5>{`"Overview"`}</Text>
                 <Text h6>{data.overview}</Text>
               </section>
@@ -41,7 +41,7 @@ const EchTvShowDetails: NextPage = ({ data }) => {
             </>
           )}
           {data.credits && (
-            <section className={styles["section-credits"]}>
+            <section className="section-flex-item">
               <EchCardCredits
                 credits={data.credits}
                 contextPath="people"

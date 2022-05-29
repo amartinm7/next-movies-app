@@ -1,4 +1,5 @@
 @use './variables';
+@import './animations.scss';
 
 .title {
   font-size: 1.5rem;
@@ -21,3 +22,21 @@
   max-width: 22rem;
   text-align: justify;
 }
+
+.ech-lang-globe-icon {
+  background: url('/boxed-icons-2.1.2/globe.svg');
+  height: 24px;
+  width: 24px;
+  display: block;
+
+  &:hover {
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+
+  &-dark {
+    color: #aeaeae;
+    opacity: .75;
+  }
+}
+

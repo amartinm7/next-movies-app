@@ -27,7 +27,9 @@ const EchCardPerson = ({
         <EchCard
           key={id}
           id={id}
-          imageSrc={`https://image.tmdb.org/t/p/w500${profile_path}`}
+          imageSrc={
+            profile_path && `https://image.tmdb.org/t/p/w500${profile_path}`
+          }
           title={name}
           year={birthday}
           videos={defaultMovieVideos}

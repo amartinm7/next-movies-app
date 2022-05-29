@@ -25,7 +25,9 @@ const EchCardMovie = ({
         <EchCard
           key={id}
           id={id}
-          imageSrc={`https://image.tmdb.org/t/p/w500${poster_path}`}
+          imageSrc={
+            poster_path && `https://image.tmdb.org/t/p/w500${poster_path}`
+          }
           title={title}
           year={release_date}
           videos={videos}

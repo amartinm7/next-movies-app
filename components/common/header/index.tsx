@@ -2,6 +2,7 @@ import styles from "./index.module.scss";
 import { Container, Link, Text } from "@nextui-org/react";
 import NextLink from "next/link";
 import EchTheme from "@/components/common/themes";
+import EchLanguage from "@/components/common/language";
 
 // @ts-ignore
 const EchHeader = () => {
@@ -37,6 +38,7 @@ const EchHeader = () => {
             </NextLink>
           </div>
         </div>
+        <EchLanguage />
         <EchTheme />
       </Container>
     </>

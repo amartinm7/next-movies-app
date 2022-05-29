@@ -25,7 +25,9 @@ const EchCardTvShow = ({
         <EchCard
           key={id}
           id={id}
-          imageSrc={`https://image.tmdb.org/t/p/w500${poster_path}`}
+          imageSrc={
+            poster_path && `https://image.tmdb.org/t/p/w500${poster_path}`
+          }
           title={name}
           year={first_air_date}
           videos={videos}

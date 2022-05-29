@@ -1,46 +1,37 @@
-import React from "react";
 import { Button, Modal, Row, Text } from "@nextui-org/react";
+import React, { useState } from "react";
+import styles from "./index.module.scss";
 
-const getUrlBy = (key: string = "x7Krla_UxRg") =>
-  `https://www.youtube.com/embed/${key}?autoplay=1&amp;showinfo=0&amp;rel=0&amp;modestbranding=1&amp;playsinline=1;allow="fullscreen;`;
+const EchLanguage = () => {
+  // const { language, setLanguage } = useState("es-ES");
 
-type EchVideoPlayerProps = {
-  url: string;
-};
-const EchVideoplayer = ({ url }: EchVideoPlayerProps) => {
   return (
-    <div
-      style={{
-        width: "100%",
-        height: "100%",
-        display: "flex",
-        justifyContent: "center",
-      }}
-    >
-      <iframe
-        src={url}
-        frameBorder="0"
-        style={{ width: "480px", height: "370px" }}
-        width="480px"
-        height="370px"
-        allowFullScreen
-      />
+    <div className="container">
+      <ul>
+        <li>
+          <i className="ech-lang-globe-icon" />
+        </li>
+        <li>
+          <i className={styles["ech-lang-globe-icon"]} />
+        </li>
+        <li>
+          <i className={styles["ech-lang-globe-icon"]} />
+        </li>
+        <li>
+          <i className={styles["ech-lang-globe-icon"]} />
+        </li>
+      </ul>
     </div>
   );
 };
 
-type EchVideoProps = {
+interface EchLanguageModalProps {
   title: string;
-  movieKey: string;
   children?: React.ReactNode;
-};
+}
 
-const EchVideo = ({
-  movieKey = "x7Krla_UxRg",
-  title,
-  children,
-}: EchVideoProps) => {
-  const [visible, setVisible] = React.useState(false);
+const EchLanguageModal = ({ title, children }: EchLanguageModalProps) => {
+  const [visible, setVisible] = useState(false);
   const handler = () => setVisible(true);
 
   const closeHandler = () => {
@@ -70,9 +61,7 @@ const EchVideo = ({
           </Text>
         </Modal.Header>
         <Modal.Body autoMargin>
-          <Row justify="space-between">
-            <EchVideoplayer url={getUrlBy(movieKey)}></EchVideoplayer>
-          </Row>
+          <Row justify="space-between">{children}</Row>
         </Modal.Body>
         {/*<Modal.Footer autoMargin>*/}
         {/*  <Button auto flat color="error" onClick={closeHandler}>*/}
@@ -87,4 +76,4 @@ const EchVideo = ({
   );
 };
 
-export default EchVideo;
+export default EchLanguage;

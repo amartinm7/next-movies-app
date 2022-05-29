@@ -6,16 +6,23 @@ const defaultKey = "x7Krla_UxRg";
 
 export type EchCardProps = {
   id: string;
-  imageSrc: string;
+  imageSrc?: string;
   title: string;
   year: string;
   videos: MovieVideos;
 };
 
+const defaultImage = "/isolated-layout.svg";
 const getVideoKey = (videos: MovieVideos) =>
   videos?.results[0]?.key ?? defaultKey;
 
-const EchCard = ({ id, imageSrc, title, year, videos }: EchCardProps) => {
+const EchCard = ({
+  id,
+  imageSrc = defaultImage,
+  title,
+  year,
+  videos,
+}: EchCardProps) => {
   return (
     <Card cover hoverable css={{ w: "100%", h: "max-content" }}>
       <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
@@ -43,10 +50,10 @@ const EchCard = ({ id, imageSrc, title, year, videos }: EchCardProps) => {
       >
         <Row>
           <Col>
-            <Text color="#000" size={12}>
+            <Text color="#000" size={12} weight={"bold"}>
               {year}
             </Text>
-            <Text color="#000" size={12}>
+            <Text color="#000" size={12} weight={"bold"}>
               {title?.length > 20 ? `${title?.substring(0, 20)}...` : title}
             </Text>
           </Col>

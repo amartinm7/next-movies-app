@@ -26,7 +26,6 @@ const EchHome: NextPage = ({ data }) => {
   const tvShows = data?.results?.filter((item) => item.media_type === "tv");
   // @ts-ignore
   const people = data?.results?.filter((item) => item.media_type === "person");
-  debugger;
   return (
     <>
       <EchHead title={title} description={title} />

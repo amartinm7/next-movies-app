@@ -1,6 +1,10 @@
 @use './variables';
 @import './animations.scss';
 
+:root {
+  fill: blue;
+}
+
 .title {
   font-size: 1.5rem;
 }
@@ -30,13 +34,31 @@
   display: block;
 
   &:hover {
-    -webkit-animation: spin 2s linear infinite;
-    animation: spin 2s linear infinite;
+    transform: scale(0.8);
   }
 
   &-dark {
-    color: #aeaeae;
+    filter: invert(71%) sepia(98%) saturate(1284%) hue-rotate(164deg) brightness(100%) contrast(103%);
+    // color: #aeaeae;
     opacity: .75;
   }
 }
 
+.ech-searcher-icon {
+  background: url('/boxed-icons-2.1.2/search-alt-2.svg');
+  height: 24px;
+  width: 24px;
+  display: block;
+  // filter: invert(71%) sepia(98%) saturate(1284%) hue-rotate(164deg) brightness(100%) contrast(103%);
+
+  &:hover {
+    transform: scale(0.8);
+  }
+
+  &-dark {
+    // filter: invert(90%) sepia(93%) saturate(636%) hue-rotate(338deg) brightness(112%) contrast(102%);
+    filter: invert(71%) sepia(98%) saturate(1284%) hue-rotate(164deg) brightness(100%) contrast(103%);
+    //color: #aeaeae ;
+    opacity: 0.75;
+  }
+}

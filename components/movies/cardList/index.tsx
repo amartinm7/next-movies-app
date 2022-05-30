@@ -40,7 +40,11 @@ const EchCardMovie = ({
 // @ts-ignore
 const EchCardMovies = ({ data }) =>
   // @ts-ignore
-  data?.results?.map((item, index) => <EchCardMovie key={index} {...item} />);
+  data?.results
+    // @ts-ignore
+    ?.filter((item) => item.poster_path && item.title)
+    // @ts-ignore
+    .map((item, index) => <EchCardMovie key={index} {...item} />);
 
 export { EchCardMovie };
 export default EchCardMovies;

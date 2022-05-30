@@ -8,6 +8,7 @@ import GetAiringTodayProvider from "@/domain/contexts/tvshows/getAiringToday/Get
 import GetTvShowDetailsProvider from "@/domain/contexts/tvshows/getTvShowDetails/GetTvShowDetailsProvider";
 import GetPeopleDetailsProvider from "@/domain/contexts/people/getPeopleDetails/GetPeopleDetailsProvider";
 import GetPopularPeopleProvider from "@/domain/contexts/people/getPopularPeople/GetPopularPeopleProvider";
+import SearchMultiEntitiesProvider from "@/domain/contexts/search/searchMultiEntities/SearchMultiEntitiesProvider";
 
 class BeanContainerRegistry {
   constructor() {
@@ -21,6 +22,7 @@ class BeanContainerRegistry {
     new GetTvShowDetailsProvider(this._beanContainer);
     new GetPeopleDetailsProvider(this._beanContainer);
     new GetPopularPeopleProvider(this._beanContainer);
+    new SearchMultiEntitiesProvider(this._beanContainer);
   }
 
   getBeanContainer() {

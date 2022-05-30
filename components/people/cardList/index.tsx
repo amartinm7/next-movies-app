@@ -42,7 +42,11 @@ const EchCardPerson = ({
 // @ts-ignore
 const EchCardPeople = ({ data }) =>
   // @ts-ignore
-  data?.results?.map((item, index) => <EchCardPerson key={index} {...item} />);
+  data?.results
+    // @ts-ignore
+    ?.filter((item) => item.profile_path && item.name)
+    // @ts-ignore
+    ?.map((item, index) => <EchCardPerson key={index} {...item} />);
 
 export { EchCardPerson };
 export default EchCardPeople;

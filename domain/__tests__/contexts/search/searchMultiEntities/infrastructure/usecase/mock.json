@@ -1,0 +1,565 @@
+{
+  "page": 1,
+  "results": [
+    {
+      "backdrop_path": null,
+      "first_air_date": "1992-11-08",
+      "genre_ids": [
+        18
+      ],
+      "id": 23540,
+      "media_type": "tv",
+      "name": "Sinatra",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Sinatra",
+      "overview": "Sinatra is a 1992 CBS miniseries biography and drama, starring Philip Casnoff as singer Frank Sinatra, developed and executive produced by Frank's youngest daughter Tina Sinatra.",
+      "popularity": 2.391,
+      "poster_path": "/x9f8W01WGQX7oCeu7WdQjrzA2EH.jpg",
+      "vote_average": 8.3,
+      "vote_count": 4
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        10749,
+        878
+      ],
+      "id": 979363,
+      "media_type": "movie",
+      "original_language": "en",
+      "original_title": "Sinatra Blue",
+      "overview": "After a recent breakup, Noah uses his ex's old iPod to travel back in time to try and fix his relationship.",
+      "popularity": 3.267,
+      "poster_path": "/q120E3JLlCMTGHyNF9CfHHCDRfw.jpg",
+      "release_date": "2022-05-23",
+      "title": "Sinatra Blue",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "backdrop_path": "/5gL67H62DAjGnbupQuAQJ4c1SRC.jpg",
+      "first_air_date": "2015-04-05",
+      "genre_ids": [
+        99
+      ],
+      "id": 76690,
+      "media_type": "tv",
+      "name": "Sinatra: All or Nothing at All",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "Sinatra: All or Nothing at All",
+      "overview": "An up-close and personal examination of the life, music and career of the legendary entertainer. Told in his own words from hours of archived interviews, along with commentary from those closest to him, the documentary weaves the music and images from Sinatra’s life together with rarely seen footage of his famous 1971 “Retirement Concert” in Los Angeles. The film’s narrative is shaped by Sinatra’s song choices for that concert, which Gibney interprets as the singer’s personal guide through his own life.",
+      "popularity": 7.384,
+      "poster_path": "/cTzGBX70bPf8pMfn409swAr6ghN.jpg",
+      "vote_average": 7.3,
+      "vote_count": 31
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/3OZ54yBFuRcGGHbDKgOAa34OquO.jpg",
+      "genre_ids": [
+        10402,
+        10770
+      ],
+      "id": 375119,
+      "media_type": "movie",
+      "original_language": "en",
+      "original_title": "Sinatra",
+      "overview": "Featuring Don Costa and his Orchestra, this final installment of Frank Sinatra's annual televised specials showcases highlights from his storied career and an early rendition of \"My Way,\" which would go on to become Sinatra's signature song.",
+      "popularity": 1.741,
+      "poster_path": "/aHiei9ODgJzvGr5snKZnzCPSgqh.jpg",
+      "release_date": "1969-11-05",
+      "title": "Sinatra",
+      "video": false,
+      "vote_average": 9,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/k47ov3JHxml5X0b9W8KmZbvm1FC.jpg",
+      "genre_ids": [
+        36,
+        80,
+        18
+      ],
+      "id": 63903,
+      "media_type": "movie",
+      "original_language": "en",
+      "original_title": "Stealing Sinatra",
+      "overview": "In need of a grubstake, a young man convinces a couple of friends to help him kidnap Frank Sinatra Jr. It's a true story",
+      "popularity": 1.999,
+      "poster_path": "/rb2XrjDjdVqBqVb13zRw2zUmrqO.jpg",
+      "release_date": "2003-01-24",
+      "title": "Stealing Sinatra",
+      "video": false,
+      "vote_average": 5.1,
+      "vote_count": 13
+    },
+    {
+      "adult": false,
+      "gender": 2,
+      "id": 185588,
+      "known_for": [
+        {
+          "backdrop_path": "/jbTqU6BJMufoMnPSlO4ThrcXs3Y.jpg",
+          "first_air_date": "1999-01-31",
+          "genre_ids": [
+            16,
+            35
+          ],
+          "id": 1434,
+          "media_type": "tv",
+          "name": "Family Guy",
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Family Guy",
+          "overview": "Sick, twisted, politically incorrect and Freakin' Sweet animated series featuring the adventures of the dysfunctional Griffin family. Bumbling Peter and long-suffering Lois have three kids. Stewie (a brilliant but sadistic baby bent on killing his mother and taking over the world), Meg (the oldest, and is the most unpopular girl in town) and Chris (the middle kid, he's not very bright but has a passion for movies). The final member of the family is Brian - a talking dog and much more than a pet, he keeps Stewie in check whilst sipping Martinis and sorting through his own life issues.",
+          "poster_path": "/9RBeCo8QSaoJLmmuzlwzVH3Hi12.jpg",
+          "vote_average": 7.2,
+          "vote_count": 3257
+        },
+        {
+          "backdrop_path": "/lNpkvX2s8LGB0mjGODMT4o6Up7j.jpg",
+          "first_air_date": "1999-01-10",
+          "genre_ids": [
+            18
+          ],
+          "id": 1398,
+          "media_type": "tv",
+          "name": "The Sopranos",
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Sopranos",
+          "overview": "The story of New Jersey-based Italian-American mobster Tony Soprano and the difficulties he faces as he tries to balance the conflicting requirements of his home life and the criminal organization he heads. Those difficulties are often highlighted through his ongoing professional relationship with psychiatrist Jennifer Melfi. The show features Tony's family members and Mafia associates in prominent roles and story arcs, most notably his wife Carmela and his cousin and protégé Christopher Moltisanti.",
+          "poster_path": "/u7dlARwP2zsqHaMNL5HtHhaEPea.jpg",
+          "vote_average": 8.5,
+          "vote_count": 1748
+        },
+        {
+          "backdrop_path": "/jG6k6DfsnCdzJOppqoijGOwHlEO.jpg",
+          "first_air_date": "1996-10-07",
+          "genre_ids": [
+            10751,
+            16,
+            35
+          ],
+          "id": 537,
+          "media_type": "tv",
+          "name": "Hey Arnold!",
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "Hey Arnold!",
+          "overview": "The daily life of Arnold--a fourth-grader with a wild imagination, street smarts and a head shaped like a football.",
+          "poster_path": "/lmoYPc7pXjliXWMLqwN6tuJQc8b.jpg",
+          "vote_average": 8.1,
+          "vote_count": 714
+        }
+      ],
+      "known_for_department": "Acting",
+      "media_type": "person",
+      "name": "Frank Sinatra Jr.",
+      "popularity": 2.8,
+      "profile_path": "/3l90HEuW1pwuVBtwV0caN48LZbo.jpg"
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        28,
+        80,
+        18,
+        53
+      ],
+      "id": 67189,
+      "media_type": "movie",
+      "original_language": "en",
+      "original_title": "Sinatra Club",
+      "overview": "Brutal and celebrated Mafia gangster John Gotti (Danny Nucci) schemes, shoves and murders his way to the top of that world in this gritty biography told from the perspective of Salvatore Polisi (Jason Gedrick), who owns the Sinatra Club, where Gotti's crew hangs out. Determined to make his name, the young Gotti plans a daring armored-car robbery that he expects to get him noticed by the bosses of each of New York's five major crime families.",
+      "popularity": 1.388,
+      "poster_path": "/lrmQdWt1yiUu9RC4WXDn5RccgGS.jpg",
+      "release_date": "2010-09-01",
+      "title": "At the Sinatra Club",
+      "video": false,
+      "vote_average": 3.3,
+      "vote_count": 6
+    },
+    {
+      "adult": false,
+      "gender": 2,
+      "id": 4347,
+      "known_for": [
+        {
+          "adult": false,
+          "backdrop_path": "/7dX07NQv4p6kfzSkA9rf9LvlvVD.jpg",
+          "genre_ids": [
+            53,
+            18,
+            9648
+          ],
+          "id": 982,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "The Manchurian Candidate",
+          "overview": "Near the end of the Korean War, a platoon of U.S. soldiers is captured by communists and brainwashed. Following the war, the platoon is returned home, and Sergeant Raymond Shaw is lauded as a hero by the rest of his platoon. However, the platoon commander, Captain Bennett Marco, finds himself plagued by strange nightmares and soon races to uncover a terrible plot.",
+          "poster_path": "/2xQ856kd9hw6bB3OnusGyTvvkwB.jpg",
+          "release_date": "1962-10-01",
+          "title": "The Manchurian Candidate",
+          "video": false,
+          "vote_average": 7.6,
+          "vote_count": 511
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/tbEFMCBOZphuXXKnaCe8OjcHizt.jpg",
+          "genre_ids": [
+            10752,
+            10749,
+            18
+          ],
+          "id": 11426,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "From Here to Eternity",
+          "overview": "In 1941 Hawaii, a private is cruelly punished for not boxing on his unit's team, while his captain's wife and second in command are falling in love.",
+          "poster_path": "/mJFzGDs8OMyXotbunp800D9SID0.jpg",
+          "release_date": "1953-08-28",
+          "title": "From Here to Eternity",
+          "video": false,
+          "vote_average": 7.3,
+          "vote_count": 478
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/lj7aURTTktw8IRXiV1WYCxdEBKX.jpg",
+          "genre_ids": [
+            12,
+            35,
+            10751,
+            14,
+            10749
+          ],
+          "id": 2897,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "Around the World in Eighty Days",
+          "overview": "Based on the famous book by Jules Verne the movie follows Phileas Fogg on his journey around the world. Which has to be completed within 80 days, a very short period for those days.",
+          "poster_path": "/esBA7HPwsIBJxuxwA3T8SQkJQBS.jpg",
+          "release_date": "1956-10-17",
+          "title": "Around the World in Eighty Days",
+          "video": false,
+          "vote_average": 6.7,
+          "vote_count": 366
+        }
+      ],
+      "known_for_department": "Acting",
+      "media_type": "person",
+      "name": "Frank Sinatra",
+      "popularity": 2.129,
+      "profile_path": "/w9Wl6FznONDn5O880ScJo79AOMU.jpg"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/fBWmVnDXWZx1C0UdsMh6qRJezTY.jpg",
+      "genre_ids": [
+        35,
+        18
+      ],
+      "id": 95795,
+      "media_type": "movie",
+      "original_language": "es",
+      "original_title": "Sinatra",
+      "overview": "Antonio Castro, Sinatra, is a fighter of life working in an old cabaret in Barcelona imitating Frank Sinatra, accompanied in his show by Groucho Marx, Marlene Dietrich and Lola Flores. But one day, the sky dresses in gray for him; his wife, who works as a waitress in the same place, decides to leave him.",
+      "popularity": 1.536,
+      "poster_path": "/sjCaa6MRFFVBakRHF5ojX7cXY3T.jpg",
+      "release_date": "1988-05-13",
+      "title": "Sinatra",
+      "video": false,
+      "vote_average": 5,
+      "vote_count": 5
+    },
+    {
+      "adult": false,
+      "gender": 1,
+      "id": 83463,
+      "known_for": [
+        {
+          "backdrop_path": "/lNpkvX2s8LGB0mjGODMT4o6Up7j.jpg",
+          "first_air_date": "1999-01-10",
+          "genre_ids": [
+            18
+          ],
+          "id": 1398,
+          "media_type": "tv",
+          "name": "The Sopranos",
+          "origin_country": [
+            "US"
+          ],
+          "original_language": "en",
+          "original_name": "The Sopranos",
+          "overview": "The story of New Jersey-based Italian-American mobster Tony Soprano and the difficulties he faces as he tries to balance the conflicting requirements of his home life and the criminal organization he heads. Those difficulties are often highlighted through his ongoing professional relationship with psychiatrist Jennifer Melfi. The show features Tony's family members and Mafia associates in prominent roles and story arcs, most notably his wife Carmela and his cousin and protégé Christopher Moltisanti.",
+          "poster_path": "/u7dlARwP2zsqHaMNL5HtHhaEPea.jpg",
+          "vote_average": 8.5,
+          "vote_count": 1744
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/p26jL2P6AQ6B9Kw3fx4VxO3vKR9.jpg",
+          "genre_ids": [
+            10402,
+            99
+          ],
+          "id": 70027,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "The Wrecking Crew",
+          "overview": "A celebration of the musical work of a group of session musicians known as \"The Wrecking Crew.\" a band that provided back-up instrumentals to such legendary recording artists as Frank Sinatra, The Beach Boys, and Bing Crosby.",
+          "poster_path": "/kttijtZRFbuFQe0s7S3Fvv8JiTI.jpg",
+          "release_date": "2008-03-11",
+          "title": "The Wrecking Crew",
+          "video": false,
+          "vote_average": 7.3,
+          "vote_count": 52
+        },
+        {
+          "adult": false,
+          "backdrop_path": "/h2ngW1nWblYD5WyZZ7dPqtxiSJL.jpg",
+          "genre_ids": [
+            18,
+            28
+          ],
+          "id": 42725,
+          "media_type": "movie",
+          "original_language": "en",
+          "original_title": "The Wild Angels",
+          "overview": "A motorcycle gang arrives in a small town in search of a motorcycle that has been stolen by a rival gang; but, pursued by the police, one of its members is injured, an event that will cause an orgy of violence and destruction.",
+          "poster_path": "/whWwL2xLQ1RZOSz2pEAwGEGjK3Q.jpg",
+          "release_date": "1966-07-20",
+          "title": "The Wild Angels",
+          "video": false,
+          "vote_average": 5.7,
+          "vote_count": 47
+        }
+      ],
+      "known_for_department": "Acting",
+      "media_type": "person",
+      "name": "Nancy Sinatra",
+      "popularity": 1.725,
+      "profile_path": "/veGaqhRx6KIeO5G9ze8S2pF6FAr.jpg"
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/91SHjqbklVl6x5DccSrRdkoquM5.jpg",
+      "genre_ids": [
+        99,
+        10770
+      ],
+      "id": 433584,
+      "media_type": "movie",
+      "original_language": "en",
+      "original_title": "Frank Sinatra: The Voice of America",
+      "overview": "The story around Frank’s voice: Francis Albert Sinatra as a person, the man behind the winning smile. Where lies the key to his success? How and why Sinatra became a big star, an icon, a hero, who influenced an entire era?",
+      "popularity": 3.392,
+      "poster_path": "/iI0rLt2ip2zEJXVZW29grN2RjVJ.jpg",
+      "release_date": "2015-01-06",
+      "title": "Frank Sinatra: The Voice of America",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 2
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/8aiWpOdHJK62s4rxUSZwynC6oxX.jpg",
+      "genre_ids": [
+        18,
+        28,
+        10749
+      ],
+      "id": 114087,
+      "media_type": "movie",
+      "original_language": "en",
+      "original_title": "Strictly Sinatra",
+      "overview": "In Glasgow, Toni Cocozza, age 28, aspires to be a lounge singer; his repertoire is strictly Sinatra, backed by Bill, an aging piano player and his only friend. Toni dreams big and enters a local television talent show. About that time, a local Mob boss decides Toni is great entertainment and invites him to be his guest at a casino. Toni chats up Irene, a cigarette girl, he gets an odd job or two from Chisolm, the mobster's number two, the audition goes bust, and Toni's future is uncertain. One thing leads to another with the Mob. Is Toni at a crossroads, or is there in reality no turning or going back?",
+      "popularity": 1.302,
+      "poster_path": "/2QU4OSjF7evAG6e6TVO0Jd50Jlj.jpg",
+      "release_date": "2001-06-29",
+      "title": "Strictly Sinatra",
+      "video": false,
+      "vote_average": 4.2,
+      "vote_count": 5
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        99,
+        10402
+      ],
+      "id": 459488,
+      "media_type": "movie",
+      "original_language": "en",
+      "original_title": "To Be Frank: Sinatra at 100",
+      "overview": "The life of Frank Sinatra, as an actor and singer and the steps along the way that led him to become such an icon.",
+      "popularity": 2.388,
+      "poster_path": "/fdWfdl8p4W7TZ20BHCcCb7BUiel.jpg",
+      "release_date": "2015-12-12",
+      "title": "To Be Frank: Sinatra at 100",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 7
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        10402,
+        99,
+        10770
+      ],
+      "id": 383780,
+      "media_type": "movie",
+      "original_language": "en",
+      "original_title": "Vintage Sinatra",
+      "overview": "Performing timeless pieces such as \"Night &amp; Day\" and \"I've Got You Under My Skin,\" Sinatra's legendary voice and easy manner charms audiences young and old. As he suggests in the shows opening scene, singing \"Come Fly With Me,\" Sinatra takes his fans on a journey back to his Capitol era, where he garnered the reputation he still holds today, as one of the finest American popular singers and entertainers of all time. VINTAGE SINATRA also features rare footage of Sinatra's heart-warming Valentine's Day performance of \"My Funny Valentine\" to a young, blushing Nancy Sinatra on \"The Frank Sinatra Show.\" This exceptional retrospective also features Sinatra's personal favorite genre, smoky, dark and swanky nightclub music. With performances of \"The Lady is a Tramp\" and \"Angel Eyes,\" Sinatra's zest for life and music shines brightly.",
+      "popularity": 1.377,
+      "poster_path": null,
+      "release_date": "2003-07-28",
+      "title": "Vintage Sinatra",
+      "video": false,
+      "vote_average": 10,
+      "vote_count": 1
+    },
+    {
+      "backdrop_path": null,
+      "first_air_date": "1957-10-18",
+      "genre_ids": [
+        18
+      ],
+      "id": 12576,
+      "media_type": "tv",
+      "name": "The Frank Sinatra Show",
+      "origin_country": [
+        "US"
+      ],
+      "original_language": "en",
+      "original_name": "The Frank Sinatra Show",
+      "overview": "The Frank Sinatra Show is an ABC variety and drama series, starring Frank Sinatra, premiering on October 18, 1957, and last airing on June 27, 1958.",
+      "popularity": 2.594,
+      "poster_path": null,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": "/qa8Znrk1U58qnPaItl5RPamyJ6k.jpg",
+      "genre_ids": [],
+      "id": 383778,
+      "media_type": "movie",
+      "original_language": "en",
+      "original_title": "Sinatra and Friends",
+      "overview": "Sinatra and Friends was a television special that aired on April 21, 1977. Featuring contemporary artists such as John Denver and Natalie Cole, as well as Dean Martin, Tony Bennett, Loretta Lynn, Leslie Uggams and Robert Merrill, Sinatra performs duets of standards in different styles such as folk and disco in addition to each singer performing solo.",
+      "popularity": 0.84,
+      "poster_path": "/ex3T73oPJyeJRloiLHtWWYromQw.jpg",
+      "release_date": "1977-04-20",
+      "title": "Sinatra and Friends",
+      "video": true,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        10402,
+        10770
+      ],
+      "id": 103091,
+      "media_type": "movie",
+      "original_language": "en",
+      "original_title": "All-Star Party for Frank Sinatra",
+      "overview": "A Celebration of the great life of Frank Sinatra with song, dance, and many famous guests.",
+      "popularity": 1.97,
+      "poster_path": null,
+      "release_date": "1983-12-11",
+      "title": "All-Star Party for Frank Sinatra",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        10402,
+        99,
+        10770
+      ],
+      "id": 375953,
+      "media_type": "movie",
+      "original_language": "en",
+      "original_title": "Sinatra Sings",
+      "overview": "Narrated by Tina Sinatra, this TV compilation brings together memorable moments from Frank Sinatra’s career on television, in the studio and in concert through the fifties, sixties, seventies and eighties. Many of his best loved songs are featured including Fly Me To The Moon, Witchcraft, I’ve Got You Under My Skin, My Way, Strangers In The Night, That’s Life, The Lady Is A Tramp and many more.",
+      "popularity": 0.6,
+      "poster_path": "/c67juzeCqZRQPM29HkoMrf1f38V.jpg",
+      "release_date": "2011-11-19",
+      "title": "Sinatra Sings",
+      "video": false,
+      "vote_average": 7,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        10402,
+        99
+      ],
+      "id": 271580,
+      "media_type": "movie",
+      "original_language": "en",
+      "original_title": "Frank Sinatra: A Man and His Music",
+      "overview": "The first-ever Sinatra television special in color, this 1965 performance showcases the Chairman in peak form to mark the occasion of Frank Sinatra's 50th birthday.. The Nelson Riddle arrangements sparkle, opening with a classic rendition of I've Got You Under My Skin and continuing on with other favorites such as I Get A Kick Out Of You, Come Fly With Me and The Lady Is A Tramp.",
+      "popularity": 1.137,
+      "poster_path": "/ykQevjTGk05IHpbSaJkZyhGT8iK.jpg",
+      "release_date": "1965-11-24",
+      "title": "Frank Sinatra: A Man and His Music Part I",
+      "video": false,
+      "vote_average": 8,
+      "vote_count": 1
+    },
+    {
+      "adult": false,
+      "backdrop_path": null,
+      "genre_ids": [
+        10402,
+        99
+      ],
+      "id": 463887,
+      "media_type": "movie",
+      "original_language": "en",
+      "original_title": "Frank Sinatra: Live at Caesar's Palace",
+      "overview": "Included as a bonus DVD with the Sinatra Vegas box set, this show was taped at Caesar's Palace in May, 1978 and remained unreleased for decades.",
+      "popularity": 1.346,
+      "poster_path": "/z8VPDx3F9gUyWVarKcDPDkvb7L6.jpg",
+      "release_date": "2014-12-09",
+      "title": "Frank Sinatra: Live at Caesar's Palace",
+      "video": false,
+      "vote_average": 0,
+      "vote_count": 0
+    }
+  ],
+  "total_pages": 5,
+  "total_results": 90
+}

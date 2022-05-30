@@ -40,7 +40,11 @@ const EchCardTvShow = ({
 // @ts-ignore
 const EchCardTvShows = ({ data }) =>
   // @ts-ignore
-  data?.results?.map((item, index) => <EchCardTvShow key={index} {...item} />);
+  data?.results
+    // @ts-ignore
+    ?.filter((item) => item.poster_path && item.name)
+    // @ts-ignore
+    .map((item, index) => <EchCardTvShow key={index} {...item} />);
 
 export { EchCardTvShow };
 export default EchCardTvShows;

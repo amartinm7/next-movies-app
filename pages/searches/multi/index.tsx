@@ -11,9 +11,12 @@ import EchCardTvShows from "@/components/tvshows/cardList";
 import EchCardPeople from "@/components/people/cardList";
 import { searchMulti } from "@/pages/api/searches/multi";
 import EchSearcher from "@/components/common/searcher";
+import EchGroupContainer, {
+  EchGroupContainerItem,
+} from "@/components/common/container/group";
 
 // @ts-ignore
-const EchHome: NextPage = ({ data }) => {
+const EchSearchMulti: NextPage = ({ data }) => {
   const title = "Searches";
   const moviesTitle = "Movies";
   const tvShowsTitle = "TvShows";
@@ -28,38 +31,42 @@ const EchHome: NextPage = ({ data }) => {
     <>
       <EchHead title={title} description={title} />
       <div className="container-main">
-        <EchTitleContainer title={moviesTitle}>
+        <EchTitleContainer title={title}>
           <EchSearcher />
         </EchTitleContainer>
-        <EchMainContainer>
-          <EchGrid>
-            <EchCardMovies data={data}></EchCardMovies>
-          </EchGrid>
-          <Spacer />
-        </EchMainContainer>
+        <EchGroupContainer>
+          <EchGroupContainerItem title={moviesTitle} expanded={true}>
+            <EchMainContainer>
+              <EchGrid>
+                <EchCardMovies data={data}></EchCardMovies>
+              </EchGrid>
+              <Spacer />
+            </EchMainContainer>
+          </EchGroupContainerItem>
+          <EchGroupContainerItem title={tvShowsTitle}>
+            <EchMainContainer>
+              <EchGrid>
+                <EchCardTvShows data={data}></EchCardTvShows>
+              </EchGrid>
+              <Spacer />
+            </EchMainContainer>
+          </EchGroupContainerItem>
+          <EchGroupContainerItem title={peopleTitle}>
+            <EchMainContainer>
+              <EchGrid>
+                <EchCardPeople data={data}></EchCardPeople>
+              </EchGrid>
+              <Spacer />
+            </EchMainContainer>
+          </EchGroupContainerItem>
+        </EchGroupContainer>
       </div>
-      <div className="container">
-        <EchTitleContainer title={tvShowsTitle}></EchTitleContainer>
-        <EchMainContainer>
-          <EchGrid>
-            <EchCardTvShows data={data}></EchCardTvShows>
-            <Spacer />
-          </EchGrid>
-        </EchMainContainer>
-      </div>
-      <EchTitleContainer title={peopleTitle}></EchTitleContainer>
-      <EchMainContainer>
-        <EchGrid>
-          <EchCardPeople data={data}></EchCardPeople>
-          <Spacer />
-        </EchGrid>
-      </EchMainContainer>
     </>
   );
 };
 
 // @ts-ignore
-EchHome.getLayout = function getLayout(page: ReactElement) {
+EchSearchMulti.getLayout = function getLayout(page: ReactElement) {
   return <EchMainLayout>{page}</EchMainLayout>;
 };
 
@@ -82,4 +89,4 @@ export const getServerSideProps: GetServerSideProps = async ({
   };
 };
 
-export default EchHome;
+export default EchSearchMulti;

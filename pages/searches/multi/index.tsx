@@ -1,10 +1,7 @@
 import type { NextPage } from "next";
 import { Spacer } from "@nextui-org/react";
-import EchCardMovies, {
-  EchCardMovie,
-} from "@/components/movies/cardList/index";
+import EchCardMovies from "@/components/movies/cardList/index";
 import EchGrid from "@/components/common/grid";
-import { getTrending } from "@/pages/api/trending/[...index]";
 import EchHead from "@/components/common/metaInfo/head";
 import EchMainLayout from "@/components/layouts";
 import { ReactElement } from "react";
@@ -13,6 +10,7 @@ import EchTitleContainer from "@/components/common/container/title/index";
 import EchCardTvShows from "@/components/tvshows/cardList";
 import EchCardPeople from "@/components/people/cardList";
 import { searchMulti } from "@/pages/api/searches/multi";
+import EchSearcher from "@/components/common/searcher";
 
 // @ts-ignore
 const EchHome: NextPage = ({ data }) => {
@@ -29,8 +27,10 @@ const EchHome: NextPage = ({ data }) => {
   return (
     <>
       <EchHead title={title} description={title} />
-      <div className="container">
-        <EchTitleContainer title={moviesTitle}></EchTitleContainer>
+      <div className="container-main">
+        <EchTitleContainer title={moviesTitle}>
+          <EchSearcher />
+        </EchTitleContainer>
         <EchMainContainer>
           <EchGrid>
             <EchCardMovies data={data}></EchCardMovies>

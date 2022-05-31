@@ -1,6 +1,7 @@
 import { Container, Spacer, Text } from "@nextui-org/react";
 import React from "react";
 import TitleText from "@/components/common/titleText";
+import styles from "./index.module.scss";
 
 interface EchTitleContainerProps {
   title: string;
@@ -14,12 +15,14 @@ const EchTitleContainer = ({
   children,
 }: EchTitleContainerProps) => {
   return (
-    <Container as="section">
-      <TitleText title={title} />
-      <Text h5>{tagline && `"${tagline}"`}</Text>
-      {children}
+    <>
+      <Container as="section" className={styles["ech-container-title"]}>
+        <TitleText title={title} />
+        {tagline && <Text h5>${tagline}</Text>}
+        {children}
+      </Container>
       <Spacer />
-    </Container>
+    </>
   );
 };
 

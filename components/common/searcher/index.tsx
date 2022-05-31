@@ -1,7 +1,8 @@
-import { Grid, Input, useTheme } from "@nextui-org/react";
+import { Input, useTheme } from "@nextui-org/react";
 import React, { useEffect, useState } from "react";
 import cx from "classnames";
 import { useRouter } from "next/router";
+import styles from "./index.module.scss";
 
 const EchSearcher = () => {
   const router = useRouter();
@@ -38,20 +39,21 @@ const EchSearcher = () => {
 
   return (
     <>
-      <i className={echSearcherIconClass} onClick={handleShowInput}></i>
-      {showSearcher && (
-        <Grid.Container gap={4}>
-          <Grid>
+      <div className={styles["ech-searcher"]}>
+        {showSearcher && (
+          <div className={styles["ech-searcher-item"]}>
             <Input
               clearable
               contentRightStyling={false}
               placeholder="Enter actor, movie, tvshow..."
               onKeyDown={handleSearch}
               onChange={(e) => setKeyword(e.target.value)}
+              size={"xs"}
             />
-          </Grid>
-        </Grid.Container>
-      )}
+          </div>
+        )}
+        <i className={echSearcherIconClass} onClick={handleShowInput}></i>
+      </div>
     </>
   );
 };

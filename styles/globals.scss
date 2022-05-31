@@ -2,20 +2,24 @@
 @import './animations.scss';
 
 :root {
-  fill: blue;
+  // fill: blue;
 }
 
 .title {
   font-size: 1.5rem;
+  margin: 0;
 }
 
 .container {
   padding: 1.25rem 0;
+  &-main {
+    padding: 0;
+  }
 }
 
 .section-flex {
   display: flex;
-  align-content: space-evenly;
+  align-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
   gap: 1rem;

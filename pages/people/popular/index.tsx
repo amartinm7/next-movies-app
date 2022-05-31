@@ -8,6 +8,7 @@ import EchCardPeople from "@/components/people/cardList";
 import EchGrid from "@/components/common/grid";
 import EchMainContainer from "@/components/common/container/main/index";
 import EchTitleContainer from "@/components/common/container/title";
+import EchSearcher from "@/components/common/searcher";
 
 // @ts-ignore
 const EchPopularPeople: NextPage = ({ data }) => {
@@ -15,8 +16,10 @@ const EchPopularPeople: NextPage = ({ data }) => {
   return (
     <>
       <EchHead title={title} description={title} />
-      <div className="container">
-        <EchTitleContainer title={title}></EchTitleContainer>
+      <div className="container-main">
+        <EchTitleContainer title={title}>
+          <EchSearcher />
+        </EchTitleContainer>
         <EchMainContainer>
           <EchGrid>
             <EchCardPeople data={data}></EchCardPeople>

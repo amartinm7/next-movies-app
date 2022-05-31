@@ -1,1 +1,16 @@
-
+.ech-searcher{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  flex-basis: 45%;
+  &-items{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    gap: 1rem;
+  }
+}

@@ -1,8 +1,9 @@
-.ech-nav{
+.ech-container-title{
   display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
+  justify-content: space-between;
+  flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
   &-items{
     display: flex;
     justify-content: flex-start;
@@ -10,6 +11,5 @@
     flex-wrap: wrap;
     align-content: space-between;
     gap: 1rem;
-    align-items: center;
   }
 }

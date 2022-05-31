@@ -8,17 +8,17 @@ import EchMainLayout from "@/components/layouts";
 import EchCardCredits from "@/components/common/credits/index";
 import EchMainContainer from "@/components/common/container/main/index";
 import EchTitleContainer from "@/components/common/container/title";
+import EchSearcher from "@/components/common/searcher";
 
 // @ts-ignore
 const EchTvShowDetails: NextPage = ({ data }) => {
   return (
     <>
       <EchHead title={data.name} description={data.name} />
-      <div className="container">
-        <EchTitleContainer
-          title={data.name}
-          tagline={data.tagline}
-        ></EchTitleContainer>
+      <div className="container-main">
+        <EchTitleContainer title={data.name} tagline={data.tagline}>
+          <EchSearcher />
+        </EchTitleContainer>
         <EchMainContainer>
           <section className="section-flex-item">
             <EchCardTvShow {...data}></EchCardTvShow>

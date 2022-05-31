@@ -8,6 +8,7 @@ import EchMainLayout from "@/components/layouts";
 import { ReactElement } from "react";
 import EchMainContainer from "@/components/common/container/main/index";
 import EchTitleContainer from "@/components/common/container/title/index";
+import EchSearcher from "@/components/common/searcher";
 
 // @ts-ignore
 const EchHome: NextPage = ({ data }) => {
@@ -15,8 +16,10 @@ const EchHome: NextPage = ({ data }) => {
   return (
     <>
       <EchHead title={title} description={title} />
-      <div className="container">
-        <EchTitleContainer title={title}></EchTitleContainer>
+      <div className="container-main">
+        <EchTitleContainer title={title}>
+          <EchSearcher />
+        </EchTitleContainer>
         <EchMainContainer>
           <EchGrid>
             <EchCardMovies data={data}></EchCardMovies>

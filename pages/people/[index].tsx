@@ -7,14 +7,17 @@ import EchMainLayout from "@/components/layouts";
 import { getPeopleDetails } from "@/pages/api/people/[id]";
 import EchMainContainer from "@/components/common/container/main/index";
 import EchTitleContainer from "@/components/common/container/title";
+import EchSearcher from "@/components/common/searcher";
 
 // @ts-ignore
 const EchPeopleDetails: NextPage = ({ data }) => {
   return (
     <>
       <EchHead title={data.name} description={data.name} />
-      <div className="container">
-        <EchTitleContainer title={data.name}></EchTitleContainer>
+      <div className="container-main">
+        <EchTitleContainer title={data.name}>
+          <EchSearcher />
+        </EchTitleContainer>
         <EchMainContainer>
           <section className="section-flex-item">
             <EchCardPerson {...data}></EchCardPerson>

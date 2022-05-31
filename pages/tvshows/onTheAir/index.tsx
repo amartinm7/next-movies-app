@@ -8,6 +8,7 @@ import { ReactElement } from "react";
 import EchMainLayout from "@/components/layouts";
 import EchMainContainer from "@/components/common/container/main/index";
 import EchTitleContainer from "@/components/common/container/title";
+import EchSearcher from "@/components/common/searcher";
 
 // @ts-ignore
 const EchTvShowsOnTheAir: NextPage = ({ data }) => {
@@ -15,8 +16,10 @@ const EchTvShowsOnTheAir: NextPage = ({ data }) => {
   return (
     <>
       <EchHead title={title} description={title} />
-      <div className="container">
-        <EchTitleContainer title={title}></EchTitleContainer>
+      <div className="container-main">
+        <EchTitleContainer title={title}>
+          <EchSearcher />
+        </EchTitleContainer>
         <EchMainContainer>
           <EchGrid>
             <EchCardTvShows data={data}></EchCardTvShows>

@@ -7,6 +7,7 @@ import EchSearcher from "@/components/common/searcher";
 
 // @ts-ignore
 const EchHeader = () => {
+  // @ts-ignore
   return (
     <>
       <Container
@@ -39,7 +40,6 @@ const EchHeader = () => {
             </NextLink>
           </div>
         </div>
-        {/*<EchSearcher />*/}
         <EchLanguage />
         <EchTheme />
       </Container>

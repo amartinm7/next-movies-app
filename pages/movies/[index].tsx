@@ -8,17 +8,17 @@ import { ReactElement } from "react";
 import EchMainLayout from "@/components/layouts";
 import EchMainContainer from "@/components/common/container/main/index";
 import EchTitleContainer from "@/components/common/container/title";
+import EchSearcher from "@/components/common/searcher";
 
 // @ts-ignore
 const EchMovieDetails: NextPage = ({ data }) => {
   return (
     <>
       <EchHead title={data.title} description={data.title} />
-      <div className="container">
-        <EchTitleContainer
-          title={data.title}
-          tagline={data.tagline}
-        ></EchTitleContainer>
+      <div className="container-main">
+        <EchTitleContainer title={data.title} tagline={data.tagline}>
+          <EchSearcher />
+        </EchTitleContainer>
         <EchMainContainer>
           <section className="section-flex-item">
             <EchCardMovie {...data}></EchCardMovie>
